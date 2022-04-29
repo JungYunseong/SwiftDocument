@@ -8,9 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+                DocView()
+                    .navigationBarHidden(true)
+                    .tabItem {
+                        Image(systemName: "note.text")
+                        Text("Doc")
+                    }.tag(1)
+                MemoView()
+                    .navigationBarHidden(true)
+                    .tabItem {
+                        Image(systemName: "square.and.pencil")
+                        Text("Memo")
+                    }.tag(2)
+            }
+            .accentColor(Color("mOrange"))
+        }
     }
 }
 
