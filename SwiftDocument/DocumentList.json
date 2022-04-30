@@ -7,598 +7,1655 @@
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/"
  },
  {
-   "id": 11003,
+   "id": 11002,
    "category": "HIG",
    "title": "Interface Essentials",
    "subtitle": "Most iOS apps are built using components from UIKit, a programming framework that defines common interface elements.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/overview/interface-essentials/"
  },
  {
-   "id": 11004,
+   "id": 11003,
    "category": "HIG",
    "title": "Launching",
    "subtitle": "The launch experience has a significant impact on the way people feel about your app. ",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/launching/"
  },
  {
-   "id": 11005,
+   "id": 11004,
    "category": "HIG",
    "title": "Onboarding",
    "subtitle": "Onboarding lets you welcome new users and reconnect with returning ones.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/onboarding/"
  },
  {
-   "id": 11006,
+   "id": 11005,
    "category": "HIG",
    "title": "Loading",
    "subtitle": "When content is loading, a blank or static screen can make it seem like your app is frozen, resulting in confusion and frustration, and potentially causing people to leave your app.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/loading/"
  },
  {
-   "id": 11007,
+   "id": 11006,
    "category": "HIG",
    "title": "Modality",
    "subtitle": "Modality is a design technique that presents content in a temporary mode that requires an explicit action to exit.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/modality/"
  },
  {
-   "id": 11008,
+   "id": 11007,
    "category": "HIG",
    "title": "Navigation",
    "subtitle": "People tend to be unaware of an app’s navigation until it doesn’t meet their expectations. ",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/navigation/"
  },
  {
-   "id": 11009,
+   "id": 11008,
    "category": "HIG",
    "title": "Accessing User Data and Resources",
    "subtitle": "User privacy is paramount. To help people trust your app, it’s crucial to be transparent about the privacy-related data and resources you require and how you use them.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/accessing-user-data/"
  },
  {
-   "id": 11010,
+   "id": 1109,
    "category": "HIG",
    "title": "Settings",
    "subtitle": "Some apps may need to provide a way to make setup or configuration choices, but most apps can avoid or delay doing so.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/settings/"
  },
  {
-   "id": 11011,
+   "id": 11010,
    "category": "HIG",
    "title": "3D Touch",
    "subtitle": "On supported devices, people can access additional functionality by applying varying levels of pressure to the touchscreen.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/3d-touch/"
  },
  {
-   "id": 11012,
+   "id": 11011,
    "category": "HIG",
    "title": "Accounts",
    "subtitle": "Ask people to create an account only if your app’s core functionality requires it; otherwise, let people enjoy your app without one.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/accounts/"
  },
  {
-   "id": 11013,
+   "id": 11012,
    "category": "HIG",
    "title": "Apple Pencil and Scribble",
    "subtitle": "Apple Pencil is a versatile, intuitive tool for iPad apps that offers pixel‑level precision when jotting notes, sketching, painting, marking up documents, and more.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/apple-pencil-and-scribble/"
  },
  {
-   "id": 11014,
+   "id": 11013,
    "category": "HIG",
    "title": "Audio",
    "subtitle": "iPhone and iPad can play audio through internal or external speakers, headphones, and wirelessly through Bluetooth or AirPlay-enabled devices.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/audio/"
  },
  {
-   "id": 11015,
+   "id": 11014,
    "category": "HIG",
    "title": "Data Entry",
    "subtitle": "Whether tapping interface elements or using the keyboard, inputting information can be a tedious process.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/data-entry/"
  },
  {
-   "id": 11016,
+   "id": 11015,
    "category": "HIG",
    "title": "Drag and Drop",
    "subtitle": "With a single finger, a user can move or duplicate selected photos, text, or other content by dragging the content from one location to another, then raising the finger to drop it.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/drag-and-drop/"
  },
  {
-   "id": 11017,
+   "id": 11016,
    "category": "HIG",
    "title": "Feedback",
    "subtitle": "Feedback helps people know what an app is doing, discover what they can do next, and understand the results of actions.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/feedback/"
  },
  {
-   "id": 11018,
+   "id": 11017,
    "category": "HIG",
    "title": "File Handling",
    "subtitle": "People shouldn’t need to think about the file system while creating, viewing, and manipulating files.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/file-handling/"
  },
  {
-   "id": 11019,
+   "id": 11018,
    "category": "HIG",
    "title": "Game Controllers",
    "subtitle": "Game controllers can enhance gameplay and increase people's immersion in a game. ",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/game-controllers/"
  },
  {
-   "id": 11020,
+   "id": 11019,
    "category": "HIG",
    "title": "Gestures",
    "subtitle": "People interact with an iOS device by performing gestures on the touchscreen.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/gestures/"
  },
  {
-   "id": 11021,
+   "id": 11020,
    "category": "HIG",
    "title": "Haptics",
    "subtitle": "Haptics engage people’s sense of touch to enhance the experience of interacting with onscreen interfaces.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/haptics/"
  },
  {
-   "id": 11022,
+   "id": 11021,
    "category": "HIG",
    "title": "Keyboards",
    "subtitle": "The system provides several types of onscreen keyboards, each designed to facilitate a different type of input.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/keyboards/"
  },
  {
-   "id": 11023,
+   "id": 11022,
    "category": "HIG",
    "title": "Near Field Communication",
    "subtitle": "Near Field Communication (NFC) enables devices within a few centimeters of each other to exchange information wirelessly.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/near-field-communication/"
  },
  {
-   "id": 11024,
+   "id": 11023,
    "category": "HIG",
    "title": "Pointers (iPadOS)",
    "subtitle": "iPadOS provides dynamic pointer effects and behaviors that enhance the experience of using a pointing device with iPad.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/pointers/"
  },
  {
-   "id": 11025,
+   "id": 11024,
    "category": "HIG",
    "title": "Spatial Interactions",
    "subtitle": "Spatial interactions enable on-device experiences that integrate the presence of people and objects in the nearby environment.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/spatial-interactions/"
  },
  {
-   "id": 11026,
+   "id": 11025,
    "category": "HIG",
    "title": "Undo and Redo",
    "subtitle": "Many apps allow people to shake the device to undo and redo certain operations, such as typing or deleting.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/undo-and-redo/"
  },
  {
-   "id": 11027,
+   "id": 11026,
    "category": "HIG",
    "title": "Augmented Reality",
    "subtitle": "Augmented reality (or AR) lets you deliver immersive, engaging experiences that seamlessly blend virtual objects with the real world.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/augmented-reality/"
  },
  {
-   "id": 11028,
+   "id": 11027,
    "category": "HIG",
    "title": "Home Screen Quick Actions",
    "subtitle": "Home screen quick actions are a convenient way to perform useful, app-specific actions right from the Home screen.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/home-screen-actions/"
  },
  {
-   "id": 11029,
+   "id": 11028,
    "category": "HIG",
    "title": "Multitasking and Multiple Windows",
    "subtitle": "Multitasking lets people use the app switcher to switch quickly from one app to another and enables additional experiences on different devices.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/multitasking/"
  },
  {
-   "id": 11030,
+   "id": 11029,
    "category": "HIG",
    "title": "Notifications",
    "subtitle": "Notifications can give people timely and important information, whether the device is locked or in use.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/notifications/"
  },
  {
-   "id": 11031,
+   "id": 11030,
    "category": "HIG",
    "title": "Printing",
    "subtitle": "Your app can take advantage of the system’s built-in AirPrint technology to enable wireless printing of images, PDFs, and other content to compatible printers.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/printing/"
  },
  {
-   "id": 11032,
+   "id": 11031,
    "category": "HIG",
    "title": "Quick Look",
    "subtitle": "Within your app, Quick Look lets people preview Keynote, Numbers, Pages, and PDF documents, as well as images and other types of files, even if your app doesn't support those file formats.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/quick-look/"
  },
  {
-   "id": 11033,
+   "id": 11032,
    "category": "HIG",
    "title": "Ratings and Reviews",
    "subtitle": "Ratings and reviews help people make informed decisions when considering whether to try out your app.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/ratings-and-reviews/"
  },
  {
-   "id": 11034,
+   "id": 11033,
    "category": "HIG",
    "title": "Screenshots",
    "subtitle": "A user can capture what’s displayed on their screen by taking a screenshot.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/screenshots/"
  },
  {
-   "id": 11035,
+   "id": 11034,
    "category": "HIG",
    "title": "TV Providers",
    "subtitle": "Your app can integrate with the TV app and TV Provider Authentication to offer people a highly convenient and consistent entertainment experience.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/tv-providers/"
  },
  {
-   "id": 11036,
+   "id": 11035,
    "category": "HIG",
    "title": "Adaptivity and Layout",
    "subtitle": "People generally want to be able to use their favorite apps on all of their devices and in any context.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/"
  },
  {
-   "id": 11037,
+   "id": 11036,
    "category": "HIG",
    "title": "Animation",
    "subtitle": "Beautiful, subtle animation throughout iOS builds a visual sense of connection between people and content onscreen.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/animation/"
  },
  {
-   "id": 11038,
+   "id": 11037,
    "category": "HIG",
    "title": "Branding",
    "subtitle": "Successful branding involves more than just adding brand assets to your app. Great apps express unique brand identity through smart font, color, and image decisions.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/branding/"
  },
  {
-   "id": 11039,
+   "id": 11038,
    "category": "HIG",
    "title": "Color",
    "subtitle": "Color is a great way to impart vitality, provide visual continuity, communicate status information, give feedback in response to user actions, and help people visualize data.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/"
  },
  {
-   "id": 11040,
+   "id": 11039,
    "category": "HIG",
    "title": "Dark Mode",
    "subtitle": "In iOS 13.0 and later, people can choose to adopt a dark system-wide appearance called Dark Mode.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/"
  },
  {
-   "id": 11041,
+   "id": 11040,
    "category": "HIG",
    "title": "Launch Screen",
    "subtitle": "A launch screen appears instantly when your app starts up and is quickly replaced with the app's first screen, giving the impression that your app is fast and responsive.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/launch-screen/"
  },
  {
-   "id": 11042,
+   "id": 11041,
    "category": "HIG",
    "title": "Materials",
    "subtitle": "iOS provides materials (or blur effects) that create a translucent effect you can use to evoke a sense of depth.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/materials/"
  },
  {
-   "id": 11043,
+   "id": 11042,
    "category": "HIG",
    "title": "Terminology",
    "subtitle": "Every word in your app is part of a conversation with your users. Use this conversation to help them feel comfortable in your app.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/terminology/"
  },
  {
-   "id": 11044,
+   "id": 11043,
    "category": "HIG",
    "title": "Typography",
    "subtitle": "Apple provides two type families you can use in your iOS apps.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/"
  },
  {
-   "id": 11045,
+   "id": 11044,
    "category": "HIG",
    "title": "Video",
    "subtitle": "The system-provided video player offers two viewing modes: full-screen (aspect fill) and fit-to-screen (aspect).",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/video/"
  },
  {
-   "id": 11046,
+   "id": 11045,
    "category": "HIG",
    "title": "Image Size and Resolution",
    "subtitle": "The coordinate system iOS uses to place content onscreen is based on measurements in points, which map to pixels in the display.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/image-size-and-resolution/"
  },
  {
-   "id": 11047,
+   "id": 11046,
    "category": "HIG",
    "title": "App Icon",
    "subtitle": "Every app needs a beautiful and memorable icon that attracts attention in the App Store and stands out on the Home screen.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/"
  },
  {
-   "id": 11048,
+   "id": 11047,
    "category": "HIG",
    "title": "System Icons (iOS 12 and Earlier)",
    "subtitle": "In iOS 13 or later, prefer using SF Symbols to represent tasks and types of content in your app.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/system-icons/"
  },
  {
-   "id": 11049,
+   "id": 11048,
    "category": "HIG",
    "title": "Navigation Bars",
    "subtitle": "A navigation bar appears at the top of an app screen, below the status bar, and enables navigation through a series of hierarchical screens.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/"
  },
  {
-   "id": 11050,
+   "id": 11049,
    "category": "HIG",
    "title": "Search Bars",
    "subtitle": "A search bar allows people to search through a large collection of values by typing text into a field.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/search-bars/"
  },
  {
-   "id": 11051,
+   "id": 11050,
    "category": "HIG",
    "title": "Sidebars",
    "subtitle": "A sidebar provides app-level navigation and quick access to top-level collections of content in your app.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/sidebars/"
  },
  {
-   "id": 11052,
+   "id": 11051,
    "category": "HIG",
    "title": "Status Bars",
    "subtitle": "The status bar appears along the upper edge of the screen and displays useful information about the device’s current state, like the time, cellular carrier, and battery level.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/status-bars/"
  },
  {
-   "id": 11053,
+   "id": 11052,
    "category": "HIG",
    "title": "Tab Bars",
    "subtitle": "A tab bar appears at the bottom of a screen, helping people understand the types of information or functionality an app provides.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/"
  },
  {
-   "id": 11054,
+   "id": 11053,
    "category": "HIG",
    "title": "Toolbars",
    "subtitle": "A toolbar appears at the bottom of a screen and contains buttons for performing actions relevant to the current view.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/toolbars/"
  },
  {
-   "id": 11055,
+   "id": 11054,
    "category": "HIG",
    "title": "Action Sheets",
    "subtitle": "An action sheet presents two or more choices related to an intentional user action.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/action-sheets/"
  },
  {
-   "id": 11056,
+   "id": 11055,
    "category": "HIG",
    "title": "Activity Views",
    "subtitle": "An activity is a task, such as Copy, Favorite, or Find, that’s useful in the current context. ",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/activity-views/"
  },
  {
-   "id": 11057,
+   "id": 11056,
    "category": "HIG",
    "title": "Alerts",
    "subtitle": "Alerts convey important information related to the state of your app or the device.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/alerts/"
  },
  {
-   "id": 11058,
+   "id": 11057,
    "category": "HIG",
    "title": "Collections",
    "subtitle": "A collection manages an ordered set of content, such as a set of photos, and presents it in a customizable and highly visual layout.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/collections/"
  },
  {
-   "id": 11059,
+   "id": 11058,
    "category": "HIG",
    "title": "Image Views",
    "subtitle": "An image view displays a single image or an animated sequence of images over a transparent or opaque background.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/image-views/"
  },
  {
-   "id": 11060,
+   "id": 11059,
    "category": "HIG",
    "title": "Pages",
    "subtitle": "A page view controller provides a way to implement linear navigation between pages of content, such as in a document, book, notepad, or calendar.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/pages/"
  },
  {
-   "id": 11061,
+   "id": 11060,
    "category": "HIG",
    "title": "Popovers",
    "subtitle": "A popover is a transient view that appears above other content onscreen when you tap a control or in an area.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/popovers/"
  },
  {
-   "id": 11062,
+   "id": 11061,
    "category": "HIG",
    "title": "Scroll Views",
    "subtitle": "A scroll view allows users to browse content, such as text in a document or a collection of images, that’s larger than the visible area.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/scroll-views/"
  },
  {
-   "id": 11063,
+   "id": 11062,
    "category": "HIG",
    "title": "Sheets",
    "subtitle": "A sheet helps people perform a distinct task that’s related to the parent view without taking them away from their current context.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/sheets/"
  },
  {
-   "id": 11064,
+   "id": 11063,
    "category": "HIG",
    "title": "Split Views",
    "subtitle": "A split view manages the presentation of hierarchical content at the top level of your app.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/split-views/"
  },
  {
-   "id": 11065,
+   "id": 11064,
    "category": "HIG",
    "title": "Tables",
    "subtitle": "A table presents data as a scrolling, single-column list of rows that can be divided into sections or groups.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/tables/"
  },
  {
-   "id": 11066,
+   "id": 11065,
    "category": "HIG",
    "title": "Text Views",
    "subtitle": "A text view displays multiline, styled text content. Text views can be any height and enable scrolling when the content extends outside of the view.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/text-views/"
  },
  {
-   "id": 11067,
+   "id": 11066,
    "category": "HIG",
    "title": "Web Views",
    "subtitle": "A web view loads and displays rich web content, such as embedded HTML and websites, directly within your app.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/web-views/"
  },
  {
-   "id": 11068,
+   "id": 11067,
    "category": "HIG",
    "title": "Buttons",
    "subtitle": "The system offers a range of button styles that support extensive customization while providing built-in interaction states, accessibility support, and appearance adaptation.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/"
  },
  {
-   "id": 11069,
+   "id": 11068,
    "category": "HIG",
    "title": "Color Wells",
    "subtitle": "When tapped, a color well displays the system-provided color picker. People can use the color picker to choose a color for text, shapes, marking tools, and other elements.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/color-wells/"
  },
  {
-   "id": 11070,
+   "id": 11069,
    "category": "HIG",
    "title": "Context Menus",
    "subtitle": "In iOS 13 and later, you can use context menus to give people access to additional functionality related to onscreen items without cluttering the interface.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/"
  },
  {
-   "id": 11071,
+   "id": 11070,
    "category": "HIG",
    "title": "Edit Menus",
    "subtitle": "People can touch and hold or double-tap an element in a text field, a text view, a web view, or an image view to select content and reveal edit options, such as Copy and Paste.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/edit-menus/"
  },
  {
-   "id": 11072,
+   "id": 11071,
    "category": "HIG",
    "title": "Labels",
    "subtitle": "A label describes an onscreen interface element or provides a short message. Although people can’t edit labels, they can sometimes copy the content of labels.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/labels/"
  },
  {
-   "id": 11073,
+   "id": 11072,
    "category": "HIG",
    "title": "Page Controls",
    "subtitle": "A page control displays a row of indicator images, each of which represents a page in a flat list.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/page-controls/"
  },
  {
-   "id": 11074,
+   "id": 11073,
    "category": "HIG",
    "title": "Pickers",
    "subtitle": "A picker can display one or more scrollable lists of distinct values from which people can choose.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/pickers/"
  },
  {
-   "id": 11075,
+   "id": 11074,
    "category": "HIG",
    "title": "Progress Indicators",
    "subtitle": "Don’t make people sit around staring at a static screen waiting for your app to load content or perform lengthy data processing operations.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/progress-indicators/"
  },
  {
-   "id": 11076,
+   "id": 11075,
    "category": "HIG",
    "title": "Refresh Content Controls",
    "subtitle": "A refresh control is manually initiated to immediately reload content, typically in a table view, without waiting for the next automatic content update to occur.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/refresh-content-controls/"
  },
  {
-   "id": 11077,
+   "id": 11076,
    "category": "HIG",
    "title": "Segmented Controls",
    "subtitle": "A segmented control is a linear set of two or more segments, each of which functions as a mutually exclusive button.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/"
  },
  {
-   "id": 11078,
+   "id": 11077,
    "category": "HIG",
    "title": "Sliders",
    "subtitle": "A slider is a horizontal track with a control called a thumb, which you can slide with your finger to move between a minimum and maximum value, such as screen brightness level or position during media playback.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/sliders/"
  },
  {
-   "id": 11079,
+   "id": 11078,
    "category": "HIG",
    "title": "Steppers",
    "subtitle": "A stepper is a two-segment control used to increase or decrease an incremental value.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/steppers/"
  },
  {
-   "id": 11080,
+   "id": 11079,
    "category": "HIG",
    "title": "Switches",
    "subtitle": "A switch is a visual toggle between two mutually exclusive states — on and off.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/"
  },
  {
-   "id": 11081,
+   "id": 11080,
    "category": "HIG",
    "title": "Text Fields",
    "subtitle": "A text field is a single-line, fixed-height field that automatically brings up a keyboard when people tap it.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/"
  },
  {
-   "id": 11082,
+   "id": 11081,
    "category": "HIG",
    "title": "Custom Keyboards",
    "subtitle": "You can provide a custom keyboard by creating a keyboard extension that replaces the standard keyboard.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/custom-keyboards/"
  },
  {
-   "id": 11083,
+   "id": 11082,
    "category": "HIG",
    "title": "File Providers",
    "subtitle": "A file provider extension implements a custom interface for importing, exporting, opening, or moving an app’s documents from within other apps on the system.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/file-providers/"
  },
  {
-   "id": 11084,
+   "id": 11083,
    "category": "HIG",
    "title": "Messaging",
    "subtitle": "iMessage apps and Sticker packs are messaging extensions that let people share content with friends, communicate expressively, and share collaborative experiences.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/messaging/"
  },
  {
-   "id": 11085,
+   "id": 11084,
    "category": "HIG",
    "title": "Photo Editing",
    "subtitle": "Photo editing extensions let people modify photos and videos within the Photos app by applying filters or making other changes.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/photo-editing/"
  },
  {
-   "id": 11086,
+   "id": 11085,
    "category": "HIG",
    "title": "Sharing and Actions",
    "subtitle": "Share extensions provide a convenient way to share information from the current context with apps, social media accounts, and other services.",
    "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/sharing-and-actions/"
  },
  {
-   "id": 21001,
+   "id": 12001,
+   "category": "Sketch",
+   "title": "The Canvas",
+   "subtitle": "The Canvas Canvas is where you create your designs.",
+   "link" : "https://www.sketch.com/docs/designing/the-interface/the-canvas/"
+ },
+ {
+   "id": 12002,
+   "category": "Sketch",
+   "title": "The Toolbar",
+   "subtitle": " The toolbar provides quick and easy access to important tools and actions you’ll use a lot in the Mac app.",
+   "link" : "https://www.sketch.com/docs/designing/the-interface/the-toolbar/"
+ },
+ {
+   "id": 12003,
+   "category": "Sketch",
+   "title": "The Inspector",
+   "subtitle": "In the Inspector, you’ll find settings for any layers you’ve selected, or controls for the tool or feature you’re using.",
+   "link" : "https://www.sketch.com/docs/designing/the-interface/the-inspector/"
+ },
+ {
+   "id": 12004,
+   "category": "Sketch",
+   "title": "The Layer List",
+   "subtitle": "In the Layer List, you can see and select from all of the pages in your document, and see the Artboards and layers on each page.",
+   "link" : "https://www.sketch.com/docs/designing/the-interface/the-layer-list/"
+ },
+ {
+   "id": 12005,
+   "category": "Sketch",
+   "title": "The Components View",
+   "subtitle": "In the Components View you’ll find all the Symbols, Text Styles, Layer Styles, and Color Variables in your document.",
+   "link" : "https://www.sketch.com/docs/designing/the-interface/the-components-view/"
+ },
+ {
+   "id": 12006,
+   "category": "Sketch",
+   "title": "The Insert Window",
+   "subtitle": "The Insert Window opens separately to the main window. It gives you a fast and easy way to find and insert Symbols, Text Styles, Layer Styles and Color Variables – from your document or any of your Libraries.",
+   "link" : "https://www.sketch.com/docs/designing/the-interface/the-insert-window/"
+ },
+ {
+   "id": 12007,
+   "category": "Sketch",
+   "title": "Adding layers",
+   "subtitle": "To add a layer, click the Insert + button in the toolbar or the Insert menu item in the menu bar. From there, select the type of layer you want to add.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/adding-layers/"
+ },
+ {
+   "id": 12008,
+   "category": "Sketch",
+   "title": "Selecting layers",
+   "subtitle": "To select a layer on the Canvas, simply click on it. When you do this, you’ll see selection handles appear around that layer.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/selecting-layers/"
+ },
+ {
+   "id": 12009,
+   "category": "Sketch",
+   "title": "Grouping Layers",
+   "subtitle": "By grouping multiple layers together, you can do things like move and resize them all at the same time, toggle their visibility together, or adjust their properties like opacity and blend mode blending.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/grouping-layers/"
+ },
+ {
+   "id": 12010,
+   "category": "Sketch",
+   "title": "Moving layers",
+   "subtitle": "To move a layer, simply click and drag it. If you want to restrict movement to a particular axis, hold ⇧ as you drag.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/moving-layers/"
+ },
+ {
+   "id": 12011,
+   "category": "Sketch",
+   "title": "Rotating layers",
+   "subtitle": "To rotate a layer hold ⌘ and click on any of the corner selection handles to rotate it in the direction you want.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/rotating-layers/"
+ },
+ {
+   "id": 12012,
+   "category": "Sketch",
+   "title": "Duplicating layers",
+   "subtitle": "To duplicate a layer on your Canvas, hold down ⌥ and drag the layer. It’ll keep the original in its place.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/duplicating-layers/"
+ },
+ {
+   "id": 12013,
+   "category": "Sketch",
+   "title": "Aligning layers",
+   "subtitle": "You can align layers using the six alignment buttons in the top row of the Inspector and hover over each one of them to preview how they’ll look.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/aligning-layers/"
+ },
+ {
+   "id": 12014,
+   "category": "Sketch",
+   "title": "Resizing layers",
+   "subtitle": "To resize a layer, select it, then click and drag on any of its selection handles. Handles on the sides of the layer will adjust the height or width, while handles on the corners will adjust the height and width together.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/resizing-layers/"
+ },
+ {
+   "id": 12015,
+   "category": "Sketch",
+   "title": "Scaling layers",
+   "subtitle": "Any styles you’ve applied (such as a strokes, border radius or shadow sizes) will stay the same when you resize a layer. To have them scale proportionately with your layer size, head to Layer > Transform > Scale… or press ⌘K.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/scaling-layers/"
+ },
+ {
+   "id": 12016,
+   "category": "Sketch",
+   "title": "Resizing constraints",
+   "subtitle": "The resizing constraints in the Inspector let you choose how layers behave when you resize the Artboard, group or symbol they’re a part of.",
+   "link" : "https://www.sketch.com/docs/designing/layer-basics/resizing-constraints/"
+ },
+ {
+   "id": 12017,
+   "category": "Sketch",
+   "title": "Adding shapes",
+   "subtitle": "Shapes are one the most common types of layers in Sketch documents. You can add and edit pre-made shapes, or create your own using the Vector tool Vector tool.",
+   "link" : "https://www.sketch.com/docs/designing/shapes/adding-shapes/"
+ },
+ {
+   "id": 12018,
+   "category": "Sketch",
+   "title": "Editing shapes",
+   "subtitle": "Shapes are one the most common types of layers in Sketch documents. You can add and edit pre-made shapes, or create your own using the Vector tool Vector tool.",
+   "link" : "https://www.sketch.com/docs/designing/shapes/editing-shapes/"
+ },
+ {
+   "id": 12019,
+   "category": "Sketch",
+   "title": "Boolean Operations",
+   "subtitle": "In the Mac app, there are four boolean operations you can use to combine and create complex shapes.",
+   "link" : "https://www.sketch.com/docs/designing/shapes/boolean-operations/"
+ },
+ {
+   "id": 12020,
+   "category": "Sketch",
+   "title": "Masking shapes",
+   "subtitle": "There are a few different ways to create masks in the Mac app, but they all follow the same rule: we’ll use the shape that’s lowest in the Layer List as the mask.",
+   "link" : "https://www.sketch.com/docs/designing/shapes/masking-shapes/"
+ },
+ {
+   "id": 12021,
+   "category": "Sketch",
+   "title": "Vector Editing",
+   "subtitle": "Shapes are one the most common types of layers in Sketch documents. You can add and edit pre-made shapes, or create your own using the Vector tool Vector tool.",
+   "link" : "https://www.sketch.com/docs/designing/vector-editing/"
+ },
+ {
+   "id": 12022,
+   "category": "Sketch",
+   "title": "Text",
+   "subtitle": "Adding text, Text options, Converting text to vector shapes, Managing fonts",
+   "link" : "https://www.sketch.com/docs/designing/text/"
+ },
+ {
+   "id": 12023,
+   "category": "Sketch",
+   "title": "Images",
+   "subtitle": "As well as adding image fills Image Fill and images from data sources dataset to existing layers, you can also add regular bitmap images into your Sketch documents.",
+   "link" : "https://www.sketch.com/docs/designing/images/"
+ },
+ {
+   "id": 12024,
+   "category": "Sketch",
+   "title": "Data",
+   "subtitle": "With the Data tool dataset, you can add different images and text to your designs to create realistic mockups and prototypes.",
+   "link" : "https://www.sketch.com/docs/designing/data/"
+ },
+ {
+   "id": 12025,
+   "category": "Sketch",
+   "title": "Fills",
+   "subtitle": "The Mac app support five different fill types:",
+   "link" : "https://www.sketch.com/docs/designing/styling/fills/"
+ },
+ {
+   "id": 12026,
+   "category": "Sketch",
+   "title": "The color popover",
+   "subtitle": "Click the color well for any fill, border or shadow to reveal the color picker popover.",
+   "link" : "https://www.sketch.com/docs/designing/styling/the-color-popover/"
+ },
+ {
+   "id": 12027,
+   "category": "Sketch",
+   "title": "Color Variables",
+   "subtitle": "With Color Variables, you can set colors that synchronize across your document. When you make changes to a Color Variable, those changes appear across all of the layers that use it.",
+   "link" : "https://www.sketch.com/docs/designing/styling/color-variables/"
+ },
+ {
+   "id": 12028,
+   "category": "Sketch",
+   "title": "Presets",
+   "subtitle": "At the bottom of the color popover, you can store gradient or image fill presets for quick access and reuse within your document or as part of a library.",
+   "link" : "https://www.sketch.com/docs/designing/styling/presets/"
+ },
+ {
+   "id": 12029,
+   "category": "Sketch",
+   "title": "Gradients",
+   "subtitle": "To apply a gradient fill to a layer, click the color button Oval under the Fills section of the Inspector, then choose either the linear Linear Gradient, radial Radial Gradient or angular gradient Angular Gradient buttons at the top of the popover.",
+   "link" : "https://www.sketch.com/docs/designing/styling/gradients/"
+ },
+ {
+   "id": 12030,
+   "category": "Sketch",
+   "title": "Tints",
+   "subtitle": "Tints apply a single color to an entire group or Symbol. Unlike fills, Tints respect semi-filled elements with different opacities and borders.",
+   "link" : "https://www.sketch.com/docs/designing/styling/tints/"
+ },
+ {
+   "id": 12031,
+   "category": "Sketch",
+   "title": "Borders",
+   "subtitle": "You can add as many borders as you like to your layers, with different thicknesses, colors and blend modes.",
+   "link" : "https://www.sketch.com/docs/designing/styling/borders/"
+ },
+ {
+   "id": 12032,
+   "category": "Sketch",
+   "title": "Shadows",
+   "subtitle": "Shadows and inner Shadows have the same controls but work in different ways.",
+   "link" : "https://www.sketch.com/docs/designing/styling/shadows/"
+ },
+ {
+   "id": 12033,
+   "category": "Sketch",
+   "title": "Blurs",
+   "subtitle": "To add a blur to your layer, click the Blurs title in the Inspector and then choose a blur type from the drop-down menu:",
+   "link" : "https://www.sketch.com/docs/designing/styling/blurs/"
+ },
+ {
+   "id": 12034,
+   "category": "Sketch",
+   "title": "Symbols",
+   "subtitle": "Symbols Symbol instance can speed up your workflow by giving you a way to save and reuse common elements across your designs.",
+   "link" : "https://www.sketch.com/docs/designing/symbols/"
+ },
+ {
+   "id": 12035,
+   "category": "Sketch",
+   "title": "Real-time Collaboration",
+   "subtitle": "With real-time collaboration, you can work together on the same document, see everyone’s changes instantly, and never have to wonder about whether you’re editing the right version of a document again.",
+   "link" : "https://www.sketch.com/docs/designing/real-time-collaboration/"
+ },
+ {
+   "id": 12036,
+   "category": "Sketch",
+   "title": "Libraries",
+   "subtitle": "Libraries are Sketch documents with Components (Symbols, Text Styles, Color Variables and Layer Styles) that you can share across all of your other documents — and even across whole teams.",
+   "link" : "https://www.sketch.com/docs/designing/libraries/"
+ },
+ {
+   "id": 12037,
+   "category": "Sketch",
+   "title": "Shortcuts",
+   "subtitle": "Keyboard shortcuts are the fastest way to speed up your workflow. Many of them are depend on what you’ve selected and what you’re doing, but you’ll find the full list of Sketch keyboard shortcuts below.",
+   "link" : "https://www.sketch.com/docs/designing/shortcuts/"
+ },
+ {
+   "id": 12038,
+   "category": "Sketch",
+   "title": "Color Profiles",
+   "subtitle": "Color profiles describe how the colors in an image should be rendered, which helps maintain accuracy across different screens.",
+   "link" : "https://www.sketch.com/docs/designing/color-profiles/"
+ },
+ {
+   "id": 12039,
+   "category": "Sketch",
+   "title": "Document Settings",
+   "subtitle": "The Document Settings window brings together document-specific settings and preferences, like Assistants or missing fonts, to help you manage your document from a single place.",
+   "link" : "https://www.sketch.com/docs/designing/document-settings/"
+ },
+ {
+   "id": 12040,
+   "category": "Sketch",
+   "title": "Templates",
+   "subtitle": "You can open templates template as a new document with pre-populated layers. The Mac app comes with several useful sample templates, including the iOS App Icon and Material Design templates.",
+   "link" : "https://www.sketch.com/docs/designing/templates/"
+ },
+ {
+   "id": 12041,
+   "category": "Sketch",
+   "title": "Assistants",
+   "subtitle": "When you add Assistants to your document, they’ll check your designs against a set of rules and let you know if they spot issues or inconsistencies.",
+   "link" : "https://www.sketch.com/docs/designing/assistants/"
+ },
+ {
+   "id": 12042,
+   "category": "Sketch",
+   "title": "Prototyping",
+   "subtitle": "With Prototyping, you can preview your designs and navigate between Artboards with animated interactions.",
+   "link" : "https://www.sketch.com/docs/prototyping/"
+ },
+ {
+   "id": 12043,
+   "category": "Sketch",
+   "title": "Importing & Exporting",
+   "subtitle": "Discover export presets, slices and learn how to export CSS and SVG code from any browser. Also, learn how to easily import other files into the Mac app.",
+   "link" : "https://www.sketch.com/docs/importing-and-exporting/"
+ },
+ {
+   "id": 12044,
+   "category": "Sketch",
+   "title": "Preferences",
+   "subtitle": "Learn how to add Libraries, Data sources or Plugins and set your preferences in the Mac app. Press ⌘, from anywhere in the Mac app, or choose Sketch > Preferences to bring up the preferences window.",
+   "link" : "https://www.sketch.com/docs/preferences/"
+ },
+ {
+   "id": 12045,
+   "category": "Sketch",
+   "title": "Plugins",
+   "subtitle": "Plugins allow you to do even more with the Mac app by extending the app’s functionality. They’re mostly created by third-party developers though there are a number of official Sketch plugins too. ",
+   "link" : "https://www.sketch.com/docs/plugins/"
+ },
+ {
+   "id": 12046,
+   "category": "Sketch",
+   "title": "Canvas view",
+   "subtitle": "By default, when you browse Workspace documents in the web app it was in a grid view.",
+   "link" : "https://www.sketch.com/docs/canvas-view/"
+ },
+ {
+   "id": 12047,
+   "category": "Sketch",
+   "title": "Managing documents",
+   "subtitle": "Learn how to manage your documents — from saving your work to using document updates in your Workspace.",
+   "link" : "https://www.sketch.com/docs/managing-documents/"
+ },
+ {
+   "id": 12048,
+   "category": "Sketch",
+   "title": "Sharing & Permissions",
+   "subtitle": "Learn how to share your designs and give the right permissions to other people, whether they are part of your Workspace or not.",
+   "link" : "https://www.sketch.com/docs/sharing-and-permissions/"
+ },
+ {
+   "id": 12049,
+   "category": "Sketch",
+   "title": "Comments & Notifications",
+   "subtitle": "Bring ideas and feedback together — learn how to use comments and threads in the web app to get feedback from colleagues, stakeholders or anyone you share your designs with.",
+   "link" : "https://www.sketch.com/docs/comments-and-notifications/"
+ },
+ {
+   "id": 12050,
+   "category": "Sketch",
+   "title": "Developer Handoff",
+   "subtitle": "earn how developers can inspect your designs and export assets in our web app — no Mac required.",
+   "link" : "https://www.sketch.com/docs/developer-handoff/"
+ },
+ {
+   "id": 12051,
+   "category": "Sketch",
+   "title": "Subscriptions and Licenses",
+   "subtitle": "Over the past few years, we’ve evolved Sketch to be more than the Mac app. It’s now a complete platform for design and collaboration, combining the best native Mac editor with tools that work in any web browser.",
+   "link" : "https://www.sketch.com/docs/subscriptions/"
+ },
+ {
+   "id": 12052,
+   "category": "Sketch",
+   "title": "Single Sign-On (SSO)",
+   "subtitle": "Single Sign-On (SSO) gives members in our Business Plan a quick and safe way to log in to both the Mac app and web app.",
+   "link" : "https://www.sketch.com/docs/sso/"
+ },
+ {
+    "id": 21001,
+    "category": "SwiftUI",
+    "title": "App",
+    "subtitle": "A type that represents the structure and behavior of an app.",
+    "link" : "https://developer.apple.com/documentation/swiftui/app"
+  },
+  {
+    "id": 21002,
+    "category": "SwiftUI",
+    "title": "UILaunchScreen",
+    "subtitle": "The user interface to show while an app launches.",
+    "link" : "https://developer.apple.com/documentation/bundleresources/information_property_list/uilaunchscreen"
+  },
+  {
+    "id": 21003,
    "category": "SwiftUI",
-   "title": "TabView",
-   "subtitle": "A view that switches between multiple child views using interactive user interface elements.",
-   "link" : "https://developer.apple.com/documentation/swiftui/tabview/"
- }
+    "title": "UILaunchScreens",
+    "subtitle": "The user interfaces to show while an app launches in response to different URL schemes.",
+    "link" : "https://developer.apple.com/documentation/bundleresources/information_property_list/uilaunchscreens"
+  },
+  {
+    "id": 21004,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21005,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21006,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21007,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21008,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21009,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21010,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21011,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21012,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21013,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21014,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21015,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21016,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21017,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21018,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21019,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21020,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21021,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21022,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21023,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21024,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21025,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21026,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21027,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21028,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21029,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21030,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21031,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21032,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21033,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21034,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21035,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21036,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21037,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21038,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21039,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21040,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21041,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21042,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21043,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21044,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21045,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21046,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21047,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21048,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21049,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21050,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21051,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21052,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21053,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21054,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21055,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21056,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21057,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21058,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21059,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21060,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21061,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21062,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21063,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21064,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21065,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21066,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21067,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21068,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21069,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21070,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21071,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21072,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21073,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21074,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21075,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21076,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21077,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21078,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21079,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21080,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21081,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21082,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21083,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21084,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21085,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21086,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21087,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21088,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21089,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21090,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21091,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21092,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21093,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21094,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21095,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21096,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21097,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21098,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21099,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  },
+  {
+    "id": 21100,
+   "category": "SwiftUI",
+    "title": "",
+    "subtitle": "",
+    "link" : ""
+  }
 ]
