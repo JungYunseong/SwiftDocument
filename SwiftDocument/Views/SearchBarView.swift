@@ -16,17 +16,23 @@ struct SearchBarView: View {
                 .foregroundColor(
                     searchKeyword.isEmpty ? Color("searchBarText") : Color.black
                 )
-            TextField("Search", text: $searchKeyword)
-                .overlay(
-                    Image(systemName: "xmark.circle.fill")
-                        .padding()
-                        .offset(x: 10)
-                        .opacity(searchKeyword.isEmpty ? 0.0 : 0.25)
-                        .onTapGesture {
-                            searchKeyword = ""
-                        }
-                    ,alignment: .trailing
-                )
+            ZStack(alignment: .leading) {
+                if searchKeyword.isEmpty {
+                    Text("Search")
+                        .foregroundColor(Color("searchBarText"))
+                }
+                TextField("", text: $searchKeyword)
+                    .overlay(
+                        Image(systemName: "xmark.circle.fill")
+                            .padding()
+                            .offset(x: 10)
+                            .opacity(searchKeyword.isEmpty ? 0.0 : 0.25)
+                            .onTapGesture {
+                                searchKeyword = ""
+                            }
+                        ,alignment: .trailing
+                    )
+            }
         }
         .font(.headline)
         .padding()
@@ -34,6 +40,7 @@ struct SearchBarView: View {
             RoundedRectangle(cornerRadius: 10.0)
                 .fill(Color("searchBarBackground"))
                 .frame(height: 36)
+            
         )
         .padding(.horizontal)
     }
