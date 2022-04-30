@@ -35,6 +35,7 @@ struct DocListRow: View {
                     
                     Text(document.title)
                         .font(.system(size: 18))
+                        .fontWeight(.semibold)
                         .foregroundColor(Color.black)
                         .padding(.leading, 10)
                         .offset(x: 1)
@@ -42,12 +43,13 @@ struct DocListRow: View {
                     Text(document.subtitle)
                         .font(.system(size: 10))
                         .multilineTextAlignment(.leading)
-                        .lineLimit(2)
+                        .lineLimit(3)
                         .foregroundColor(Color("listSubHeadline"))
                         .padding(.horizontal, 10)
                         .offset(x: 3)
                     Spacer()
                 } // VStack
+                .frame(maxWidth: .infinity, maxHeight: 100, alignment: .leading)
                 
             } // ZStack
             .frame(height: 100)
