@@ -1,13 +1,699 @@
 [
  {
-   "id": 1001,
+   "id": 11001,
    "category": "HIG",
-   "title": "Tab Bars",
-   "subtitle": "A tab bar appears at the bottom of a screen, helping people understand the types of information or functionality an app provides.",
-   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/"
+   "title": "iOS Design Themes",
+   "subtitle": "As an app designer, you have the opportunity to deliver an extraordinary product that rises to the top of the App Store charts.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/"
  },
  {
-   "id": 1002,
+   "id": 11003,
+   "category": "HIG",
+   "title": "Interface Essentials",
+   "subtitle": "Most iOS apps are built using components from UIKit, a programming framework that defines common interface elements.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/overview/interface-essentials/"
+ },
+ {
+   "id": 11004,
+   "category": "HIG",
+   "title": "Launching",
+   "subtitle": "The launch experience has a significant impact on the way people feel about your app. ",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/launching/"
+ },
+ {
+   "id": 11005,
+   "category": "HIG",
+   "title": "Onboarding",
+   "subtitle": "Onboarding lets you welcome new users and reconnect with returning ones.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/onboarding/"
+ },
+ {
+   "id": 11006,
+   "category": "HIG",
+   "title": "Loading",
+   "subtitle": "When content is loading, a blank or static screen can make it seem like your app is frozen, resulting in confusion and frustration, and potentially causing people to leave your app.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/loading/"
+ },
+ {
+   "id": 11007,
+   "category": "HIG",
+   "title": "Modality",
+   "subtitle": "Modality is a design technique that presents content in a temporary mode that requires an explicit action to exit.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/modality/"
+ },
+ {
+   "id": 11008,
+   "category": "HIG",
+   "title": "Navigation",
+   "subtitle": "People tend to be unaware of an app’s navigation until it doesn’t meet their expectations. ",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/navigation/"
+ },
+ {
+   "id": 11009,
+   "category": "HIG",
+   "title": "Accessing User Data and Resources",
+   "subtitle": "User privacy is paramount. To help people trust your app, it’s crucial to be transparent about the privacy-related data and resources you require and how you use them.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/accessing-user-data/"
+ },
+ {
+   "id": 11010,
+   "category": "HIG",
+   "title": "Settings",
+   "subtitle": "Some apps may need to provide a way to make setup or configuration choices, but most apps can avoid or delay doing so.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/app-architecture/settings/"
+ },
+ {
+   "id": 11011,
+   "category": "HIG",
+   "title": "3D Touch",
+   "subtitle": "On supported devices, people can access additional functionality by applying varying levels of pressure to the touchscreen.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/3d-touch/"
+ },
+ {
+   "id": 11012,
+   "category": "HIG",
+   "title": "Accounts",
+   "subtitle": "Ask people to create an account only if your app’s core functionality requires it; otherwise, let people enjoy your app without one.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/accounts/"
+ },
+ {
+   "id": 11013,
+   "category": "HIG",
+   "title": "Apple Pencil and Scribble",
+   "subtitle": "Apple Pencil is a versatile, intuitive tool for iPad apps that offers pixel‑level precision when jotting notes, sketching, painting, marking up documents, and more.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/apple-pencil-and-scribble/"
+ },
+ {
+   "id": 11014,
+   "category": "HIG",
+   "title": "Audio",
+   "subtitle": "iPhone and iPad can play audio through internal or external speakers, headphones, and wirelessly through Bluetooth or AirPlay-enabled devices.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/audio/"
+ },
+ {
+   "id": 11015,
+   "category": "HIG",
+   "title": "Data Entry",
+   "subtitle": "Whether tapping interface elements or using the keyboard, inputting information can be a tedious process.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/data-entry/"
+ },
+ {
+   "id": 11016,
+   "category": "HIG",
+   "title": "Drag and Drop",
+   "subtitle": "With a single finger, a user can move or duplicate selected photos, text, or other content by dragging the content from one location to another, then raising the finger to drop it.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/drag-and-drop/"
+ },
+ {
+   "id": 11017,
+   "category": "HIG",
+   "title": "Feedback",
+   "subtitle": "Feedback helps people know what an app is doing, discover what they can do next, and understand the results of actions.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/feedback/"
+ },
+ {
+   "id": 11018,
+   "category": "HIG",
+   "title": "File Handling",
+   "subtitle": "People shouldn’t need to think about the file system while creating, viewing, and manipulating files.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/file-handling/"
+ },
+ {
+   "id": 11019,
+   "category": "HIG",
+   "title": "Game Controllers",
+   "subtitle": "Game controllers can enhance gameplay and increase people's immersion in a game. ",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/game-controllers/"
+ },
+ {
+   "id": 11020,
+   "category": "HIG",
+   "title": "Gestures",
+   "subtitle": "People interact with an iOS device by performing gestures on the touchscreen.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/gestures/"
+ },
+ {
+   "id": 11021,
+   "category": "HIG",
+   "title": "Haptics",
+   "subtitle": "Haptics engage people’s sense of touch to enhance the experience of interacting with onscreen interfaces.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/haptics/"
+ },
+ {
+   "id": 11022,
+   "category": "HIG",
+   "title": "Keyboards",
+   "subtitle": "The system provides several types of onscreen keyboards, each designed to facilitate a different type of input.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/keyboards/"
+ },
+ {
+   "id": 11023,
+   "category": "HIG",
+   "title": "Near Field Communication",
+   "subtitle": "Near Field Communication (NFC) enables devices within a few centimeters of each other to exchange information wirelessly.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/near-field-communication/"
+ },
+ {
+   "id": 11024,
+   "category": "HIG",
+   "title": "Pointers (iPadOS)",
+   "subtitle": "iPadOS provides dynamic pointer effects and behaviors that enhance the experience of using a pointing device with iPad.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/pointers/"
+ },
+ {
+   "id": 11025,
+   "category": "HIG",
+   "title": "Spatial Interactions",
+   "subtitle": "Spatial interactions enable on-device experiences that integrate the presence of people and objects in the nearby environment.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/spatial-interactions/"
+ },
+ {
+   "id": 11026,
+   "category": "HIG",
+   "title": "Undo and Redo",
+   "subtitle": "Many apps allow people to shake the device to undo and redo certain operations, such as typing or deleting.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/user-interaction/undo-and-redo/"
+ },
+ {
+   "id": 11027,
+   "category": "HIG",
+   "title": "Augmented Reality",
+   "subtitle": "Augmented reality (or AR) lets you deliver immersive, engaging experiences that seamlessly blend virtual objects with the real world.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/augmented-reality/"
+ },
+ {
+   "id": 11028,
+   "category": "HIG",
+   "title": "Home Screen Quick Actions",
+   "subtitle": "Home screen quick actions are a convenient way to perform useful, app-specific actions right from the Home screen.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/home-screen-actions/"
+ },
+ {
+   "id": 11029,
+   "category": "HIG",
+   "title": "Multitasking and Multiple Windows",
+   "subtitle": "Multitasking lets people use the app switcher to switch quickly from one app to another and enables additional experiences on different devices.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/multitasking/"
+ },
+ {
+   "id": 11030,
+   "category": "HIG",
+   "title": "Notifications",
+   "subtitle": "Notifications can give people timely and important information, whether the device is locked or in use.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/notifications/"
+ },
+ {
+   "id": 11031,
+   "category": "HIG",
+   "title": "Printing",
+   "subtitle": "Your app can take advantage of the system’s built-in AirPrint technology to enable wireless printing of images, PDFs, and other content to compatible printers.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/printing/"
+ },
+ {
+   "id": 11032,
+   "category": "HIG",
+   "title": "Quick Look",
+   "subtitle": "Within your app, Quick Look lets people preview Keynote, Numbers, Pages, and PDF documents, as well as images and other types of files, even if your app doesn't support those file formats.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/quick-look/"
+ },
+ {
+   "id": 11033,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11034,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11035,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11036,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11037,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11038,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11039,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11040,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11041,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11042,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11043,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11044,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11045,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11046,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11047,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11048,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11049,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11050,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11051,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11052,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11053,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11054,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11055,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11056,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11057,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11058,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11059,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11060,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11061,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11062,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11063,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11064,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11065,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11066,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11067,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11068,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11069,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11070,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11071,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11072,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11073,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11074,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11075,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11076,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11077,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11078,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11079,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11080,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11081,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11082,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11083,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11084,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11085,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11086,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11087,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11088,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11089,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11090,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11091,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11092,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11093,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11094,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11095,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11096,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11097,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11098,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11099,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 11100,
+   "category": "",
+   "title": "",
+   "subtitle": "",
+   "link" : ""
+ },
+ {
+   "id": 21001,
    "category": "SwiftUI",
    "title": "TabView",
    "subtitle": "A view that switches between multiple child views using interactive user interface elements.",

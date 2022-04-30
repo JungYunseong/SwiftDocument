@@ -22,7 +22,7 @@ struct DocListRow: View {
                     .foregroundColor(Color.white)
                     .shadow(color: Color("listShadow"), radius: 2, x: 0, y: 2)
                 
-                VStack(alignment: .leading, spacing: 5.0) {
+                VStack(alignment: .leading, spacing: 3.0) {
                     
                     Text(document.category)
                         .font(.system(size: 12))
@@ -36,18 +36,20 @@ struct DocListRow: View {
                     Text(document.title)
                         .font(.system(size: 18))
                         .fontWeight(.medium)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.8)
                         .foregroundColor(Color.black)
                         .padding(.leading, 10)
-                        .offset(x: 1)
+                        .offset(x: 1, y:2)
                     
                     Text(document.subtitle)
                         .font(.system(size: 10))
-                        .multilineTextAlignment(.leading)
                         .lineLimit(3)
+                        .multilineTextAlignment(.leading)
                         .foregroundColor(Color("listSubHeadline"))
                         .padding(.horizontal, 10)
-                        .offset(x: 4)
-                    Spacer()
+                        .offset(x: 1)
+                    Spacer(minLength: 0)
                 } // VStack
                 .frame(maxWidth: .infinity, maxHeight: 100, alignment: .leading)
                 
