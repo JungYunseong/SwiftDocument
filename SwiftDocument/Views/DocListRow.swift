@@ -12,7 +12,10 @@ struct DocListRow: View {
     var document: Document
     
     var body: some View {
-        NavigationLink(destination: DocWebView()) {
+        NavigationLink(
+            destination: DocWebView(document: document)
+                .edgesIgnoringSafeArea(.bottom)
+        ) {
             ZStack {
                 
                 RoundedRectangle(cornerRadius: 8)
