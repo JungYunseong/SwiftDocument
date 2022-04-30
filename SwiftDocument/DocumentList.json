@@ -982,680 +982,2052 @@
   {
     "id": 21004,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "NSApplicationDelegateAdaptor",
+    "subtitle": "A property wrapper type that you use to create an AppKit app delegate.",
+    "link" : "https://developer.apple.com/documentation/swiftui/nsapplicationdelegateadaptor"
   },
   {
     "id": 21005,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "UIApplicationDelegateAdaptor",
+    "subtitle": "A property wrapper type that you use to create a UIKit app delegate.",
+    "link" : "https://developer.apple.com/documentation/swiftui/uiapplicationdelegateadaptor"
   },
   {
     "id": 21006,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "WKExtensionDelegateAdaptor",
+    "subtitle": "A property wrapper type that you use to create a WatchKit extension delegate.",
+    "link" : "https://developer.apple.com/documentation/swiftui/wkextensiondelegateadaptor"
   },
   {
     "id": 21007,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ColorScheme",
+    "subtitle": "The possible color schemes, corresponding to the light and dark appearances.",
+    "link" : "https://developer.apple.com/documentation/swiftui/colorscheme"
   },
   {
     "id": 21008,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ColorSchemeContrast",
+    "subtitle": "The contrast between the app’s foreground and background colors.",
+    "link" : "https://developer.apple.com/documentation/swiftui/colorschemecontrast"
   },
   {
     "id": 21009,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EditMode",
+    "subtitle": "A mode that indicates whether the user can edit a view’s content.",
+    "link" : "https://developer.apple.com/documentation/swiftui/editmode"
   },
   {
     "id": 21010,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "UserInterfaceSizeClass",
+    "subtitle": "A set of values that indicate the visual size available to the view.",
+    "link" : "https://developer.apple.com/documentation/swiftui/userinterfacesizeclass"
   },
   {
     "id": 21011,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "DismissAction",
+    "subtitle": "An action that dismisses a presentation.",
+    "link" : "https://developer.apple.com/documentation/swiftui/dismissaction"
   },
   {
     "id": 21012,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "DismissSearchAction",
+    "subtitle": "An action that can end a search interaction.",
+    "link" : "https://developer.apple.com/documentation/swiftui/dismisssearchaction"
   },
   {
     "id": 21013,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "OpenURLAction",
+    "subtitle": "An action that opens a URL.",
+    "link" : "https://developer.apple.com/documentation/swiftui/openurlaction"
   },
   {
     "id": 21014,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "RefreshAction",
+    "subtitle": "An action that initiates a refresh operation.",
+    "link" : "https://developer.apple.com/documentation/swiftui/refreshaction"
   },
   {
     "id": 21015,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ResetFocusAction",
+    "subtitle": "An environment value that provides the ability to reevaluate default focus.",
+    "link" : "https://developer.apple.com/documentation/swiftui/resetfocusaction"
   },
   {
     "id": 21016,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Scene",
+    "subtitle": "A part of an app’s user interface with a life cycle managed by the system.",
+    "link" : "https://developer.apple.com/documentation/swiftui/scene"
   },
   {
     "id": 21017,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ScenePhase",
+    "subtitle": "An indication of a scene’s operational state.",
+    "link" : "https://developer.apple.com/documentation/swiftui/scenephase"
   },
   {
     "id": 21018,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SceneBuilder",
+    "subtitle": "A result builder for composing a collection of scenes into a single composite scene.",
+    "link" : "https://developer.apple.com/documentation/swiftui/scenebuilder"
   },
   {
     "id": 21019,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "WindowGroup",
+    "subtitle": "A scene that presents a group of identically structured windows.",
+    "link" : "https://developer.apple.com/documentation/swiftui/windowgroup"
   },
   {
     "id": 21020,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Documents",
+    "subtitle": "Declare a kind of scene that enables users to open documents.",
+    "link" : "https://developer.apple.com/documentation/swiftui/documents"
   },
   {
     "id": 21021,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Settings",
+    "subtitle": "A scene that presents an interface for viewing and modifying an app’s settings.",
+    "link" : "https://developer.apple.com/documentation/swiftui/settings"
   },
   {
     "id": 21022,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "WKNotificationScene",
+    "subtitle": "A scene which appears in response to receiving the specified category of remote or local notifications.",
+    "link" : "https://developer.apple.com/documentation/swiftui/wknotificationscene"
   },
   {
     "id": 21023,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Commands",
+    "subtitle": "Conforming types represent a group of related commands that can be exposed to the user via the main menu on macOS and key commands on iOS.",
+    "link" : "https://developer.apple.com/documentation/swiftui/commands"
   },
   {
     "id": 21024,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "CommandMenu",
+    "subtitle": "Command menus are stand-alone, top-level containers for controls that perform related, app-specific commands.",
+    "link" : "https://developer.apple.com/documentation/swiftui/commandmenu"
   },
   {
     "id": 21025,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "CommandGroup",
+    "subtitle": "Command groups describe additional groupings of controls to add to existing command menus.",
+    "link" : "https://developer.apple.com/documentation/swiftui/commandgroup"
   },
   {
     "id": 21026,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "CommandsBuilder",
+    "subtitle": "Constructs command sets from multi-expression closures. Like ViewBuilder, it supports up to ten expressions in the closure body.",
+    "link" : "https://developer.apple.com/documentation/swiftui/commandsbuilder"
   },
   {
     "id": 21027,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "CommandGroupPlacement",
+    "subtitle": "Identifier types for standard locations that new command groups can be placed relative to.",
+    "link" : "https://developer.apple.com/documentation/swiftui/commandgroupplacement"
   },
   {
     "id": 21028,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SidebarCommands",
+    "subtitle": "A built-in set of commands for manipulating window sidebars.",
+    "link" : "https://developer.apple.com/documentation/swiftui/sidebarcommands"
   },
   {
     "id": 21029,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "TextEditingCommands",
+    "subtitle": "A built-in group of commands for searching, editing, and transforming selections of text.",
+    "link" : "https://developer.apple.com/documentation/swiftui/texteditingcommands"
   },
   {
     "id": 21030,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ToolbarCommands",
+    "subtitle": "A built-in set of commands for manipulating window toolbars.",
+    "link" : "https://developer.apple.com/documentation/swiftui/toolbarcommands"
   },
   {
     "id": 21031,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ImportFromDevicesCommands",
+    "subtitle": "A built-in set of commands that enables importing content from nearby devices.",
+    "link" : "https://developer.apple.com/documentation/swiftui/importfromdevicescommands"
   },
   {
     "id": 21032,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EmptyCommands",
+    "subtitle": "An empty group of commands.",
+    "link" : "https://developer.apple.com/documentation/swiftui/emptycommands"
   },
   {
     "id": 21033,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Creating a Widget Extension",
+    "subtitle": "Add and configure an extension to show your app’s content on the Home screen, Today View, or Notification Center.",
+    "link" : "https://developer.apple.com/documentation/WidgetKit/Creating-a-Widget-Extension"
   },
   {
     "id": 21034,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Keeping a Widget Up To Date",
+    "subtitle": "Plan your widget’s timeline to show timely, relevant information using dynamic views, and update the timeline when things change.",
+    "link" : "https://developer.apple.com/documentation/WidgetKit/Keeping-a-Widget-Up-To-Date"
   },
   {
     "id": 21035,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Making a Configurable Widget",
+    "subtitle": "Give users the option to customize their widgets, by adding a custom SiriKit intent definition to your project.",
+    "link" : "https://developer.apple.com/documentation/WidgetKit/Making-a-Configurable-Widget"
   },
   {
     "id": 21036,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Widget",
+    "subtitle": "The configuration and content of a widget to display on the Home screen or in Notification Center.",
+    "link" : "https://developer.apple.com/documentation/swiftui/widget"
   },
   {
     "id": 21037,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "WidgetBundle",
+    "subtitle": "A container used to expose multiple widgets from a single widget extension.",
+    "link" : "https://developer.apple.com/documentation/swiftui/widgetbundle"
   },
   {
     "id": 21038,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Managing User Interface State",
+    "subtitle": "Encapsulate view-specific data within your app’s view hierarchy to make your views reusable.",
+    "link" : "https://developer.apple.com/documentation/swiftui/managing-user-interface-state"
   },
   {
     "id": 21039,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "State",
+    "subtitle": "A property wrapper type that can read and write a value managed by SwiftUI.",
+    "link" : "https://developer.apple.com/documentation/swiftui/state"
   },
   {
     "id": 21040,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Binding",
+    "subtitle": "A property wrapper type that can read and write a value owned by a source of truth.",
+    "link" : "https://developer.apple.com/documentation/swiftui/binding"
   },
   {
     "id": 21041,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Managing Model Data in Your App",
+    "subtitle": "Create connections between your app’s data model and views.",
+    "link" : "https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app"
   },
   {
     "id": 21042,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ObservedObject",
+    "subtitle": "A property wrapper type that subscribes to an observable object and invalidates a view whenever the observable object changes.",
+    "link" : "https://developer.apple.com/documentation/swiftui/observedobject"
   },
   {
     "id": 21043,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EnvironmentObject",
+    "subtitle": "A property wrapper type for an observable object supplied by a parent or ancestor view.",
+    "link" : "https://developer.apple.com/documentation/swiftui/environmentobject"
   },
   {
     "id": 21044,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "StateObject",
+    "subtitle": "A property wrapper type that instantiates an observable object.",
+    "link" : "https://developer.apple.com/documentation/swiftui/stateobject"
   },
   {
     "id": 21045,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ObservableObject",
+    "subtitle": "A type of object with a publisher that emits before the object has changed.",
+    "link" : "https://developer.apple.com/documentation/Combine/ObservableObject"
   },
   {
     "id": 21046,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Environment",
+    "subtitle": "A property wrapper that reads a value from a view’s environment.",
+    "link" : "https://developer.apple.com/documentation/swiftui/environment"
   },
   {
     "id": 21047,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EnvironmentValues",
+    "subtitle": "A collection of environment values propagated through a view hierarchy.",
+    "link" : "https://developer.apple.com/documentation/swiftui/environmentvalues"
   },
   {
     "id": 21048,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EnvironmentKey",
+    "subtitle": "A key for accessing values in the environment.",
+    "link" : "https://developer.apple.com/documentation/swiftui/environmentkey"
   },
   {
     "id": 21049,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "PreferenceKey",
+    "subtitle": "A named value produced by a view.",
+    "link" : "https://developer.apple.com/documentation/swiftui/preferencekey"
   },
   {
     "id": 21050,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "AppStorage",
+    "subtitle": "A property wrapper type that reflects a value from UserDefaults and invalidates a view on a change in value in that user default.",
+    "link" : "https://developer.apple.com/documentation/swiftui/appstorage"
   },
   {
     "id": 21051,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SceneStorage",
+    "subtitle": "A property wrapper type that reads and writes to persisted, per-scene storage.",
+    "link" : "https://developer.apple.com/documentation/swiftui/scenestorage"
   },
   {
     "id": 21052,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "FetchRequest",
+    "subtitle": "A property wrapper type that retrieves entities from a Core Data persistent store.",
+    "link" : "https://developer.apple.com/documentation/swiftui/fetchrequest"
   },
   {
     "id": 21053,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "FetchedResults",
+    "subtitle": "A collection of results retrieved from a Core Data store.",
+    "link" : "https://developer.apple.com/documentation/swiftui/fetchedresults"
   },
   {
     "id": 21054,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SectionedFetchRequest",
+    "subtitle": "A property wrapper type that retrieves entities, grouped into sections, from a Core Data persistent store.",
+    "link" : "https://developer.apple.com/documentation/swiftui/sectionedfetchrequest"
   },
   {
     "id": 21055,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SectionedFetchResults",
+    "subtitle": "A collection of results retrieved from a Core Data persistent store, grouped into sections.",
+    "link" : "https://developer.apple.com/documentation/swiftui/sectionedfetchresults"
   },
   {
     "id": 21056,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "DynamicProperty",
+    "subtitle": "An interface for a stored variable that updates an external property of a view.",
+    "link" : "https://developer.apple.com/documentation/swiftui/dynamicproperty"
   },
   {
     "id": 21057,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "View",
+    "subtitle": "A type that represents part of your app’s user interface and provides modifiers that you use to configure views.",
+    "link" : "https://developer.apple.com/documentation/swiftui/view"
   },
   {
     "id": 21058,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ViewBuilder",
+    "subtitle": "A custom parameter attribute that constructs views from closures.",
+    "link" : "https://developer.apple.com/documentation/swiftui/viewbuilder"
   },
   {
     "id": 21059,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Configuring Views",
+    "subtitle": "Adjust the characteristics of a view by applying view modifiers.",
+    "link" : "https://developer.apple.com/documentation/swiftui/configuring-views"
   },
   {
     "id": 21060,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Reducing View Modifier Maintenance",
+    "subtitle": "Bundle view modifiers that you regularly reuse into a custom view modifier.",
+    "link" : "https://developer.apple.com/documentation/swiftui/reducing-view-modifier-maintenance"
   },
   {
     "id": 21061,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ViewModifier",
+    "subtitle": "A modifier that you apply to a view or another view modifier, producing a different version of the original value.",
+    "link" : "https://developer.apple.com/documentation/swiftui/viewmodifier"
   },
   {
     "id": 21062,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EmptyModifier",
+    "subtitle": "An empty, or identity, modifier, used during development to switch modifiers at compile time.",
+    "link" : "https://developer.apple.com/documentation/swiftui/emptymodifier"
   },
   {
     "id": 21063,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ModifiedContent",
+    "subtitle": "A value with a modifier applied to it.",
+    "link" : "https://developer.apple.com/documentation/swiftui/modifiedcontent"
   },
   {
     "id": 21064,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EnvironmentalModifier",
+    "subtitle": "A modifier that must resolve to a concrete modifier in an environment before use.",
+    "link" : "https://developer.apple.com/documentation/swiftui/environmentalmodifier"
   },
   {
     "id": 21065,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "AnyView",
+    "subtitle": "A type-erased view.",
+    "link" : "https://developer.apple.com/documentation/swiftui/anyview"
   },
   {
     "id": 21066,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EmptyView",
+    "subtitle": "A view that doesn’t contain any content.",
+    "link" : "https://developer.apple.com/documentation/swiftui/emptyview"
   },
   {
     "id": 21067,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "EquatableView",
+    "subtitle": "A view type that compares itself against its previous value and prevents its child updating if its new value is the same as its old value.",
+    "link" : "https://developer.apple.com/documentation/swiftui/equatableview"
   },
   {
     "id": 21068,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SubscriptionView",
+    "subtitle": "A view that subscribes to a publisher with an action.",
+    "link" : "https://developer.apple.com/documentation/swiftui/subscriptionview"
   },
   {
     "id": 21069,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "TupleView",
+    "subtitle": "A View created from a swift tuple of View values.",
+    "link" : "https://developer.apple.com/documentation/swiftui/tupleview"
   },
   {
     "id": 21070,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Deprecated Views and Controls",
+    "subtitle": "Review unsupported views and their replacements.",
+    "link" : "https://developer.apple.com/documentation/swiftui/views-and-controls-deprecated"
   },
   {
     "id": 21071,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Text",
+    "subtitle": "A view that displays one or more lines of read-only text.",
+    "link" : "https://developer.apple.com/documentation/swiftui/text"
   },
   {
     "id": 21072,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Label",
+    "subtitle": "A standard label for user interface items, consisting of an icon with a title.",
+    "link" : "https://developer.apple.com/documentation/swiftui/label"
   },
   {
     "id": 21073,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "TextSelectability",
+    "subtitle": "A type that describes the ability to select text.",
+    "link" : "https://developer.apple.com/documentation/swiftui/textselectability"
   },
   {
     "id": 21074,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "TextField",
+    "subtitle": "A control that displays an editable text interface.",
+    "link" : "https://developer.apple.com/documentation/swiftui/textfield"
   },
   {
     "id": 21075,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SecureField",
+    "subtitle": "A control into which the user securely enters private text.",
+    "link" : "https://developer.apple.com/documentation/swiftui/securefield"
   },
   {
     "id": 21076,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "TextEditor",
+    "subtitle": "A view that can display and edit long-form text.",
+    "link" : "https://developer.apple.com/documentation/swiftui/texteditor"
   },
   {
     "id": 21077,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "TextInputAutocapitalization",
+    "subtitle": "The kind of autocapitalization behavior applied during text input.",
+    "link" : "https://developer.apple.com/documentation/swiftui/textinputautocapitalization"
   },
   {
     "id": 21078,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Font",
+    "subtitle": "An environment-dependent font.",
+    "link" : "https://developer.apple.com/documentation/swiftui/font"
   },
   {
     "id": 21079,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "ScaledMetric",
+    "subtitle": "A dynamic property that scales a numeric value.",
+    "link" : "https://developer.apple.com/documentation/swiftui/scaledmetric"
   },
   {
     "id": 21080,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Text.Case",
+    "subtitle": "A scheme for transforming the capitalization of characters within text.",
+    "link" : "https://developer.apple.com/documentation/swiftui/text/case"
   },
   {
     "id": 21081,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Text.DateStyle",
+    "subtitle": "A predefined style used to display a Date.",
+    "link" : "https://developer.apple.com/documentation/swiftui/text/datestyle"
   },
   {
     "id": 21082,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Text.LineStyle",
+    "subtitle": "Description of the style used to draw the line for StrikethroughStyleAttribute and UnderlineStyleAttribute.",
+    "link" : "https://developer.apple.com/documentation/swiftui/text/linestyle"
   },
   {
     "id": 21083,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "LegibilityWeight",
+    "subtitle": "The Accessibility Bold Text user setting options.",
+    "link" : "https://developer.apple.com/documentation/swiftui/legibilityweight"
   },
   {
     "id": 21084,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "DynamicTypeSize",
+    "subtitle": "A Dynamic Type size, which specifies how large scalable content should be.",
+    "link" : "https://developer.apple.com/documentation/swiftui/dynamictypesize"
   },
   {
     "id": 21085,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "RedactionReasons",
+    "subtitle": "The reasons to apply a redaction to data displayed on screen.",
+    "link" : "https://developer.apple.com/documentation/swiftui/redactionreasons"
   },
   {
     "id": 21086,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "TextAlignment",
+    "subtitle": "An alignment position for text along the horizontal axis.",
+    "link" : "https://developer.apple.com/documentation/swiftui/textalignment"
   },
   {
     "id": 21087,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Text.TruncationMode",
+    "subtitle": "The type of truncation to apply to a line of text when it’s too long to fit in the available space.",
+    "link" : "https://developer.apple.com/documentation/swiftui/text/truncationmode"
   },
   {
     "id": 21088,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "LayoutDirection",
+    "subtitle": "No overview available.",
+    "link" : "https://developer.apple.com/documentation/swiftui/layoutdirection"
   },
   {
     "id": 21089,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Preparing Views for Localization",
+    "subtitle": "Specify hints and add strings to localize your SwiftUI views.",
+    "link" : "https://developer.apple.com/documentation/swiftui/preparing-views-for-localization"
   },
   {
     "id": 21090,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "LocalizedStringKey",
+    "subtitle": "The key used to look up an entry in a strings file or strings dictionary file.",
+    "link" : "https://developer.apple.com/documentation/swiftui/localizedstringkey"
   },
   {
     "id": 21091,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Image",
+    "subtitle": "A view that displays an image.",
+    "link" : "https://developer.apple.com/documentation/swiftui/image"
   },
   {
     "id": 21092,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Image.Scale",
+    "subtitle": "A scale to apply to vector images relative to text.",
+    "link" : "https://developer.apple.com/documentation/swiftui/image/scale"
   },
   {
     "id": 21093,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Image.Orientation",
+    "subtitle": "The orientation of an image.",
+    "link" : "https://developer.apple.com/documentation/swiftui/image/orientation"
   },
   {
     "id": 21094,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Image.ResizingMode",
+    "subtitle": "The modes that SwiftUI uses to resize an image to fit within its containing view.",
+    "link" : "https://developer.apple.com/documentation/swiftui/image/resizingmode"
   },
   {
     "id": 21095,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "AsyncImage",
+    "subtitle": "A view that asynchronously loads and displays an image.",
+    "link" : "https://developer.apple.com/documentation/swiftui/asyncimage"
   },
   {
     "id": 21096,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "AsyncImagePhase",
+    "subtitle": "The current phase of the asynchronous image loading operation.",
+    "link" : "https://developer.apple.com/documentation/swiftui/asyncimagephase"
   },
   {
     "id": 21097,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SymbolVariants",
+    "subtitle": "A variant of a symbol.",
+    "link" : "https://developer.apple.com/documentation/swiftui/symbolvariants"
   },
   {
     "id": 21098,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "SymbolRenderingMode",
+    "subtitle": "A symbol rendering mode.",
+    "link" : "https://developer.apple.com/documentation/swiftui/symbolrenderingmode"
   },
   {
     "id": 21099,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
+    "title": "Button",
+    "subtitle": "A control that initiates an action.",
+    "link" : "https://developer.apple.com/documentation/swiftui/button"
   },
   {
     "id": 21100,
    "category": "SwiftUI",
-    "title": "",
-    "subtitle": "",
-    "link" : ""
-  }
+    "title": "EditButton",
+    "subtitle": "A button that toggles the edit mode environment value.",
+    "link" : "https://developer.apple.com/documentation/swiftui/editbutton"
+  },
+  {
+     "id": 21101,
+     "category": "SwiftUI",
+     "title": "PasteButton",
+     "subtitle": "A system button that reads data from the pasteboard and delivers it to a closure.",
+     "link" : "https://developer.apple.com/documentation/swiftui/pastebutton"
+   },
+   {
+     "id": 21102,
+     "category": "SwiftUI",
+     "title": "Link",
+     "subtitle": "A control for navigating to a URL.",
+     "link" : "https://developer.apple.com/documentation/swiftui/link"
+   },
+   {
+     "id": 21103,
+    "category": "SwiftUI",
+     "title": "Menu",
+     "subtitle": "A control for presenting a menu of actions.",
+     "link" : "https://developer.apple.com/documentation/swiftui/menu"
+   },
+   {
+     "id": 21104,
+    "category": "SwiftUI",
+     "title": "Picker",
+     "subtitle": "A control for selecting from a set of mutually exclusive values.",
+     "link" : "https://developer.apple.com/documentation/swiftui/picker"
+   },
+   {
+     "id": 21105,
+    "category": "SwiftUI",
+     "title": "DatePicker",
+     "subtitle": "A control for selecting an absolute date.",
+     "link" : "https://developer.apple.com/documentation/swiftui/datepicker"
+   },
+   {
+     "id": 21106,
+    "category": "SwiftUI",
+     "title": "ColorPicker",
+     "subtitle": "A control used to select a color from the system color picker UI.",
+     "link" : "https://developer.apple.com/documentation/swiftui/colorpicker"
+   },
+   {
+     "id": 21107,
+    "category": "SwiftUI",
+     "title": "ProgressView",
+     "subtitle": "A view that shows the progress towards completion of a task.",
+     "link" : "https://developer.apple.com/documentation/swiftui/progressview"
+   },
+   {
+     "id": 21108,
+    "category": "SwiftUI",
+     "title": "Gauge",
+     "subtitle": "A view that shows a value within a range.",
+     "link" : "https://developer.apple.com/documentation/swiftui/gauge"
+   },
+   {
+     "id": 21109,
+    "category": "SwiftUI",
+     "title": "ControlActiveState",
+     "subtitle": "No overview available.",
+     "link" : "https://developer.apple.com/documentation/swiftui/controlactivestate"
+   },
+   {
+     "id": 21110,
+    "category": "SwiftUI",
+     "title": "ControlSize",
+     "subtitle": "The size classes, like regular or small, that you can apply to controls within a view.",
+     "link" : "https://developer.apple.com/documentation/swiftui/controlsize"
+   },
+   {
+     "id": 21111,
+    "category": "SwiftUI",
+     "title": "Prominence",
+     "subtitle": "A type indicating the prominence of a view hierarchy.",
+     "link" : "https://developer.apple.com/documentation/swiftui/prominence"
+   },
+   {
+     "id": 21112,
+    "category": "SwiftUI",
+     "title": "Visibility",
+     "subtitle": "The visibility of a UI element, chosen automatically based on the platform, current context, and other factors.",
+     "link" : "https://developer.apple.com/documentation/swiftui/visibility"
+   },
+   {
+     "id": 21113,
+    "category": "SwiftUI",
+     "title": "Shape",
+     "subtitle": "A 2D shape that you can use when drawing a view.",
+     "link" : "https://developer.apple.com/documentation/swiftui/shape"
+   },
+   {
+     "id": 21114,
+    "category": "SwiftUI",
+     "title": "InsettableShape",
+     "subtitle": "A shape type that is able to inset itself to produce another shape.",
+     "link" : "https://developer.apple.com/documentation/swiftui/insettableshape"
+   },
+   {
+     "id": 21115,
+    "category": "SwiftUI",
+     "title": "ShapeRole",
+     "subtitle": "Ways of styling a shape.",
+     "link" : "https://developer.apple.com/documentation/swiftui/shaperole"
+   },
+   {
+     "id": 21116,
+    "category": "SwiftUI",
+     "title": "StrokeStyle",
+     "subtitle": "The characteristics of a stroke that traces a path.",
+     "link" : "https://developer.apple.com/documentation/swiftui/strokestyle"
+   },
+   {
+     "id": 21117,
+    "category": "SwiftUI",
+     "title": "FillStyle",
+     "subtitle": "A style for rasterizing vector shapes.",
+     "link" : "https://developer.apple.com/documentation/swiftui/fillstyle"
+   },
+   {
+     "id": 21118,
+    "category": "SwiftUI",
+     "title": "Rectangle",
+     "subtitle": "A rectangular shape aligned inside the frame of the view containing it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/rectangle"
+   },
+   {
+     "id": 21119,
+    "category": "SwiftUI",
+     "title": "RoundedRectangle",
+     "subtitle": "A rectangular shape with rounded corners, aligned inside the frame of the view containing it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/roundedrectangle"
+   },
+   {
+     "id": 21120,
+    "category": "SwiftUI",
+     "title": "RoundedCornerStyle",
+     "subtitle": "Defines the shape of a rounded rectangle’s corners.",
+     "link" : "https://developer.apple.com/documentation/swiftui/roundedcornerstyle"
+   },
+   {
+     "id": 21121,
+    "category": "SwiftUI",
+     "title": "Circle",
+     "subtitle": "A circle centered on the frame of the view containing it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/circle"
+   },
+   {
+     "id": 21122,
+    "category": "SwiftUI",
+     "title": "Ellipse",
+     "subtitle": "An ellipse aligned inside the frame of the view containing it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/ellipse"
+   },
+   {
+     "id": 21123,
+    "category": "SwiftUI",
+     "title": "Capsule",
+     "subtitle": "A capsule shape aligned inside the frame of the view containing it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/capsule"
+   },
+   {
+     "id": 21124,
+    "category": "SwiftUI",
+     "title": "Path",
+     "subtitle": "The outline of a 2D shape.",
+     "link" : "https://developer.apple.com/documentation/swiftui/path"
+   },
+   {
+     "id": 21125,
+    "category": "SwiftUI",
+     "title": "ScaledShape",
+     "subtitle": "A shape with a scale transform applied to it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/scaledshape"
+   },
+   {
+     "id": 21126,
+    "category": "SwiftUI",
+     "title": "RotatedShape",
+     "subtitle": "A shape with a rotation transform applied to it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/rotatedshape"
+   },
+   {
+     "id": 21127,
+    "category": "SwiftUI",
+     "title": "OffsetShape",
+     "subtitle": "A shape with a translation offset transform applied to it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/offsetshape"
+   },
+   {
+     "id": 21128,
+    "category": "SwiftUI",
+     "title": "TransformedShape",
+     "subtitle": "",
+     "link" : ""
+   },
+   {
+     "id": 21129,
+    "category": "SwiftUI",
+     "title": "TransformedShape",
+     "subtitle": "A shape with an affine transform applied to it.",
+     "link" : "https://developer.apple.com/documentation/swiftui/transformedshape"
+   },
+   {
+     "id": 21130,
+    "category": "SwiftUI",
+     "title": "ContainerRelativeShape",
+     "subtitle": "A shape that is replaced by an inset version of the current container shape. If no container shape was defined, is replaced by a rectangle.",
+     "link" : "https://developer.apple.com/documentation/swiftui/containerrelativeshape"
+   },
+   {
+     "id": 21131,
+    "category": "SwiftUI",
+     "title": "ShapeStyle",
+     "subtitle": "A color or pattern to use when rendering a shape.",
+     "link" : "https://developer.apple.com/documentation/swiftui/shapestyle"
+   },
+   {
+     "id": 21132,
+    "category": "SwiftUI",
+     "title": "AnyShapeStyle",
+     "subtitle": "A type-erased ShapeStyle value.",
+     "link" : "https://developer.apple.com/documentation/swiftui/anyshapestyle"
+   },
+   {
+     "id": 21133,
+    "category": "SwiftUI",
+     "title": "AngularGradient",
+     "subtitle": "An angular gradient.",
+     "link" : "https://developer.apple.com/documentation/swiftui/angulargradient"
+   },
+   {
+     "id": 21134,
+    "category": "SwiftUI",
+     "title": "EllipticalGradient",
+     "subtitle": "A radial gradient that draws an ellipse.",
+     "link" : "https://developer.apple.com/documentation/swiftui/ellipticalgradient"
+   },
+   {
+     "id": 21135,
+    "category": "SwiftUI",
+     "title": "LinearGradient",
+     "subtitle": "A linear gradient.",
+     "link" : "https://developer.apple.com/documentation/swiftui/lineargradient"
+   },
+   {
+     "id": 21136,
+    "category": "SwiftUI",
+     "title": "RadialGradient",
+     "subtitle": "A radial gradient.",
+     "link" : "https://developer.apple.com/documentation/swiftui/radialgradient"
+   },
+   {
+     "id": 21137,
+    "category": "SwiftUI",
+     "title": "Material",
+     "subtitle": "A background material type.",
+     "link" : "https://developer.apple.com/documentation/swiftui/material"
+   },
+   {
+     "id": 21138,
+    "category": "SwiftUI",
+     "title": "ImagePaint",
+     "subtitle": "A shape style that fills a shape by repeating a region of an image.",
+     "link" : "https://developer.apple.com/documentation/swiftui/imagepaint"
+   },
+   {
+     "id": 21139,
+    "category": "SwiftUI",
+     "title": "HierarchicalShapeStyle",
+     "subtitle": "A shape style that maps to one of the numbered content styles.",
+     "link" : "https://developer.apple.com/documentation/swiftui/hierarchicalshapestyle"
+   },
+   {
+     "id": 21140,
+    "category": "SwiftUI",
+     "title": "ForegroundStyle",
+     "subtitle": "The foreground style in the current context.",
+     "link" : "https://developer.apple.com/documentation/swiftui/foregroundstyle"
+   },
+   {
+     "id": 21141,
+    "category": "SwiftUI",
+     "title": "BackgroundStyle",
+     "subtitle": "The background style in the current context.",
+     "link" : "https://developer.apple.com/documentation/swiftui/backgroundstyle"
+   },
+   {
+     "id": 21142,
+    "category": "SwiftUI",
+     "title": "SelectionShapeStyle",
+     "subtitle": "A style used to visually indicate selection following platform conventional colors and behaviors.",
+     "link" : "https://developer.apple.com/documentation/swiftui/selectionshapestyle"
+   },
+   {
+     "id": 21143,
+    "category": "SwiftUI",
+     "title": "SeparatorShapeStyle",
+     "subtitle": "A style appropriate for foreground separator or border lines.",
+     "link" : "https://developer.apple.com/documentation/swiftui/separatorshapestyle"
+   },
+   {
+     "id": 21144,
+    "category": "SwiftUI",
+     "title": "TintShapeStyle",
+     "subtitle": "A style that reflects the current tint color.",
+     "link" : "https://developer.apple.com/documentation/swiftui/tintshapestyle"
+   },
+   {
+     "id": 21145,
+    "category": "SwiftUI",
+     "title": "Canvas",
+     "subtitle": "A view type that supports immediate mode drawing.",
+     "link" : "https://developer.apple.com/documentation/swiftui/canvas"
+   },
+   {
+     "id": 21146,
+    "category": "SwiftUI",
+     "title": "GraphicsContext",
+     "subtitle": "An immediate mode drawing destination, and its current state.",
+     "link" : "https://developer.apple.com/documentation/swiftui/graphicscontext"
+   },
+   {
+     "id": 21147,
+    "category": "SwiftUI",
+     "title": "Color",
+     "subtitle": "A representation of a color that adapts to a given context.",
+     "link" : "https://developer.apple.com/documentation/swiftui/color"
+   },
+   {
+     "id": 21148,
+    "category": "SwiftUI",
+     "title": "Gradient",
+     "subtitle": "A color gradient represented as an array of color stops, each having a parametric location value.",
+     "link" : "https://developer.apple.com/documentation/swiftui/gradient"
+   },
+   {
+     "id": 21149,
+    "category": "SwiftUI",
+     "title": "BlendMode",
+     "subtitle": "Modes for compositing a view with overlapping content.",
+     "link" : "https://developer.apple.com/documentation/swiftui/blendmode"
+   },
+   {
+     "id": 21150,
+    "category": "SwiftUI",
+     "title": "ColorRenderingMode",
+     "subtitle": "The set of possible working color spaces for color-compositing operations.",
+     "link" : "https://developer.apple.com/documentation/swiftui/colorrenderingmode"
+   },
+   {
+     "id": 21151,
+    "category": "SwiftUI",
+     "title": "ColorMatrix",
+     "subtitle": "A matrix to use in an RGBA color transformation.",
+     "link" : "https://developer.apple.com/documentation/swiftui/colormatrix"
+   },
+   {
+     "id": 21152,
+    "category": "SwiftUI",
+     "title": "ContentMode",
+     "subtitle": "Constants that define how a view’s content fills the available space.",
+     "link" : "https://developer.apple.com/documentation/swiftui/contentmode"
+   },
+   {
+     "id": 21153,
+    "category": "SwiftUI",
+     "title": "GeometryReader",
+     "subtitle": "A container view that defines its content as a function of its own size and coordinate space.",
+     "link" : "https://developer.apple.com/documentation/swiftui/geometryreader"
+   },
+   {
+     "id": 21154,
+    "category": "SwiftUI",
+     "title": "GeometryProxy",
+     "subtitle": "A proxy for access to the size and coordinate space (for anchor resolution) of the container view.",
+     "link" : "https://developer.apple.com/documentation/swiftui/geometryproxy"
+   },
+   {
+     "id": 21155,
+    "category": "SwiftUI",
+     "title": "Axis",
+     "subtitle": "The horizontal or vertical dimension in a 2D coordinate system.",
+     "link" : "https://developer.apple.com/documentation/swiftui/axis"
+   },
+   {
+     "id": 21156,
+    "category": "SwiftUI",
+     "title": "Angle",
+     "subtitle": "A geometric angle whose value you access in either radians or degrees.",
+     "link" : "https://developer.apple.com/documentation/swiftui/angle"
+   },
+   {
+     "id": 21157,
+    "category": "SwiftUI",
+     "title": "UnitPoint",
+     "subtitle": "No overview available.",
+     "link" : "https://developer.apple.com/documentation/swiftui/unitpoint"
+   },
+   {
+     "id": 21158,
+    "category": "SwiftUI",
+     "title": "MatchedGeometryProperties",
+     "subtitle": "A set of view properties that may be synchronized between views using the View.matchedGeometryEffect() function.",
+     "link" : "https://developer.apple.com/documentation/swiftui/matchedgeometryproperties"
+   },
+   {
+     "id": 21159,
+    "category": "SwiftUI",
+     "title": "Namespace",
+     "subtitle": "A dynamic property type that allows access to a namespace defined by the persistent identity of the object containing the property (e.g. a view).",
+     "link" : "https://developer.apple.com/documentation/swiftui/namespace"
+   },
+   {
+     "id": 21160,
+    "category": "SwiftUI",
+     "title": "CoordinateSpace",
+     "subtitle": "No overview available.",
+     "link" : "https://developer.apple.com/documentation/swiftui/coordinatespace"
+   },
+   {
+     "id": 21161,
+    "category": "SwiftUI",
+     "title": "ProjectionTransform",
+     "subtitle": "No overview available.",
+     "link" : "https://developer.apple.com/documentation/swiftui/projectiontransform"
+   },
+   {
+     "id": 21162,
+    "category": "SwiftUI",
+     "title": "HStack",
+     "subtitle": "A view that arranges its children in a horizontal line.",
+     "link" : "https://developer.apple.com/documentation/swiftui/hstack"
+   },
+   {
+     "id": 21163,
+    "category": "SwiftUI",
+     "title": "VStack",
+     "subtitle": "A view that arranges its children in a vertical line.",
+     "link" : "https://developer.apple.com/documentation/swiftui/vstack"
+   },
+   {
+     "id": 21164,
+    "category": "SwiftUI",
+     "title": "ZStack",
+     "subtitle": "A view that overlays its children, aligning them in both axes.",
+     "link" : "https://developer.apple.com/documentation/swiftui/zstack"
+   },
+   {
+     "id": 21165,
+    "category": "SwiftUI",
+     "title": "LazyHStack",
+     "subtitle": "A view that arranges its children in a line that grows horizontally, creating items only as needed.",
+     "link" : "https://developer.apple.com/documentation/swiftui/lazyhstack"
+   },
+   {
+     "id": 21166,
+    "category": "SwiftUI",
+     "title": "LazyVStack",
+     "subtitle": "A view that arranges its children in a line that grows vertically, creating items only as needed.",
+     "link" : "https://developer.apple.com/documentation/swiftui/lazyvstack"
+   },
+   {
+     "id": 21167,
+    "category": "SwiftUI",
+     "title": "PinnedScrollableViews",
+     "subtitle": "A set of view types that may be pinned to the bounds of a scroll view.",
+     "link" : "https://developer.apple.com/documentation/swiftui/pinnedscrollableviews"
+   },
+   {
+     "id": 21168,
+    "category": "SwiftUI",
+     "title": "LazyHGrid",
+     "subtitle": "A container view that arranges its child views in a grid that grows horizontally, creating items only as needed.",
+     "link" : "https://developer.apple.com/documentation/swiftui/lazyhgrid"
+   },
+   {
+     "id": 21169,
+    "category": "SwiftUI",
+     "title": "LazyVGrid",
+     "subtitle": "A container view that arranges its child views in a grid that grows vertically, creating items only as needed.",
+     "link" : "https://developer.apple.com/documentation/swiftui/lazyvgrid"
+   },
+   {
+     "id": 21170,
+    "category": "SwiftUI",
+     "title": "GridItem",
+     "subtitle": "A description of a single grid item, such as a row or a column.",
+     "link" : "https://developer.apple.com/documentation/swiftui/griditem"
+   },
+   {
+     "id": 21171,
+    "category": "SwiftUI",
+     "title": "Spacer",
+     "subtitle": "A flexible space that expands along the major axis of its containing stack layout, or on both axes if not contained in a stack.",
+     "link" : "https://developer.apple.com/documentation/swiftui/spacer"
+   },
+   {
+     "id": 21172,
+    "category": "SwiftUI",
+     "title": "Divider",
+     "subtitle": "A visual element that can be used to separate other content.",
+     "link" : "https://developer.apple.com/documentation/swiftui/divider"
+   },
+   {
+     "id": 21173,
+    "category": "SwiftUI",
+     "title": "Alignment",
+     "subtitle": "An alignment in both axes.",
+     "link" : "https://developer.apple.com/documentation/swiftui/alignment"
+   },
+   {
+     "id": 21174,
+    "category": "SwiftUI",
+     "title": "HorizontalAlignment",
+     "subtitle": "An alignment position along the horizontal axis.",
+     "link" : "https://developer.apple.com/documentation/swiftui/horizontalalignment"
+   },
+   {
+     "id": 21175,
+    "category": "SwiftUI",
+     "title": "VerticalAlignment",
+     "subtitle": "An alignment position along the vertical axis.",
+     "link" : "https://developer.apple.com/documentation/swiftui/verticalalignment"
+   },
+   {
+     "id": 21176,
+    "category": "SwiftUI",
+     "title": "AlignmentID",
+     "subtitle": "Types used to identify alignment guides.",
+     "link" : "https://developer.apple.com/documentation/swiftui/alignmentid"
+   },
+   {
+     "id": 21177,
+    "category": "SwiftUI",
+     "title": "ViewDimensions",
+     "subtitle": "A view’s size and its alignment guides in its own coordinate space.",
+     "link" : "https://developer.apple.com/documentation/swiftui/viewdimensions"
+   },
+   {
+     "id": 21178,
+    "category": "SwiftUI",
+     "title": "Edge",
+     "subtitle": "An enumeration to indicate one edge of a rectangle.",
+     "link" : "https://developer.apple.com/documentation/swiftui/edge"
+   },
+   {
+     "id": 21179,
+    "category": "SwiftUI",
+     "title": "HorizontalEdge",
+     "subtitle": "An edge on the horizontal axis.",
+     "link" : "https://developer.apple.com/documentation/swiftui/horizontaledge"
+   },
+   {
+     "id": 21180,
+    "category": "SwiftUI",
+     "title": "VerticalEdge",
+     "subtitle": "An edge on the vertical axis.",
+     "link" : "https://developer.apple.com/documentation/swiftui/verticaledge"
+   },
+   {
+     "id": 21181,
+    "category": "SwiftUI",
+     "title": "EdgeInsets",
+     "subtitle": "The inset distances for the sides of a rectangle.",
+     "link" : "https://developer.apple.com/documentation/swiftui/edgeinsets"
+   },
+   {
+     "id": 21182,
+    "category": "SwiftUI",
+     "title": "SafeAreaRegions",
+     "subtitle": "A set of symbolic safe area regions.",
+     "link" : "https://developer.apple.com/documentation/swiftui/safearearegions"
+   },
+   {
+     "id": 21183,
+    "category": "SwiftUI",
+     "title": "Anchor",
+     "subtitle": "An opaque value derived from an anchor source and a particular view.",
+     "link" : "https://developer.apple.com/documentation/swiftui/anchor"
+   },
+   {
+     "id": 21184,
+    "category": "SwiftUI",
+     "title": "List",
+     "subtitle": "A container that presents rows of data arranged in a single column, optionally providing the ability to select one or more members.",
+     "link" : "https://developer.apple.com/documentation/swiftui/list"
+   },
+   {
+     "id": 21185,
+    "category": "SwiftUI",
+     "title": "ListItemTint",
+     "subtitle": "The configuration of a tint effect applied to content within a List.",
+     "link" : "https://developer.apple.com/documentation/swiftui/listitemtint"
+   },
+   {
+     "id": 21186,
+    "category": "SwiftUI",
+     "title": "Section",
+     "subtitle": "A container view that you can use to add hierarchy to certain collection views.",
+     "link" : "https://developer.apple.com/documentation/swiftui/section"
+   },
+   {
+     "id": 21187,
+    "category": "SwiftUI",
+     "title": "ForEach",
+     "subtitle": "A structure that computes views on demand from an underlying collection of identified data.",
+     "link" : "https://developer.apple.com/documentation/swiftui/foreach"
+   },
+   {
+     "id": 21188,
+    "category": "SwiftUI",
+     "title": "DynamicViewContent",
+     "subtitle": "A type of view that generates views from an underlying collection of data.",
+     "link" : "https://developer.apple.com/documentation/swiftui/dynamicviewcontent"
+   },
+   {
+     "id": 21189,
+    "category": "SwiftUI",
+     "title": "Tables",
+     "subtitle": "Display selectable, sortable data, arranged in rows and columns.",
+     "link" : "https://developer.apple.com/documentation/swiftui/tables"
+   },
+   {
+     "id": 21190,
+    "category": "SwiftUI",
+     "title": "Form",
+     "subtitle": "A container for grouping controls used for data entry, such as in settings or inspectors.",
+     "link" : "https://developer.apple.com/documentation/swiftui/form"
+   },
+   {
+     "id": 21191,
+    "category": "SwiftUI",
+     "title": "Group",
+     "subtitle": "A type that collects multiple instances of a content type — like views, scenes, or commands — into a single unit.",
+     "link" : "https://developer.apple.com/documentation/swiftui/group"
+   },
+   {
+     "id": 21192,
+    "category": "SwiftUI",
+     "title": "GroupBox",
+     "subtitle": "A stylized view, with an optional label, that visually collects a logical grouping of content.",
+     "link" : "https://developer.apple.com/documentation/swiftui/groupbox"
+   },
+   {
+     "id": 21193,
+    "category": "SwiftUI",
+     "title": "ControlGroup",
+     "subtitle": "A container view that displays semantically-related controls in a visually-appropriate manner for the context",
+     "link" : "https://developer.apple.com/documentation/swiftui/controlgroup"
+   },
+   {
+     "id": 21194,
+    "category": "SwiftUI",
+     "title": "ScrollView",
+     "subtitle": "A scrollable view.",
+     "link" : "https://developer.apple.com/documentation/swiftui/scrollview"
+   },
+   {
+     "id": 21195,
+    "category": "SwiftUI",
+     "title": "ScrollViewReader",
+     "subtitle": "A view that provides programmatic scrolling, by working with a proxy to scroll to known child views.",
+     "link" : "https://developer.apple.com/documentation/swiftui/scrollviewreader"
+   },
+   {
+     "id": 21196,
+    "category": "SwiftUI",
+     "title": "ScrollViewProxy",
+     "subtitle": "A proxy value that supports programmatic scrolling of the scrollable views within a view hierarchy.",
+     "link" : "https://developer.apple.com/documentation/swiftui/scrollviewproxy"
+   },
+   {
+     "id": 21197,
+    "category": "SwiftUI",
+     "title": "NavigationView",
+     "subtitle": "A view for presenting a stack of views that represents a visible path in a navigation hierarchy.",
+     "link" : "https://developer.apple.com/documentation/swiftui/navigationview"
+   },
+   {
+     "id": 21198,
+    "category": "SwiftUI",
+     "title": "NavigationLink",
+     "subtitle": "A view that controls a navigation presentation.",
+     "link" : "https://developer.apple.com/documentation/swiftui/navigationlink"
+   },
+   {
+     "id": 21199,
+    "category": "SwiftUI",
+     "title": "NavigationBarItem",
+     "subtitle": "A configuration for a navigation bar that represents a view at the top of a navigation stack.",
+     "link" : "https://developer.apple.com/documentation/swiftui/navigationbaritem"
+   },
+   {
+     "id": 21200,
+    "category": "SwiftUI",
+     "title": "OutlineGroup",
+     "subtitle": "A structure that computes views and disclosure groups on demand from an underlying collection of tree-structured, identified data.",
+     "link" : "https://developer.apple.com/documentation/swiftui/outlinegroup"
+   },
+   {
+      "id": 21201,
+      "category": "SwiftUI",
+      "title": "DisclosureGroup",
+      "subtitle": "A view that shows or hides another content view, based on the state of a disclosure control.",
+      "link" : "https://developer.apple.com/documentation/swiftui/disclosuregroup"
+    },
+    {
+      "id": 21202,
+      "category": "SwiftUI",
+      "title": "TabView",
+      "subtitle": "A view that switches between multiple child views using interactive user interface elements.",
+      "link" : "https://developer.apple.com/documentation/swiftui/tabview"
+    },
+    {
+      "id": 21203,
+     "category": "SwiftUI",
+      "title": "HSplitView",
+      "subtitle": "A layout container that arranges its children in a horizontal line and allows the user to resize them using dividers placed between them.",
+      "link" : "https://developer.apple.com/documentation/swiftui/hsplitview"
+    },
+    {
+      "id": 21204,
+     "category": "SwiftUI",
+      "title": "VSplitView",
+      "subtitle": "A layout container that arranges its children in a vertical line and allows the user to resize them using dividers placed between them.",
+      "link" : "https://developer.apple.com/documentation/swiftui/vsplitview"
+    },
+    {
+      "id": 21205,
+     "category": "SwiftUI",
+      "title": "TimelineView",
+      "subtitle": "A view that updates according to a schedule that you provide.",
+      "link" : "https://developer.apple.com/documentation/swiftui/timelineview"
+    },
+    {
+      "id": 21206,
+     "category": "SwiftUI",
+      "title": "TimelineSchedule",
+      "subtitle": "A type that provides a sequence of dates for use as a schedule.",
+      "link" : "https://developer.apple.com/documentation/swiftui/timelineschedule"
+    },
+    {
+      "id": 21207,
+     "category": "SwiftUI",
+      "title": "ToolbarItem",
+      "subtitle": "A model that represents an item which can be placed in the toolbar or navigation bar.",
+      "link" : "https://developer.apple.com/documentation/swiftui/toolbaritem"
+    },
+    {
+      "id": 21208,
+     "category": "SwiftUI",
+      "title": "ToolbarItemGroup",
+      "subtitle": "A model that represents a group of ToolbarItems which can be placed in the toolbar or navigation bar.",
+      "link" : "https://developer.apple.com/documentation/swiftui/toolbaritemgroup"
+    },
+    {
+      "id": 21209,
+     "category": "SwiftUI",
+      "title": "ToolbarItemPlacement",
+      "subtitle": "A structure that defines the placement of a toolbar item.",
+      "link" : "https://developer.apple.com/documentation/swiftui/toolbaritemplacement"
+    },
+    {
+      "id": 21210,
+     "category": "SwiftUI",
+      "title": "ToolbarContent",
+      "subtitle": "Conforming types represent items that can be placed in various locations in a toolbar.",
+      "link" : "https://developer.apple.com/documentation/swiftui/toolbarcontent"
+    },
+    {
+      "id": 21211,
+     "category": "SwiftUI",
+      "title": "CustomizableToolbarContent",
+      "subtitle": "Conforming types represent items that can be placed in various locations in a customizable toolbar.",
+      "link" : "https://developer.apple.com/documentation/swiftui/customizabletoolbarcontent"
+    },
+    {
+      "id": 21212,
+     "category": "SwiftUI",
+      "title": "ToolbarContentBuilder",
+      "subtitle": "Constructs a toolbar item set from multi-expression closures.",
+      "link" : "https://developer.apple.com/documentation/swiftui/toolbarcontentbuilder"
+    },
+    {
+      "id": 21213,
+     "category": "SwiftUI",
+      "title": "TouchBar",
+      "subtitle": "A container for a view that you can show in the Touch Bar.",
+      "link" : "https://developer.apple.com/documentation/swiftui/touchbar"
+    },
+    {
+      "id": 21214,
+     "category": "SwiftUI",
+      "title": "TouchBarItemPresence",
+      "subtitle": "Options that affect user customization of the Touch Bar.",
+      "link" : "https://developer.apple.com/documentation/swiftui/touchbaritempresence"
+    },
+    {
+      "id": 21215,
+     "category": "SwiftUI",
+      "title": "NSHostingController",
+      "subtitle": "An AppKit view controller that hosts SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/nshostingcontroller"
+    },
+    {
+      "id": 21216,
+     "category": "SwiftUI",
+      "title": "NSHostingView",
+      "subtitle": "An AppKit view that hosts a SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/nshostingview"
+    },
+    {
+      "id": 21217,
+     "category": "SwiftUI",
+      "title": "NSHostingView",
+      "subtitle": "An AppKit view that hosts a SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/nshostingview"
+    },
+    {
+      "id": 21218,
+     "category": "SwiftUI",
+      "title": "UIHostingController",
+      "subtitle": "A UIKit view controller that manages a SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/uihostingcontroller"
+    },
+    {
+      "id": 21219,
+     "category": "SwiftUI",
+      "title": "WKHostingController",
+      "subtitle": "A WatchKit interface controller that hosts a SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/wkhostingcontroller"
+    },
+    {
+      "id": 21220,
+     "category": "SwiftUI",
+      "title": "WKUserNotificationHostingController",
+      "subtitle": "A WatchKit user notification interface controller that hosts a SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/wkusernotificationhostingcontroller"
+    },
+    {
+      "id": 21221,
+     "category": "SwiftUI",
+      "title": "NSViewRepresentable",
+      "subtitle": "A wrapper that you use to integrate an AppKit view into your SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/nsviewrepresentable"
+    },
+    {
+      "id": 21222,
+     "category": "SwiftUI",
+      "title": "NSViewRepresentableContext",
+      "subtitle": "Contextual information about the state of the system that you use to create and update your AppKit view.",
+      "link" : "https://developer.apple.com/documentation/swiftui/nsviewrepresentablecontext"
+    },
+    {
+      "id": 21223,
+     "category": "SwiftUI",
+      "title": "NSViewControllerRepresentable",
+      "subtitle": "A wrapper that you use to integrate an AppKit view controller into your SwiftUI interface.",
+      "link" : "https://developer.apple.com/documentation/swiftui/nsviewcontrollerrepresentable"
+    },
+    {
+      "id": 21224,
+     "category": "SwiftUI",
+      "title": "NSViewControllerRepresentableContext",
+      "subtitle": "Contextual information about the state of the system that you use to create and update your AppKit view controller.",
+      "link" : "https://developer.apple.com/documentation/swiftui/nsviewcontrollerrepresentablecontext"
+    },
+    {
+      "id": 21225,
+     "category": "SwiftUI",
+      "title": "UIViewRepresentable",
+      "subtitle": "A wrapper for a UIKit view that you use to integrate that view into your SwiftUI view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/uiviewrepresentable"
+    },
+    {
+      "id": 21226,
+     "category": "SwiftUI",
+      "title": "UIViewRepresentableContext",
+      "subtitle": "Contextual information about the state of the system that you use to create and update your UIKit view.",
+      "link" : "https://developer.apple.com/documentation/swiftui/uiviewrepresentablecontext"
+    },
+    {
+      "id": 21227,
+     "category": "SwiftUI",
+      "title": "UIViewControllerRepresentable",
+      "subtitle": "A view that represents a UIKit view controller.",
+      "link" : "https://developer.apple.com/documentation/swiftui/uiviewcontrollerrepresentable"
+    },
+    {
+      "id": 21228,
+     "category": "SwiftUI",
+      "title": "UIViewControllerRepresentableContext",
+      "subtitle": "Contextual information about the state of the system that you use to create and update your UIKit view controller.",
+      "link" : "https://developer.apple.com/documentation/swiftui/uiviewcontrollerrepresentablecontext"
+    },
+    {
+      "id": 21229,
+     "category": "SwiftUI",
+      "title": "WKInterfaceObjectRepresentable",
+      "subtitle": "A view that represents a WatchKit interface object.",
+      "link" : "https://developer.apple.com/documentation/swiftui/wkinterfaceobjectrepresentable"
+    },
+    {
+      "id": 21230,
+     "category": "SwiftUI",
+      "title": "WKInterfaceObjectRepresentableContext",
+      "subtitle": "Contextual information about the state of the system that you use to create and update your WatchKit interface object.",
+      "link" : "https://developer.apple.com/documentation/swiftui/wkinterfaceobjectrepresentablecontext"
+    },
+    {
+      "id": 21231,
+     "category": "SwiftUI",
+      "title": "FamilyActivityPicker",
+      "subtitle": "A view in which users specify applications, web domains, and categories without revealing their choices to the app.",
+      "link" : "https://developer.apple.com/documentation/FamilyControls/FamilyActivityPicker"
+    },
+    {
+      "id": 21232,
+     "category": "SwiftUI",
+      "title": "SignInWithAppleButton",
+      "subtitle": "The view that creates the Sign in with Apple button for display.",
+      "link" : "https://developer.apple.com/documentation/authenticationservices/signinwithapplebutton"
+    },
+    {
+      "id": 21233,
+     "category": "SwiftUI",
+      "title": "SceneView",
+      "subtitle": "A SwiftUI view for displaying 3D SceneKit content.",
+      "link" : "https://developer.apple.com/documentation/scenekit/sceneview"
+    },
+    {
+      "id": 21234,
+     "category": "SwiftUI",
+      "title": "SpriteView",
+      "subtitle": "A SwiftUI view that renders a SpriteKit scene.",
+      "link" : "https://developer.apple.com/documentation/spritekit/spriteview"
+    },
+    {
+      "id": 21235,
+     "category": "SwiftUI",
+      "title": "LocationButton",
+      "subtitle": "A SwiftUI button that grants one-time location authorization.",
+      "link" : "https://developer.apple.com/documentation/corelocationui/locationbutton"
+    },
+    {
+      "id": 21236,
+     "category": "SwiftUI",
+      "title": "Map",
+      "subtitle": "A view that displays an embedded map interface.",
+      "link" : "https://developer.apple.com/documentation/mapkit/map"
+    },
+    {
+      "id": 21237,
+     "category": "SwiftUI",
+      "title": "CameraView",
+      "subtitle": "A SwiftUI view into which a video stream or an image snapshot is rendered.",
+      "link" : "https://developer.apple.com/documentation/homekit/cameraview"
+    },
+    {
+      "id": 21238,
+     "category": "SwiftUI",
+      "title": "NowPlayingView",
+      "subtitle": "A view that displays the system’s Now Playing interface so that the user can control audio.",
+      "link" : "https://developer.apple.com/documentation/watchkit/nowplayingview"
+    },
+    {
+      "id": 21239,
+     "category": "SwiftUI",
+      "title": "VideoPlayer",
+      "subtitle": "A view that displays content from a player and a native user interface to control playback.",
+      "link" : "https://developer.apple.com/documentation/avkit/videoplayer"
+    },
+    {
+      "id": 21240,
+     "category": "SwiftUI",
+      "title": "KeyboardShortcut",
+      "subtitle": "Keyboard shortcuts describe combinations of keys on a keyboard that the user can press in order to activate a button or toggle.",
+      "link" : "https://developer.apple.com/documentation/swiftui/keyboardshortcut"
+    },
+    {
+      "id": 21241,
+     "category": "SwiftUI",
+      "title": "KeyEquivalent",
+      "subtitle": "Key equivalents consist of a letter, punctuation, or function key that can be combined with an optional set of modifier keys to specify a keyboard shortcut.",
+      "link" : "https://developer.apple.com/documentation/swiftui/keyequivalent"
+    },
+    {
+      "id": 21242,
+     "category": "SwiftUI",
+      "title": "EventModifiers",
+      "subtitle": "A set of key modifiers that you can add to a gesture.",
+      "link" : "https://developer.apple.com/documentation/swiftui/eventmodifiers"
+    },
+    {
+      "id": 21243,
+     "category": "SwiftUI",
+      "title": "HoverEffect",
+      "subtitle": "An effect applied when the pointer hovers over a view.",
+      "link" : "https://developer.apple.com/documentation/swiftui/hovereffect"
+    },
+    {
+      "id": 21244,
+     "category": "SwiftUI",
+      "title": "FocusState",
+      "subtitle": "A property wrapper type that can read and write a value that SwiftUI updates as the placement of focus within the scene changes.",
+      "link" : "https://developer.apple.com/documentation/swiftui/focusstate"
+    },
+    {
+      "id": 21245,
+     "category": "SwiftUI",
+      "title": "FocusedBinding",
+      "subtitle": "A convenience property wrapper for observing and automatically unwrapping state bindings from the focused view or one of its ancestors.",
+      "link" : "https://developer.apple.com/documentation/swiftui/focusedbinding"
+    },
+    {
+      "id": 21246,
+     "category": "SwiftUI",
+      "title": "FocusedValue",
+      "subtitle": "A property wrapper for observing values from the focused view or one of its ancestors.",
+      "link" : "https://developer.apple.com/documentation/swiftui/focusedvalue"
+    },
+    {
+      "id": 21247,
+     "category": "SwiftUI",
+      "title": "FocusedValues",
+      "subtitle": "A collection of state exported by the focused view and its ancestors.",
+      "link" : "https://developer.apple.com/documentation/swiftui/focusedvalues"
+    },
+    {
+      "id": 21248,
+     "category": "SwiftUI",
+      "title": "FocusedValueKey",
+      "subtitle": "A protocol for identifier types used when publishing and observing focused values.",
+      "link" : "https://developer.apple.com/documentation/swiftui/focusedvaluekey"
+    },
+    {
+      "id": 21249,
+     "category": "SwiftUI",
+      "title": "DropDelegate",
+      "subtitle": "An interface that you implement to interact with a drop operation in a view modified to accept drops.",
+      "link" : "https://developer.apple.com/documentation/swiftui/dropdelegate"
+    },
+    {
+      "id": 21250,
+     "category": "SwiftUI",
+      "title": "DropInfo",
+      "subtitle": "The current state of a drop.",
+      "link" : "https://developer.apple.com/documentation/swiftui/dropinfo"
+    },
+    {
+      "id": 21251,
+     "category": "SwiftUI",
+      "title": "SubmitTriggers",
+      "subtitle": "A type that defines various triggers that result in the firing of a submission action.",
+      "link" : "https://developer.apple.com/documentation/swiftui/submittriggers"
+    },
+    {
+      "id": 21252,
+     "category": "SwiftUI",
+      "title": "SubmitLabel",
+      "subtitle": "A semantic label describing the label of submission within a view hierarchy.",
+      "link" : "https://developer.apple.com/documentation/swiftui/submitlabel"
+    },
+    {
+      "id": 21253,
+     "category": "SwiftUI",
+      "title": "ContentShapeKinds",
+      "subtitle": "A kind for the content shape of a view.",
+      "link" : "https://developer.apple.com/documentation/swiftui/contentshapekinds"
+    },
+    {
+      "id": 21254,
+     "category": "SwiftUI",
+      "title": "DigitalCrownRotationalSensitivity",
+      "subtitle": "The amount of Digital Crown rotation needed to move between two integer numbers.",
+      "link" : "https://developer.apple.com/documentation/swiftui/digitalcrownrotationalsensitivity"
+    },
+    {
+      "id": 21255,
+     "category": "SwiftUI",
+      "title": "MoveCommandDirection",
+      "subtitle": "Specifies the direction of an arrow key movement.",
+      "link" : "https://developer.apple.com/documentation/swiftui/movecommanddirection"
+    },
+    {
+      "id": 21256,
+     "category": "SwiftUI",
+      "title": "TapGesture",
+      "subtitle": "A gesture that recognizes one or more taps.",
+      "link" : "https://developer.apple.com/documentation/swiftui/tapgesture"
+    },
+    {
+      "id": 21257,
+     "category": "SwiftUI",
+      "title": "LongPressGesture",
+      "subtitle": "A gesture that succeeds when the user performs a long press.",
+      "link" : "https://developer.apple.com/documentation/swiftui/longpressgesture"
+    },
+    {
+      "id": 21258,
+     "category": "SwiftUI",
+      "title": "DragGesture",
+      "subtitle": "A dragging motion that invokes an action as the drag-event sequence changes.",
+      "link" : "https://developer.apple.com/documentation/swiftui/draggesture"
+    },
+    {
+      "id": 21259,
+     "category": "SwiftUI",
+      "title": "MagnificationGesture",
+      "subtitle": "A gesture that recognizes a magnification motion and tracks the amount of magnification.",
+      "link" : "https://developer.apple.com/documentation/swiftui/magnificationgesture"
+    },
+    {
+      "id": 21260,
+     "category": "SwiftUI",
+      "title": "RotationGesture",
+      "subtitle": "A gesture that recognizes a rotation motion and tracks the angle of the rotation.",
+      "link" : "https://developer.apple.com/documentation/swiftui/rotationgesture"
+    },
+    {
+      "id": 21261,
+     "category": "SwiftUI",
+      "title": "Composing SwiftUI Gestures",
+      "subtitle": "Combine gestures to create complex interactions.",
+      "link" : "https://developer.apple.com/documentation/swiftui/composing-swiftui-gestures"
+    },
+    {
+      "id": 21262,
+     "category": "SwiftUI",
+      "title": "SequenceGesture",
+      "subtitle": "A gesture that’s a sequence of two gestures.",
+      "link" : "https://developer.apple.com/documentation/swiftui/sequencegesture"
+    },
+    {
+      "id": 21263,
+     "category": "SwiftUI",
+      "title": "SimultaneousGesture",
+      "subtitle": "A gesture containing two gestures that can happen at the same time with neither of them preceding the other.",
+      "link" : "https://developer.apple.com/documentation/swiftui/simultaneousgesture"
+    },
+    {
+      "id": 21264,
+     "category": "SwiftUI",
+      "title": "ExclusiveGesture",
+      "subtitle": "A gesture that consists of two gestures where only one of them can succeed.",
+      "link" : "https://developer.apple.com/documentation/swiftui/exclusivegesture"
+    },
+    {
+      "id": 21265,
+     "category": "SwiftUI",
+      "title": "Gesture",
+      "subtitle": "An instance that matches a sequence of events to a gesture, and returns a stream of values for each of its states.",
+      "link" : "https://developer.apple.com/documentation/swiftui/gesture"
+    },
+    {
+      "id": 21266,
+     "category": "SwiftUI",
+      "title": "AnyGesture",
+      "subtitle": "A type-erased gesture.",
+      "link" : "https://developer.apple.com/documentation/swiftui/anygesture"
+    },
+    {
+      "id": 21267,
+     "category": "SwiftUI",
+      "title": "GestureState",
+      "subtitle": "A property wrapper type that updates a property while the user performs a gesture and resets the property back to its initial state when the gesture ends.",
+      "link" : "https://developer.apple.com/documentation/swiftui/gesturestate"
+    },
+    {
+      "id": 21268,
+     "category": "SwiftUI",
+      "title": "AnyGesture",
+      "subtitle": "A type-erased gesture.",
+      "link" : "https://developer.apple.com/documentation/swiftui/anygesture"
+    },
+    {
+      "id": 21269,
+     "category": "SwiftUI",
+      "title": "GestureState",
+      "subtitle": "A property wrapper type that updates a property while the user performs a gesture and resets the property back to its initial state when the gesture ends.",
+      "link" : "https://developer.apple.com/documentation/swiftui/gesturestate"
+    },
+    {
+      "id": 21270,
+     "category": "SwiftUI",
+      "title": "GestureStateGesture",
+      "subtitle": "A gesture that updates the state provided by a gesture’s updating callback.",
+      "link" : "https://developer.apple.com/documentation/swiftui/gesturestategesture"
+    },
+    {
+      "id": 21271,
+     "category": "SwiftUI",
+      "title": "GestureMask",
+      "subtitle": "Options that control how adding a gesture to a view affects other gestures recognized by the view and its subviews.",
+      "link" : "https://developer.apple.com/documentation/swiftui/gesturemask"
+    },
+    {
+      "id": 21272,
+     "category": "SwiftUI",
+      "title": "withAnimation(_:_:)",
+      "subtitle": "Returns the result of recomputing the view’s body with the provided animation.",
+      "link" : "https://developer.apple.com/documentation/swiftui/withanimation(_:_:)"
+    },
+    {
+      "id": 21273,
+     "category": "SwiftUI",
+      "title": "Animation",
+      "subtitle": "No overview available.",
+      "link" : "https://developer.apple.com/documentation/swiftui/animation"
+    },
+    {
+      "id": 21274,
+     "category": "SwiftUI",
+      "title": "Animatable",
+      "subtitle": "A type that describes how to animate a property of a view.",
+      "link" : "https://developer.apple.com/documentation/swiftui/animatable"
+    },
+    {
+      "id": 21275,
+     "category": "SwiftUI",
+      "title": "AnimatablePair",
+      "subtitle": "A pair of animatable values, which is itself animatable.",
+      "link" : "https://developer.apple.com/documentation/swiftui/animatablepair"
+    },
+    {
+      "id": 21276,
+     "category": "SwiftUI",
+      "title": "VectorArithmetic",
+      "subtitle": "A type that can serve as the animatable data of an animatable type.",
+      "link" : "https://developer.apple.com/documentation/swiftui/vectorarithmetic"
+    },
+    {
+      "id": 21277,
+     "category": "SwiftUI",
+      "title": "EmptyAnimatableData",
+      "subtitle": "An empty type for animatable data.",
+      "link" : "https://developer.apple.com/documentation/swiftui/emptyanimatabledata"
+    },
+    {
+      "id": 21278,
+     "category": "SwiftUI",
+      "title": "GeometryEffect",
+      "subtitle": "An effect that changes the visual appearance of a view, largely without changing its ancestors or descendants.",
+      "link" : "https://developer.apple.com/documentation/swiftui/geometryeffect"
+    },
+    {
+      "id": 21279,
+     "category": "SwiftUI",
+      "title": "AnyTransition",
+      "subtitle": "A type-erased transition.",
+      "link" : "https://developer.apple.com/documentation/swiftui/anytransition"
+    },
+    {
+      "id": 21280,
+     "category": "SwiftUI",
+      "title": "withTransaction(_:_:)",
+      "subtitle": "Executes a closure with the specified transaction and returns the result.",
+      "link" : "https://developer.apple.com/documentation/swiftui/withtransaction(_:_:)"
+    },
+    {
+      "id": 21281,
+     "category": "SwiftUI",
+      "title": "Transaction",
+      "subtitle": "The context of the current state-processing update.",
+      "link" : "https://developer.apple.com/documentation/swiftui/transaction"
+    },
+    {
+      "id": 21282,
+     "category": "SwiftUI",
+      "title": "PreviewProvider",
+      "subtitle": "A type that produces view previews in Xcode.",
+      "link" : "https://developer.apple.com/documentation/swiftui/previewprovider"
+    },
+    {
+      "id": 21283,
+     "category": "SwiftUI",
+      "title": "PreviewPlatform",
+      "subtitle": "Platforms that can run the preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/previewplatform"
+    },
+    {
+      "id": 21284,
+     "category": "SwiftUI",
+      "title": "previewDisplayName(_:)",
+      "subtitle": "Sets a user visible name to show in the canvas for a preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/view/previewdisplayname(_:)"
+    },
+    {
+      "id": 21285,
+     "category": "SwiftUI",
+      "title": "previewDevice(_:)",
+      "subtitle": "Overrides the device for a preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/view/previewdevice(_:)"
+    },
+    {
+      "id": 21286,
+     "category": "SwiftUI",
+      "title": "PreviewDevice",
+      "subtitle": "A simulator device that runs a preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/previewdevice"
+    },
+    {
+      "id": 21287,
+     "category": "SwiftUI",
+      "title": "previewLayout(_:)",
+      "subtitle": "Overrides the size of the container for the preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/view/previewlayout(_:)"
+    },
+    {
+      "id": 21288,
+     "category": "SwiftUI",
+      "title": "PreviewLayout",
+      "subtitle": "A size constraint for a preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/previewlayout"
+    },
+    {
+      "id": 21289,
+     "category": "SwiftUI",
+      "title": "previewInterfaceOrientation(_:)",
+      "subtitle": "Overrides the orientation of the preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/view/previewinterfaceorientation(_:)"
+    },
+    {
+      "id": 21290,
+     "category": "SwiftUI",
+      "title": "InterfaceOrientation",
+      "subtitle": "The orientation of the interface from the user’s perspective.",
+      "link" : "https://developer.apple.com/documentation/swiftui/interfaceorientation"
+    },
+    {
+      "id": 21291,
+     "category": "SwiftUI",
+      "title": "previewContext(_:)",
+      "subtitle": "Declares a context for the preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/view/previewcontext(_:)"
+    },
+    {
+      "id": 21292,
+     "category": "SwiftUI",
+      "title": "PreviewContext",
+      "subtitle": "A context type for use with a preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/previewcontext"
+    },
+    {
+      "id": 21293,
+     "category": "SwiftUI",
+      "title": "PreviewContext",
+      "subtitle": "A context type for use with a preview.",
+      "link" : "https://developer.apple.com/documentation/swiftui/previewcontext"
+    },
+    {
+      "id": 21294,
+     "category": "SwiftUI",
+      "title": "PreviewContextKey",
+      "subtitle": "A key type for a preview context.",
+      "link" : "https://developer.apple.com/documentation/swiftui/previewcontextkey"
+    },
+    {
+      "id": 21295,
+     "category": "SwiftUI",
+      "title": "LibraryContentProvider",
+      "subtitle": "A source of Xcode library and code completion content.",
+      "link" : "https://developer.apple.com/documentation/DeveloperToolsSupport/LibraryContentProvider"
+    },
+    {
+      "id": 21296,
+     "category": "SwiftUI",
+      "title": "LibraryItem",
+      "subtitle": "A single item to add to the Xcode library.",
+      "link" : "https://developer.apple.com/documentation/DeveloperToolsSupport/LibraryItem"
+    }
 ]

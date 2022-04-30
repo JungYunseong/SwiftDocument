@@ -39,7 +39,7 @@ struct DocListRow: View {
                         .lineLimit(1)
                         .minimumScaleFactor(0.8)
                         .foregroundColor(Color.black)
-                        .padding(.leading, 10)
+                        .padding(.horizontal, 10)
                         .offset(x: 1, y:2)
                     
                     Text(document.subtitle)
