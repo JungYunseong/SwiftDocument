@@ -13,9 +13,6 @@ struct DocView: View {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
             VStack {
-                Text("Document")
-                    .font(.system(size: 21))
-                    .padding(.top)
                 SearchBarView()
                 DocListView()
             }

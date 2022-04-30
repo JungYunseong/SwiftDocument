@@ -9,24 +9,35 @@ import SwiftUI
 
 struct ContentView: View {
     
+    enum Tabs: String {
+        case Doc = "Document"
+        case Memo = "Memo"
+    }
+    
+    init() {
+        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: 21)]
+    }
+    
+    @State var tabSelection: Tabs = .Doc
+    
     var body: some View {
         NavigationView {
-            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+            TabView(selection: $tabSelection) {
                 DocView()
-                    .navigationBarHidden(true)
                     .tabItem {
                         Image(systemName: "note.text")
                         Text("Doc")
-                    }.tag(1)
+                    }.tag(Tabs.Doc)
                 MemoView()
-                    .navigationBarHidden(true)
                     .tabItem {
                         Image(systemName: "square.and.pencil")
                         Text("Memo")
-                    }.tag(2)
+                    }.tag(Tabs.Memo)
             }
+            .navigationBarTitle(self.tabSelection.rawValue, displayMode: .inline)
             .accentColor(Color("mOrange"))
         }
+        .accentColor(Color("mOrange"))
     }
 }
 

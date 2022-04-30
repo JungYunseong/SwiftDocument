@@ -10,9 +10,6 @@ import SwiftUI
 struct MemoView: View {
     var body: some View {
         VStack {
-            Text("Memo")
-                .font(.system(size: 21))
-                .padding(.top)
             SearchBarView()
             Spacer()
         }
