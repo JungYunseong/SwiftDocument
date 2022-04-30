@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DocListRow: View {
+    
+    var document: Document
+    
     var body: some View {
         NavigationLink(destination: DocWebView()) {
             ZStack {
@@ -18,7 +21,7 @@ struct DocListRow: View {
                 
                 VStack(alignment: .leading, spacing: 5.0) {
                     
-                    Text("HIG")
+                    Text(document.category)
                         .font(.system(size: 12))
                         .foregroundColor(Color.white)
                         .padding(.horizontal, 8)
@@ -27,13 +30,13 @@ struct DocListRow: View {
                         .clipShape(Capsule())
                         .padding([.leading, .top], 10)
                     
-                    Text("Tab Bars")
+                    Text(document.title)
                         .font(.system(size: 18))
                         .foregroundColor(Color.black)
                         .padding(.leading, 10)
                         .offset(x: 2)
                     
-                    Text("A tab bar appears at the bottom of a screen, helping people understand the types of information or functionality an app provides.")
+                    Text(document.subtitle)
                         .font(.system(size: 10))
                         .multilineTextAlignment(.leading)
                         .lineLimit(2)
@@ -51,6 +54,11 @@ struct DocListRow: View {
 
 struct DocListRow_Previews: PreviewProvider {
     static var previews: some View {
-        DocListRow()
+        Group {
+            DocListRow(document: documents[0])
+                .previewLayout(.sizeThatFits)
+            DocListRow(document: documents[1])
+                .previewLayout(.sizeThatFits)
+        }
     }
 }

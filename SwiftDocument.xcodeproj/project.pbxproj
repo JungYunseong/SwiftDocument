@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3435B74C281D181A0038E332 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3435B74B281D181A0038E332 /* ModelData.swift */; };
+		3435B74E281D189D0038E332 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3435B74D281D189D0038E332 /* Document.swift */; };
+		3435B750281D19B60038E332 /* DocumentList.json in Resources */ = {isa = PBXBuildFile; fileRef = 3435B74F281D19B60038E332 /* DocumentList.json */; };
 		34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4C8A281A67BD0083F0D9 /* SwiftDocumentApp.swift */; };
 		34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4C8C281A67BD0083F0D9 /* ContentView.swift */; };
 		34BB4C8F281A67BE0083F0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BB4C8E281A67BE0083F0D9 /* Assets.xcassets */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3435B74B281D181A0038E332 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		3435B74D281D189D0038E332 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		3435B74F281D19B60038E332 /* DocumentList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DocumentList.json; sourceTree = "<group>"; };
 		34BB4C87281A67BD0083F0D9 /* SwiftDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BB4C8A281A67BD0083F0D9 /* SwiftDocumentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocumentApp.swift; sourceTree = "<group>"; };
 		34BB4C8C281A67BD0083F0D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +117,9 @@
 				34BB4CB6281A68550083F0D9 /* Views */,
 				34BB4C8E281A67BE0083F0D9 /* Assets.xcassets */,
 				34BB4C90281A67BE0083F0D9 /* Preview Content */,
+				3435B74B281D181A0038E332 /* ModelData.swift */,
+				3435B74D281D189D0038E332 /* Document.swift */,
+				3435B74F281D19B60038E332 /* DocumentList.json */,
 			);
 			path = SwiftDocument;
 			sourceTree = "<group>";
@@ -258,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34BB4C92281A67BE0083F0D9 /* Preview Assets.xcassets in Resources */,
+				3435B750281D19B60038E332 /* DocumentList.json in Resources */,
 				34BB4C8F281A67BE0083F0D9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,8 +294,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				34BB4CB8281A7AD20083F0D9 /* SearchBarView.swift in Sources */,
+				3435B74C281D181A0038E332 /* ModelData.swift in Sources */,
 				34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */,
 				34BB4CC0281C21E50083F0D9 /* DocWebView.swift in Sources */,
+				3435B74E281D189D0038E332 /* Document.swift in Sources */,
 				34BB4CB5281A68510083F0D9 /* DocView.swift in Sources */,
 				34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */,
 				34BB4CBC281AF6170083F0D9 /* MemoView.swift in Sources */,

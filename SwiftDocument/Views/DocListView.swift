@@ -12,7 +12,7 @@ struct DocListView: View {
         ScrollView {
             VStack {
                 ForEach(1...10, id: \.self) {index in
-                    DocListRow()
+                    DocListRow(document: documents[index])
                         .padding(.horizontal)
                 }
             }

@@ -1,0 +1,16 @@
+[
+ {
+   "id": 1001,
+   "category": "HIG",
+   "title": "Tab Bars",
+   "subtitle": "A tab bar appears at the bottom of a screen, helping people understand the types of information or functionality an app provides.",
+   "link" : ""
+ },
+ {
+   "id": 1002,
+   "category": "SwiftUI",
+   "title": "TabView",
+   "subtitle": "A view that switches between multiple child views using interactive user interface elements.",
+   "link" : ""
+ }
+]
