@@ -37,7 +37,7 @@ struct DocListRow: View {
                         .font(.system(size: 18))
                         .foregroundColor(Color.black)
                         .padding(.leading, 10)
-                        .offset(x: 2)
+                        .offset(x: 1)
                     
                     Text(document.subtitle)
                         .font(.system(size: 10))
@@ -45,7 +45,7 @@ struct DocListRow: View {
                         .lineLimit(2)
                         .foregroundColor(Color("listSubHeadline"))
                         .padding(.horizontal, 10)
-                        .offset(x: 4)
+                        .offset(x: 3)
                     Spacer()
                 } // VStack
                 
