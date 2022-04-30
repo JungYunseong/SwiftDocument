@@ -218,479 +218,381 @@
  },
  {
    "id": 11033,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Ratings and Reviews",
+   "subtitle": "Ratings and reviews help people make informed decisions when considering whether to try out your app.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/ratings-and-reviews/"
  },
  {
    "id": 11034,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Screenshots",
+   "subtitle": "A user can capture what’s displayed on their screen by taking a screenshot.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/screenshots/"
  },
  {
    "id": 11035,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "TV Providers",
+   "subtitle": "Your app can integrate with the TV app and TV Provider Authentication to offer people a highly convenient and consistent entertainment experience.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/system-capabilities/tv-providers/"
  },
  {
    "id": 11036,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Adaptivity and Layout",
+   "subtitle": "People generally want to be able to use their favorite apps on all of their devices and in any context.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/"
  },
  {
    "id": 11037,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Animation",
+   "subtitle": "Beautiful, subtle animation throughout iOS builds a visual sense of connection between people and content onscreen.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/animation/"
  },
  {
    "id": 11038,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Branding",
+   "subtitle": "Successful branding involves more than just adding brand assets to your app. Great apps express unique brand identity through smart font, color, and image decisions.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/branding/"
  },
  {
    "id": 11039,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Color",
+   "subtitle": "Color is a great way to impart vitality, provide visual continuity, communicate status information, give feedback in response to user actions, and help people visualize data.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/"
  },
  {
    "id": 11040,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Dark Mode",
+   "subtitle": "In iOS 13.0 and later, people can choose to adopt a dark system-wide appearance called Dark Mode.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/"
  },
  {
    "id": 11041,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Launch Screen",
+   "subtitle": "A launch screen appears instantly when your app starts up and is quickly replaced with the app's first screen, giving the impression that your app is fast and responsive.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/launch-screen/"
  },
  {
    "id": 11042,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Materials",
+   "subtitle": "iOS provides materials (or blur effects) that create a translucent effect you can use to evoke a sense of depth.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/materials/"
  },
  {
    "id": 11043,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Terminology",
+   "subtitle": "Every word in your app is part of a conversation with your users. Use this conversation to help them feel comfortable in your app.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/terminology/"
  },
  {
    "id": 11044,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Typography",
+   "subtitle": "Apple provides two type families you can use in your iOS apps.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/typography/"
  },
  {
    "id": 11045,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Video",
+   "subtitle": "The system-provided video player offers two viewing modes: full-screen (aspect fill) and fit-to-screen (aspect).",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/video/"
  },
  {
    "id": 11046,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Image Size and Resolution",
+   "subtitle": "The coordinate system iOS uses to place content onscreen is based on measurements in points, which map to pixels in the display.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/image-size-and-resolution/"
  },
  {
    "id": 11047,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "App Icon",
+   "subtitle": "Every app needs a beautiful and memorable icon that attracts attention in the App Store and stands out on the Home screen.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/"
  },
  {
    "id": 11048,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "System Icons (iOS 12 and Earlier)",
+   "subtitle": "In iOS 13 or later, prefer using SF Symbols to represent tasks and types of content in your app.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/system-icons/"
  },
  {
    "id": 11049,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Navigation Bars",
+   "subtitle": "A navigation bar appears at the top of an app screen, below the status bar, and enables navigation through a series of hierarchical screens.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/navigation-bars/"
  },
  {
    "id": 11050,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Search Bars",
+   "subtitle": "A search bar allows people to search through a large collection of values by typing text into a field.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/search-bars/"
  },
  {
    "id": 11051,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Sidebars",
+   "subtitle": "A sidebar provides app-level navigation and quick access to top-level collections of content in your app.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/sidebars/"
  },
  {
    "id": 11052,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Status Bars",
+   "subtitle": "The status bar appears along the upper edge of the screen and displays useful information about the device’s current state, like the time, cellular carrier, and battery level.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/status-bars/"
  },
  {
    "id": 11053,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Tab Bars",
+   "subtitle": "A tab bar appears at the bottom of a screen, helping people understand the types of information or functionality an app provides.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/tab-bars/"
  },
  {
    "id": 11054,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Toolbars",
+   "subtitle": "A toolbar appears at the bottom of a screen and contains buttons for performing actions relevant to the current view.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/bars/toolbars/"
  },
  {
    "id": 11055,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Action Sheets",
+   "subtitle": "An action sheet presents two or more choices related to an intentional user action.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/action-sheets/"
  },
  {
    "id": 11056,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Activity Views",
+   "subtitle": "An activity is a task, such as Copy, Favorite, or Find, that’s useful in the current context. ",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/activity-views/"
  },
  {
    "id": 11057,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Alerts",
+   "subtitle": "Alerts convey important information related to the state of your app or the device.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/alerts/"
  },
  {
    "id": 11058,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Collections",
+   "subtitle": "A collection manages an ordered set of content, such as a set of photos, and presents it in a customizable and highly visual layout.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/collections/"
  },
  {
    "id": 11059,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Image Views",
+   "subtitle": "An image view displays a single image or an animated sequence of images over a transparent or opaque background.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/image-views/"
  },
  {
    "id": 11060,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Pages",
+   "subtitle": "A page view controller provides a way to implement linear navigation between pages of content, such as in a document, book, notepad, or calendar.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/pages/"
  },
  {
    "id": 11061,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Popovers",
+   "subtitle": "A popover is a transient view that appears above other content onscreen when you tap a control or in an area.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/popovers/"
  },
  {
    "id": 11062,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Scroll Views",
+   "subtitle": "A scroll view allows users to browse content, such as text in a document or a collection of images, that’s larger than the visible area.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/scroll-views/"
  },
  {
    "id": 11063,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Sheets",
+   "subtitle": "A sheet helps people perform a distinct task that’s related to the parent view without taking them away from their current context.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/sheets/"
  },
  {
    "id": 11064,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Split Views",
+   "subtitle": "A split view manages the presentation of hierarchical content at the top level of your app.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/split-views/"
  },
  {
    "id": 11065,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Tables",
+   "subtitle": "A table presents data as a scrolling, single-column list of rows that can be divided into sections or groups.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/tables/"
  },
  {
    "id": 11066,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Text Views",
+   "subtitle": "A text view displays multiline, styled text content. Text views can be any height and enable scrolling when the content extends outside of the view.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/text-views/"
  },
  {
    "id": 11067,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Web Views",
+   "subtitle": "A web view loads and displays rich web content, such as embedded HTML and websites, directly within your app.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/views/web-views/"
  },
  {
    "id": 11068,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Buttons",
+   "subtitle": "The system offers a range of button styles that support extensive customization while providing built-in interaction states, accessibility support, and appearance adaptation.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/buttons/"
  },
  {
    "id": 11069,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Color Wells",
+   "subtitle": "When tapped, a color well displays the system-provided color picker. People can use the color picker to choose a color for text, shapes, marking tools, and other elements.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/color-wells/"
  },
  {
    "id": 11070,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Context Menus",
+   "subtitle": "In iOS 13 and later, you can use context menus to give people access to additional functionality related to onscreen items without cluttering the interface.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/"
  },
  {
    "id": 11071,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Edit Menus",
+   "subtitle": "People can touch and hold or double-tap an element in a text field, a text view, a web view, or an image view to select content and reveal edit options, such as Copy and Paste.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/edit-menus/"
  },
  {
    "id": 11072,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Labels",
+   "subtitle": "A label describes an onscreen interface element or provides a short message. Although people can’t edit labels, they can sometimes copy the content of labels.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/labels/"
  },
  {
    "id": 11073,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Page Controls",
+   "subtitle": "A page control displays a row of indicator images, each of which represents a page in a flat list.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/page-controls/"
  },
  {
    "id": 11074,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Pickers",
+   "subtitle": "A picker can display one or more scrollable lists of distinct values from which people can choose.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/pickers/"
  },
  {
    "id": 11075,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Progress Indicators",
+   "subtitle": "Don’t make people sit around staring at a static screen waiting for your app to load content or perform lengthy data processing operations.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/progress-indicators/"
  },
  {
    "id": 11076,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Refresh Content Controls",
+   "subtitle": "A refresh control is manually initiated to immediately reload content, typically in a table view, without waiting for the next automatic content update to occur.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/refresh-content-controls/"
  },
  {
    "id": 11077,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Segmented Controls",
+   "subtitle": "A segmented control is a linear set of two or more segments, each of which functions as a mutually exclusive button.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/segmented-controls/"
  },
  {
    "id": 11078,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Sliders",
+   "subtitle": "A slider is a horizontal track with a control called a thumb, which you can slide with your finger to move between a minimum and maximum value, such as screen brightness level or position during media playback.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/sliders/"
  },
  {
    "id": 11079,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Steppers",
+   "subtitle": "A stepper is a two-segment control used to increase or decrease an incremental value.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/steppers/"
  },
  {
    "id": 11080,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Switches",
+   "subtitle": "A switch is a visual toggle between two mutually exclusive states — on and off.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/switches/"
  },
  {
    "id": 11081,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Text Fields",
+   "subtitle": "A text field is a single-line, fixed-height field that automatically brings up a keyboard when people tap it.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/controls/text-fields/"
  },
  {
    "id": 11082,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Custom Keyboards",
+   "subtitle": "You can provide a custom keyboard by creating a keyboard extension that replaces the standard keyboard.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/custom-keyboards/"
  },
  {
    "id": 11083,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "File Providers",
+   "subtitle": "A file provider extension implements a custom interface for importing, exporting, opening, or moving an app’s documents from within other apps on the system.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/file-providers/"
  },
  {
    "id": 11084,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Messaging",
+   "subtitle": "iMessage apps and Sticker packs are messaging extensions that let people share content with friends, communicate expressively, and share collaborative experiences.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/messaging/"
  },
  {
    "id": 11085,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Photo Editing",
+   "subtitle": "Photo editing extensions let people modify photos and videos within the Photos app by applying filters or making other changes.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/photo-editing/"
  },
  {
    "id": 11086,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11087,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11088,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11089,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11090,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11091,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11092,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11093,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11094,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11095,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11096,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11097,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11098,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11099,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
- },
- {
-   "id": 11100,
-   "category": "",
-   "title": "",
-   "subtitle": "",
-   "link" : ""
+   "category": "HIG",
+   "title": "Sharing and Actions",
+   "subtitle": "Share extensions provide a convenient way to share information from the current context with apps, social media accounts, and other services.",
+   "link" : "https://developer.apple.com/design/human-interface-guidelines/ios/extensions/sharing-and-actions/"
  },
  {
    "id": 21001,
