@@ -26,7 +26,7 @@ struct DocListRow: View {
                         .foregroundColor(Color.white)
                         .padding(.horizontal, 8)
                         .padding(.vertical, 1)
-                        .background(Color("mOrange"))
+                        .background(Color(document.category))
                         .clipShape(Capsule())
                         .padding([.leading, .top], 10)
                     
