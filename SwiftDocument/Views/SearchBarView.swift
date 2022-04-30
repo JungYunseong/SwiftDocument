@@ -13,12 +13,14 @@ struct SearchBarView: View {
     var body: some View {
         HStack {
             Image(systemName: "magnifyingglass")
+                .font(.system(size: 17))
                 .foregroundColor(
                     searchKeyword.isEmpty ? Color("searchBarText") : Color.black
                 )
             ZStack(alignment: .leading) {
                 if searchKeyword.isEmpty {
                     Text("Search")
+                        .font(.system(size: 17))
                         .foregroundColor(Color("searchBarText"))
                 }
                 TextField("", text: $searchKeyword)
