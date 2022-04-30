@@ -3029,5 +3029,103 @@
       "title": "LibraryItem",
       "subtitle": "A single item to add to the Xcode library.",
       "link" : "https://developer.apple.com/documentation/DeveloperToolsSupport/LibraryItem"
-    }
+    },
+    {
+       "id": 22001,
+       "category": "UIKit",
+       "title": "UIApplication",
+       "subtitle": "The centralized point of control and coordination for apps running in iOS.",
+       "link" : "https://developer.apple.com/documentation/uikit/uiapplication"
+     },
+     {
+       "id": 22002,
+       "category": "UIKit",
+       "title": "UIApplicationDelegate",
+       "subtitle": "A set of methods to manage shared behaviors for your app.",
+       "link" : "https://developer.apple.com/documentation/uikit/uiapplicationdelegate"
+     },
+     {
+       "id": 22003,
+      "category": "UIKit",
+       "title": "Scenes",
+       "subtitle": "Manage multiple instances of your app’s UI simultaneously, and direct resources to the appropriate instance of your UI.",
+       "link" : "https://developer.apple.com/documentation/uikit/app_and_environment/scenes"
+     },
+     {
+       "id": 22004,
+      "category": "UIKit",
+       "title": "Multitasking on iPad",
+       "subtitle": "Implement multitasking APIs to seamlessly integrate your app with iPadOS.",
+       "link" : "https://developer.apple.com/documentation/uikit/app_and_environment/multitasking_on_ipad"
+     },
+     {
+       "id": 22005,
+      "category": "UIKit",
+       "title": "UIDevice",
+       "subtitle": "A representation of the current device.",
+       "link" : "https://developer.apple.com/documentation/uikit/uidevice"
+     },
+     {
+       "id": 22006,
+      "category": "UIKit",
+       "title": "UIStatusBarManager",
+       "subtitle": "An object that describes the configuration of the status bar.",
+       "link" : "https://developer.apple.com/documentation/uikit/uistatusbarmanager"
+     },
+     {
+       "id": 22007,
+      "category": "UIKit",
+       "title": "UITraitCollection",
+       "subtitle": "The iOS interface environment for your app, including traits such as horizontal and vertical size class, display scale, and user interface idiom.",
+       "link" : "https://developer.apple.com/documentation/uikit/uitraitcollection"
+     },
+     {
+       "id": 22008,
+      "category": "UIKit",
+       "title": "UITraitEnvironment",
+       "subtitle": "A set of methods that makes the iOS interface environment available to your app.",
+       "link" : "https://developer.apple.com/documentation/uikit/uitraitenvironment"
+     },
+     {
+       "id": 22009,
+      "category": "UIKit",
+       "title": "UITraitEnvironment",
+       "subtitle": "A set of methods that makes the iOS interface environment available to your app.",
+       "link" : "https://developer.apple.com/documentation/uikit/uitraitenvironment"
+     },
+     {
+       "id": 22010,
+      "category": "UIKit",
+       "title": "UIAdaptivePresentationControllerDelegate",
+       "subtitle": "A set of methods that, in conjunction with a presentation controller, determine how to respond to trait changes in your app.",
+       "link" : "https://developer.apple.com/documentation/uikit/uiadaptivepresentationcontrollerdelegate"
+     },
+     {
+       "id": 22011,
+      "category": "UIKit",
+       "title": "UIContentContainer",
+       "subtitle": "A set of methods for adapting the contents of your view controllers to size and trait changes.",
+       "link" : "https://developer.apple.com/documentation/uikit/uicontentcontainer"
+     },
+     {
+       "id": 22012,
+      "category": "UIKit",
+       "title": "UIGuidedAccessRestrictionDelegate",
+       "subtitle": "A set of methods you use to add custom restrictions for the Guided Access feature in iOS.",
+       "link" : "https://developer.apple.com/documentation/uikit/uiguidedaccessrestrictiondelegate"
+     },
+     {
+       "id": 22013,
+      "category": "UIKit",
+       "title": "guidedAccessRestrictionState(forIdentifier:)",
+       "subtitle": "Returns the restriction state for the specified guided access restriction.",
+       "link" : "https://developer.apple.com/documentation/uikit/uiaccessibility/1621153-guidedaccessrestrictionstate"
+     },
+     {
+       "id": 22014,
+      "category": "UIKit",
+       "title": "UIApplicationMain(_:_:_:_:)",
+       "subtitle": "Creates the application object and the application delegate and sets up the event cycle.",
+       "link" : "https://developer.apple.com/documentation/uikit/1622933-uiapplicationmain"
+     }
 ]

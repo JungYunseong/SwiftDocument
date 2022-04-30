@@ -9,9 +9,13 @@ import SwiftUI
 
 struct MemoView: View {
     var body: some View {
-        VStack {
-            SearchBarView()
-            Spacer()
+        ZStack {
+            Color("background")
+                .edgesIgnoringSafeArea(.top)
+            VStack {
+                SearchBarView()
+                Spacer()
+            }
         }
     }
 }
