@@ -23,6 +23,7 @@
 		34C21208281E87D60064C854 /* CategoryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 34C21207281E87D60064C854 /* CategoryList.json */; };
 		34C2120A281E88E40064C854 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C21209281E88E40064C854 /* Category.swift */; };
 		34C2120C281E898C0064C854 /* DocCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2120B281E898C0064C854 /* DocCategoryView.swift */; };
+		34C2120E281E9AB00064C854 /* TodayHIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2120D281E9AB00064C854 /* TodayHIG.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		34C21207281E87D60064C854 /* CategoryList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CategoryList.json; sourceTree = "<group>"; };
 		34C21209281E88E40064C854 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		34C2120B281E898C0064C854 /* DocCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCategoryView.swift; sourceTree = "<group>"; };
+		34C2120D281E9AB00064C854 /* TodayHIG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayHIG.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				34BB4CB9281AF5670083F0D9 /* DocListView.swift */,
 				34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */,
 				34C2120B281E898C0064C854 /* DocCategoryView.swift */,
+				34C2120D281E9AB00064C854 /* TodayHIG.swift */,
 				34BB4CBF281C21E50083F0D9 /* DocWebView.swift */,
 			);
 			path = Views;
@@ -301,6 +304,7 @@
 				34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */,
 				34C2120A281E88E40064C854 /* Category.swift in Sources */,
 				34BB4CC0281C21E50083F0D9 /* DocWebView.swift in Sources */,
+				34C2120E281E9AB00064C854 /* TodayHIG.swift in Sources */,
 				3435B74E281D189D0038E332 /* Document.swift in Sources */,
 				34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */,
 				34BB4CBE281BAC2A0083F0D9 /* DocListRow.swift in Sources */,
@@ -471,6 +475,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,6 +505,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -10,9 +10,9 @@
 	<key>UILaunchScreen</key>
 	<dict>
 		<key>UIColorName</key>
-		<string>launchScreenBackground2</string>
+		<string>launchScreenBackground1</string>
 		<key>UIImageName</key>
-		<string>signiture2</string>
+		<string>signiture1</string>
 		<key>UILaunchScreen</key>
 		<dict/>
 	</dict>
