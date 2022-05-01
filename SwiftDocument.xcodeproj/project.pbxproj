@@ -18,7 +18,6 @@
 		34BB4CA6281A67BE0083F0D9 /* SwiftDocumentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CA5281A67BE0083F0D9 /* SwiftDocumentUITests.swift */; };
 		34BB4CA8281A67BE0083F0D9 /* SwiftDocumentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CA7281A67BE0083F0D9 /* SwiftDocumentUITestsLaunchTests.swift */; };
 		34BB4CBA281AF5670083F0D9 /* DocListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CB9281AF5670083F0D9 /* DocListView.swift */; };
-		34BB4CBC281AF6170083F0D9 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CBB281AF6170083F0D9 /* MemoView.swift */; };
 		34BB4CBE281BAC2A0083F0D9 /* DocListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */; };
 		34BB4CC0281C21E50083F0D9 /* DocWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CBF281C21E50083F0D9 /* DocWebView.swift */; };
 		34C21208281E87D60064C854 /* CategoryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 34C21207281E87D60064C854 /* CategoryList.json */; };
@@ -59,7 +58,6 @@
 		34BB4CA5281A67BE0083F0D9 /* SwiftDocumentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocumentUITests.swift; sourceTree = "<group>"; };
 		34BB4CA7281A67BE0083F0D9 /* SwiftDocumentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocumentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		34BB4CB9281AF5670083F0D9 /* DocListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocListView.swift; sourceTree = "<group>"; };
-		34BB4CBB281AF6170083F0D9 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
 		34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocListRow.swift; sourceTree = "<group>"; };
 		34BB4CBF281C21E50083F0D9 /* DocWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocWebView.swift; sourceTree = "<group>"; };
 		34C21207281E87D60064C854 /* CategoryList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CategoryList.json; sourceTree = "<group>"; };
@@ -158,7 +156,6 @@
 		34BB4CB6281A68550083F0D9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				34BB4CBB281AF6170083F0D9 /* MemoView.swift */,
 				34BB4CB9281AF5670083F0D9 /* DocListView.swift */,
 				34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */,
 				34C2120B281E898C0064C854 /* DocCategoryView.swift */,
@@ -306,7 +303,6 @@
 				34BB4CC0281C21E50083F0D9 /* DocWebView.swift in Sources */,
 				3435B74E281D189D0038E332 /* Document.swift in Sources */,
 				34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */,
-				34BB4CBC281AF6170083F0D9 /* MemoView.swift in Sources */,
 				34BB4CBE281BAC2A0083F0D9 /* DocListRow.swift in Sources */,
 				34BB4CBA281AF5670083F0D9 /* DocListView.swift in Sources */,
 			);

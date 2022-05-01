@@ -23,7 +23,7 @@ struct DocCategoryView: View {
                 Capsule()
                     .stroke(.gray, lineWidth: isActivated ? 0 : 2)
             )
-            .background(isActivated ? Color(category.category) : Color.white)
+            .background(isActivated ? Color(category.category) : Color("searchBarBackground"))
                     .clipShape(Capsule())
             .onTapGesture {
                 print(category.category)

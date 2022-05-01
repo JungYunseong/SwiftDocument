@@ -9,16 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    enum Tabs: String {
-        case Doc = "Document"
-        case Memo = "Memo"
-    }
-    
     init() {
         UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: 21)]
     }
     
-    @State var tabSelection: Tabs = .Doc
     @State var searchKeyword: String = ""
     
     var filteredKeyword: [Document] {
@@ -30,19 +24,8 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            TabView(selection: $tabSelection) {
                 DocListView(category: categories[0], document: documents[0], filteredKeyword: .constant(filteredKeyword))
-                    .tabItem {
-                        Image(systemName: "note.text")
-                        Text("Doc")
-                    }.tag(Tabs.Doc)
-                MemoView()
-                    .tabItem {
-                        Image(systemName: "square.and.pencil")
-                        Text("Memo")
-                    }.tag(Tabs.Memo)
-            }
-            .navigationBarTitle(self.tabSelection.rawValue, displayMode: .inline)
+            .navigationBarTitle("Document", displayMode: .inline)
             .accentColor(Color("mOrange"))
         }
         .searchable(text: $searchKeyword) {
