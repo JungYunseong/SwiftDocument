@@ -29,9 +29,3 @@ struct DocWebView: UIViewRepresentable {
     }
     
 }
-
-struct DocWebView_Previews: PreviewProvider {
-    static var previews: some View {
-        DocWebView(document: documents[0])
-    }
-}

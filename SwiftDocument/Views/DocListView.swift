@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct DocListView: View {
+    
     var body: some View {
         ScrollView {
-            VStack {
-                ForEach(documents, id: \.id) {doc in
-                    DocListRow(document: doc)
-                        .padding(.horizontal)
+            ZStack {
+                Color("background")
+                VStack {
+                    ForEach(documents, id: \.id) {doc in
+                        DocListRow(document: doc)
+                            .padding(.horizontal)
+                    }
                 }
             }
         }

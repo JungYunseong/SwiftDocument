@@ -19,11 +19,19 @@ struct ContentView: View {
     }
     
     @State var tabSelection: Tabs = .Doc
+    @State var searchKeyword: String = ""
+    
+    var filteredKeyword: [Document] {
+        if searchKeyword == "" { return documents }
+        return documents.filter {
+            $0.title.lowercased().contains(searchKeyword.lowercased())
+        }
+    }
     
     var body: some View {
         NavigationView {
             TabView(selection: $tabSelection) {
-                DocView()
+                DocListView()
                     .tabItem {
                         Image(systemName: "note.text")
                         Text("Doc")
@@ -36,6 +44,9 @@ struct ContentView: View {
             }
             .navigationBarTitle(self.tabSelection.rawValue, displayMode: .inline)
             .accentColor(Color("mOrange"))
+        }
+        .searchable(text: $searchKeyword) {
+            
         }
         .accentColor(Color("mOrange"))
     }

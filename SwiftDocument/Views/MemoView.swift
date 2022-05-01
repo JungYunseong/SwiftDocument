@@ -12,10 +12,6 @@ struct MemoView: View {
         ZStack {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
-            VStack {
-                SearchBarView()
-                Spacer()
-            }
         }
     }
 }
