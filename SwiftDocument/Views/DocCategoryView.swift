@@ -9,9 +9,9 @@ import SwiftUI
 
 struct DocCategoryView: View {
     
-    @State private var isActivated: Bool = true
-    
     var category: Category
+    
+    @State private var isActivated: Bool = true
     
     var body: some View {
         Text(category.category)
@@ -27,7 +27,9 @@ struct DocCategoryView: View {
                     .clipShape(Capsule())
             .onTapGesture {
                 print(category.category)
+                withAnimation {
                 self.isActivated.toggle()
+                }
             }
     }
 }

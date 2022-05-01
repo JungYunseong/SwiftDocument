@@ -14,18 +14,19 @@ struct DocListView: View {
     @Binding var filteredKeyword: [Document]
     
     var body: some View {
-        VStack {
-            ScrollView(.horizontal) {
-                HStack {
-                    ForEach(categories, id: \.id) {cat in
-                        DocCategoryView(category: cat)
+        ZStack {
+            Color("background")
+                .edgesIgnoringSafeArea(.top)
+            VStack {
+                ScrollView(.horizontal) {
+                    HStack {
+                        ForEach(categories, id: \.id) {cat in
+                            DocCategoryView(category: cat)
+                        }
                     }
                 }
-            }
-            .padding(.horizontal)
-            ScrollView {
-                ZStack {
-                    Color("background")
+                .padding(.horizontal)
+                ScrollView {
                     VStack {
                         ForEach(filteredKeyword, id: \.id) {doc in
                             DocListRow(document: doc)
@@ -33,8 +34,8 @@ struct DocListView: View {
                         }
                     }
                 }
+                .padding(.bottom)
             }
-            .padding(.bottom)
         }
     }
 }
