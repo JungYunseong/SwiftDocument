@@ -16,7 +16,7 @@ struct DocListView: View {
     var body: some View {
         ZStack {
             Color("background")
-                .edgesIgnoringSafeArea(.all)
+                .edgesIgnoringSafeArea(.top)
             VStack {
                 ScrollView(.horizontal) {
                     HStack {
@@ -36,6 +36,7 @@ struct DocListView: View {
                 }
             }
         }
+        .padding(.bottom)
     }
 }
 

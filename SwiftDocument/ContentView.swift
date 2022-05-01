@@ -9,10 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     
+    enum Tabs: String {
+        case Doc = "Document"
+        case Memo = "Memo"
+    }
+    
     init() {
         UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: 21)]
     }
     
+    @State var tabSelection: Tabs = .Doc
     @State private var isCustomViewPresented = false
     @State private var showingProfileEditor = false
     @State var searchKeyword: String = ""
@@ -26,30 +32,42 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            DocListView(category: categories[0], document: documents[0], filteredKeyword: .constant(filteredKeyword))
-                .navigationBarTitle("Document", displayMode: .inline)
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button {
-                            isCustomViewPresented.toggle()
-                        } label: {
-                            Image(systemName: "doc.text.image")
-                        }
-                        .fullScreenCover(isPresented: $isCustomViewPresented,
-                                         content: {
-                            HStack {
-                                Spacer()
-                                Button(action: { isCustomViewPresented.toggle() },
-                                       label: {
-                                    Text("Done")
-                                        .foregroundColor(Color("mOrange"))
-                                        .padding(.horizontal)
-                                })
-                            }
-                            TodayHIG()
-                        })
+            TabView(selection: $tabSelection) {
+                DocListView(category: categories[0], document: documents[0], filteredKeyword: .constant(filteredKeyword))
+                    .tabItem {
+                        Image(systemName: "note.text")
+                        Text("Doc")
+                    }.tag(Tabs.Doc)
+                MemoView()
+                    .tabItem {
+                        Image(systemName: "square.and.pencil")
+                        Text("Memo")
+                    }.tag(Tabs.Memo)
+            }
+            .navigationBarTitle(self.tabSelection.rawValue, displayMode: .inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        isCustomViewPresented.toggle()
+                    } label: {
+                        Image(systemName: "doc.text.image")
                     }
+                    .fullScreenCover(isPresented: $isCustomViewPresented,
+                                     content: {
+                        HStack {
+                            Spacer()
+                            Button(action: { isCustomViewPresented.toggle() },
+                                   label: {
+                                Text("Done")
+                                    .foregroundColor(Color("mOrange"))
+                                    .padding(.horizontal)
+                            })
+                        }
+                        TodayHIG()
+                            .edgesIgnoringSafeArea(.bottom)
+                    })
                 }
+            }
         }
         .searchable(text: $searchKeyword) {
             
