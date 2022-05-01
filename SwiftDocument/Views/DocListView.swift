@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct DocListView: View {
+
+    @Binding var filteredKeyword: [Document]
     
     var body: some View {
         ScrollView {
             ZStack {
                 Color("background")
                 VStack {
-                    ForEach(documents, id: \.id) {doc in
+                    ForEach(filteredKeyword, id: \.id) {doc in
                         DocListRow(document: doc)
                             .padding(.horizontal)
                     }
@@ -27,6 +29,6 @@ struct DocListView: View {
 
 struct DocListView_Previews: PreviewProvider {
     static var previews: some View {
-        DocListView()
+        DocListView(filteredKeyword: .constant(documents))
     }
 }

@@ -31,7 +31,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             TabView(selection: $tabSelection) {
-                DocListView()
+                DocListView(filteredKeyword: .constant(filteredKeyword))
                     .tabItem {
                         Image(systemName: "note.text")
                         Text("Doc")
