@@ -1,0 +1,18 @@
+[
+ {
+   "id": 11000,
+   "category": "HIG",
+ },
+ {
+   "id": 12000,
+   "category": "Sketch",
+ },
+ {
+   "id": 21000,
+   "category": "SwiftUI",
+ },
+ {
+   "id": 22000,
+   "category": "UIKit",
+ }
+]

@@ -21,6 +21,9 @@
 		34BB4CBC281AF6170083F0D9 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CBB281AF6170083F0D9 /* MemoView.swift */; };
 		34BB4CBE281BAC2A0083F0D9 /* DocListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */; };
 		34BB4CC0281C21E50083F0D9 /* DocWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4CBF281C21E50083F0D9 /* DocWebView.swift */; };
+		34C21208281E87D60064C854 /* CategoryList.json in Resources */ = {isa = PBXBuildFile; fileRef = 34C21207281E87D60064C854 /* CategoryList.json */; };
+		34C2120A281E88E40064C854 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C21209281E88E40064C854 /* Category.swift */; };
+		34C2120C281E898C0064C854 /* DocCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2120B281E898C0064C854 /* DocCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		34BB4CBB281AF6170083F0D9 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
 		34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocListRow.swift; sourceTree = "<group>"; };
 		34BB4CBF281C21E50083F0D9 /* DocWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocWebView.swift; sourceTree = "<group>"; };
+		34C21207281E87D60064C854 /* CategoryList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CategoryList.json; sourceTree = "<group>"; };
+		34C21209281E88E40064C854 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		34C2120B281E898C0064C854 /* DocCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +123,9 @@
 				34BB4C90281A67BE0083F0D9 /* Preview Content */,
 				3435B74B281D181A0038E332 /* ModelData.swift */,
 				3435B74D281D189D0038E332 /* Document.swift */,
+				34C21209281E88E40064C854 /* Category.swift */,
 				3435B74F281D19B60038E332 /* DocumentList.json */,
+				34C21207281E87D60064C854 /* CategoryList.json */,
 			);
 			path = SwiftDocument;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 				34BB4CBB281AF6170083F0D9 /* MemoView.swift */,
 				34BB4CB9281AF5670083F0D9 /* DocListView.swift */,
 				34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */,
+				34C2120B281E898C0064C854 /* DocCategoryView.swift */,
 				34BB4CBF281C21E50083F0D9 /* DocWebView.swift */,
 			);
 			path = Views;
@@ -265,6 +274,7 @@
 				34BB4C92281A67BE0083F0D9 /* Preview Assets.xcassets in Resources */,
 				3435B750281D19B60038E332 /* DocumentList.json in Resources */,
 				34BB4C8F281A67BE0083F0D9 /* Assets.xcassets in Resources */,
+				34C21208281E87D60064C854 /* CategoryList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3435B74C281D181A0038E332 /* ModelData.swift in Sources */,
+				34C2120C281E898C0064C854 /* DocCategoryView.swift in Sources */,
 				34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */,
+				34C2120A281E88E40064C854 /* Category.swift in Sources */,
 				34BB4CC0281C21E50083F0D9 /* DocWebView.swift in Sources */,
 				3435B74E281D189D0038E332 /* Document.swift in Sources */,
 				34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */,

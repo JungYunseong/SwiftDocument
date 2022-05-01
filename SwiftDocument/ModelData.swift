@@ -8,6 +8,7 @@
 import Foundation
 
 var documents: [Document] = load("DocumentList.json")
+var categories: [Category] = load("CategoryList.json")
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
