@@ -90,7 +90,7 @@ struct ContentView: View {
                 }
             }
         }
-        .searchable(text: $searchMemoKeyword)
+        .searchable(text: tabSelection == Tabs.Doc ? $searchDocKeyword : $searchMemoKeyword)
         .accentColor(Color("mOrange"))
     }
 }
