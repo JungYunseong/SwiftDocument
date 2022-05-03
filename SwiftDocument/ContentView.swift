@@ -20,7 +20,7 @@ struct ContentView: View {
     
     @State var tabSelection: Tabs = .Doc
     @State private var isCustomViewPresented = false
-    @State private var showingProfileEditor = false
+    @State private var showComposer: Bool = false
     @State var searchKeyword: String = ""
     
     var filteredKeyword: [Document] {
@@ -46,26 +46,35 @@ struct ContentView: View {
             }
             .navigationBarTitle(self.tabSelection.rawValue, displayMode: .inline)
             .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
+                if tabSelection == Tabs.Doc {
                     Button {
-                        isCustomViewPresented.toggle()
-                    } label: {
-                        Image(systemName: "doc.text.image")
-                    }
-                    .fullScreenCover(isPresented: $isCustomViewPresented,
-                                     content: {
-                        HStack {
-                            Spacer()
-                            Button(action: { isCustomViewPresented.toggle() },
-                                   label: {
-                                Text("Done")
-                                    .foregroundColor(Color("mOrange"))
-                                    .padding(.horizontal)
-                            })
+                            isCustomViewPresented.toggle()
+                        } label: {
+                            Image(systemName: "doc.text.image")
                         }
-                        DocWebView(document: documents[Int.random(in: 1..<85)])
-                            .edgesIgnoringSafeArea(.bottom)
+                        .fullScreenCover(isPresented: $isCustomViewPresented,
+                                         content: {
+                            HStack {
+                                Spacer()
+                                Button(action: { isCustomViewPresented.toggle() },
+                                       label: {
+                                    Text("Done")
+                                        .foregroundColor(Color("mOrange"))
+                                        .padding(.horizontal)
+                                })
+                            }
+                            DocWebView(document: documents[Int.random(in: 1..<85)])
+                                .edgesIgnoringSafeArea(.bottom)
                     })
+                } else if tabSelection == Tabs.Memo {
+                    Button {
+                        showComposer = true
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                    .sheet(isPresented: $showComposer) {
+                        ComposeView()
+                    }
                 }
             }
         }

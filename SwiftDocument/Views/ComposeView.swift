@@ -33,7 +33,6 @@ struct ComposeView: View {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
                         store.insert(memo: content)
-                        
                         dismiss()
                     } label: {
                         Text("Save")
@@ -41,6 +40,7 @@ struct ComposeView: View {
                 }
             }
         }
+        .accentColor(Color("mOrange"))
     }
 }
 
