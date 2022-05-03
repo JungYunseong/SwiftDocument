@@ -16,14 +16,17 @@ struct MemoView: View {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
             
-                List(store.list) {memo in
+            List {
+                ForEach(store.list) {memo in
                     NavigationLink {
                         DetailView(memo: memo)
                     } label: {
                         MemoCell(memo: memo)
                     }
                 }
-                .listStyle(.plain)
+                .onDelete(perform: store.delete)
+            }
+            .listStyle(.plain)
         }
     }
 }
