@@ -12,14 +12,14 @@ class MemoStore: ObservableObject {
     
     init() {
         list = [
-            Memo(memoTitle: "Text()", content: "Hello", insertDate: Date.now),
-            Memo(memoTitle: "tabView()", content: "Awesome", insertDate: Date.now.addingTimeInterval(3600 * -24)),
-            Memo(memoTitle: "Tab Bars()", content: "Hello", insertDate: Date.now.addingTimeInterval(3600 * -48))
+            Memo(memoTitle: "Search Bars", content: "SwiftUI에서는 어떻게 구현하는지 알아보자!", insertDate: Date.now),
+            Memo(memoTitle: "Scroll Views", content: "집에가서 Scroll View에 대해 한번더 읽어보자", insertDate: Date.now.addingTimeInterval(3600 * -24)),
+            Memo(memoTitle: "TextField", content: "Secure TextField의 경우는 어떻게 구현하는지 아카데미 멘토분께 물어봐야지", insertDate: Date.now.addingTimeInterval(3600 * -48))
         ]
     }
     
-    func insert(memo: String) {
-        list.insert(Memo(memoTitle: memo, content: memo), at: 0)
+    func insert(memoTitle: String, content: String) {
+        list.insert(Memo(memoTitle: memoTitle, content: content), at: 0)
     }
     
     func update(memo: Memo?, memoTitle: String, content: String) {

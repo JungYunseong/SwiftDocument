@@ -31,6 +31,7 @@
 		34C2120A281E88E40064C854 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C21209281E88E40064C854 /* Category.swift */; };
 		34C2120C281E898C0064C854 /* DocCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2120B281E898C0064C854 /* DocCategoryView.swift */; };
 		34C21210281EA5370064C854 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C2120F281EA5370064C854 /* MemoView.swift */; };
+		34CE1BAC2821978900AB6BEA /* DocMemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CE1BAB2821978900AB6BEA /* DocMemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		34C21209281E88E40064C854 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		34C2120B281E898C0064C854 /* DocCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocCategoryView.swift; sourceTree = "<group>"; };
 		34C2120F281EA5370064C854 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		34CE1BAB2821978900AB6BEA /* DocMemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocMemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				34BB4CBD281BAC2A0083F0D9 /* DocListRow.swift */,
 				34C2120B281E898C0064C854 /* DocCategoryView.swift */,
 				34BB4CBF281C21E50083F0D9 /* DocWebView.swift */,
+				34CE1BAB2821978900AB6BEA /* DocMemoView.swift */,
 				34C2120F281EA5370064C854 /* MemoView.swift */,
 				34443FAC28211AC1009F0855 /* MemoCell.swift */,
 				34443FAE28211B1E009F0855 /* ComposeView.swift */,
@@ -353,6 +356,7 @@
 				34443FAF28211B1E009F0855 /* ComposeView.swift in Sources */,
 				34443FAA28210E70009F0855 /* MemoStore.swift in Sources */,
 				34C21210281EA5370064C854 /* MemoView.swift in Sources */,
+				34CE1BAC2821978900AB6BEA /* DocMemoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

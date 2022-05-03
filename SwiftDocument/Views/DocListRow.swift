@@ -10,11 +10,22 @@ import SwiftUI
 struct DocListRow: View {
     
     var document: Document
+    @State private var showComposer = false
     
     var body: some View {
         NavigationLink(
             destination: DocWebView(document: document)
                 .edgesIgnoringSafeArea(.bottom)
+                .toolbar {
+                    Button {
+                        showComposer = true
+                    } label: {
+                        Image(systemName: "square.and.pencil")
+                    }
+                }
+                .sheet(isPresented: $showComposer) {
+                    DocMemoView(memo: Memo(memoTitle: "✍🏻 \(document.title)", content: ""))
+                }
         ) {
             ZStack {
                 

@@ -20,7 +20,7 @@ struct ContentView: View {
     @State private var isCustomViewPresented = false
     @State private var showComposer: Bool = false
     @State var searchDocKeyword: String = ""
-//    @State var searchMemoKeyword: String = ""
+    @State var searchMemoKeyword: String = ""
     
     var filteredDocKeyword: [Document] {
         if searchDocKeyword == "" { return documents.shuffled() }
@@ -29,12 +29,12 @@ struct ContentView: View {
         }
     }
     
-//    var filteredMemoKeyword: [Memo] {
-//        if searchMemoKeyword == "" { return store.list }
-//        return store.list.filter {
-//            $0.memoTitle.lowercased().contains(searchMemoKeyword.lowercased())
-//        }
-//    }
+    var filteredMemoKeyword: [Memo] {
+        if searchMemoKeyword == "" { return store.list }
+        return store.list.filter {
+            $0.memoTitle.lowercased().contains(searchMemoKeyword.lowercased())
+        }
+    }
     
     var body: some View {
         NavigationView {
@@ -44,7 +44,7 @@ struct ContentView: View {
                         Image(systemName: "note.text")
                         Text("Doc")
                     }.tag(Tabs.Doc)
-                MemoView()
+                MemoView(filteredMemoKeyword: .constant(filteredMemoKeyword))
                     .tabItem {
                         Image(systemName: "square.and.pencil")
                         Text("Memo")
@@ -90,7 +90,7 @@ struct ContentView: View {
                 }
             }
         }
-        .searchable(text: $searchDocKeyword)
+        .searchable(text: $searchMemoKeyword)
         .accentColor(Color("mOrange"))
     }
 }

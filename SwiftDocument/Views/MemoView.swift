@@ -10,6 +10,7 @@ import SwiftUI
 struct MemoView: View {
     
     @EnvironmentObject var store: MemoStore
+    @Binding var filteredMemoKeyword: [Memo]
     
     var body: some View {
         ZStack {
@@ -17,7 +18,7 @@ struct MemoView: View {
                 .edgesIgnoringSafeArea(.top)
             
             List {
-                ForEach(store.list) {memo in
+                ForEach(filteredMemoKeyword) {memo in
                     NavigationLink {
                         DetailView(memo: memo)
                     } label: {
@@ -31,9 +32,9 @@ struct MemoView: View {
     }
 }
 
-struct MemoView_Previews: PreviewProvider {
-    static var previews: some View {
-        MemoView()
-            .environmentObject(MemoStore())
-    }
-}
+//struct MemoView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        MemoView(filteredMemoKeyword: .constant(store.list))
+//            .environmentObject(MemoStore())
+//    }
+//}

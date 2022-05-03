@@ -16,6 +16,7 @@ struct MemoCell: View {
             Text(memo.memoTitle)
                 .font(.body)
                 .lineLimit(1)
+                .minimumScaleFactor(0.8)
             
             Text(memo.insertDate, style: .date)
                 .font(.caption)

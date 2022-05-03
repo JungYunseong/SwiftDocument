@@ -1,13 +1,13 @@
 //
-//  ComposeView.swift
+//  DocMemoView.swift
 //  SwiftDocument
 //
-//  Created by Jung Yunseong on 2022/05/03.
+//  Created by Jung Yunseong on 2022/05/04.
 //
 
 import SwiftUI
 
-struct ComposeView: View {
+struct DocMemoView: View {
     
     @EnvironmentObject var store: MemoStore
     var memo: Memo? = nil
@@ -40,8 +40,8 @@ struct ComposeView: View {
                     if self.content.isEmpty {
                         VStack {
                             TextEditor(text: $placeholderText)
-                                            .foregroundColor(.gray)
-                                            .disabled(true)
+                                .foregroundColor(.gray)
+                                .disabled(true)
                                 .padding(.horizontal)
                             
                             Spacer()
@@ -71,11 +71,7 @@ struct ComposeView: View {
                 
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
-                        if let memo = memo {
-                            store.update(memo: memo, memoTitle: memoTitle, content: content)
-                        } else {
-                            store.insert(memoTitle: memoTitle, content: content)
-                        }
+                        store.insert(memoTitle: memoTitle, content: content)
                         dismiss()
                     } label: {
                         Text("Save")
@@ -87,9 +83,9 @@ struct ComposeView: View {
     }
 }
 
-struct ComposeView_Previews: PreviewProvider {
+struct DocMemoView_Previews: PreviewProvider {
     static var previews: some View {
-        ComposeView()
+        DocMemoView()
             .environmentObject(MemoStore())
     }
 }

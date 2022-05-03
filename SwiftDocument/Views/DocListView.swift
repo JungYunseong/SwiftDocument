@@ -18,14 +18,14 @@ struct DocListView: View {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
             VStack {
-                ScrollView(.horizontal) {
-                    HStack {
-                        ForEach(categories, id: \.id) {cat in
-                            DocCategoryView(category: cat)
-                        }
-                    }
-                }
-                .padding(.horizontal)
+//                ScrollView(.horizontal) {
+//                    HStack {
+//                        ForEach(categories, id: \.id) {cat in
+//                            DocCategoryView(category: cat)
+//                        }
+//                    }
+//                }
+//                .padding(.horizontal)
                 ScrollView {
                     VStack {
                         ForEach(filteredDocKeyword, id: \.id) {doc in
