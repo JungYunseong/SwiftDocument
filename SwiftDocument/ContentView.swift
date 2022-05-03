@@ -24,7 +24,7 @@ struct ContentView: View {
     @State var searchKeyword: String = ""
     
     var filteredKeyword: [Document] {
-        if searchKeyword == "" { return documents }
+        if searchKeyword == "" { return documents.shuffled() }
         return documents.filter {
             $0.title.lowercased().contains(searchKeyword.lowercased())
         }
@@ -63,7 +63,7 @@ struct ContentView: View {
                                     .padding(.horizontal)
                             })
                         }
-                        TodayHIG()
+                        DocWebView(document: documents[Int.random(in: 1..<85)])
                             .edgesIgnoringSafeArea(.bottom)
                     })
                 }

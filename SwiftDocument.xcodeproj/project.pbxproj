@@ -10,6 +10,9 @@
 		3435B74C281D181A0038E332 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3435B74B281D181A0038E332 /* ModelData.swift */; };
 		3435B74E281D189D0038E332 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3435B74D281D189D0038E332 /* Document.swift */; };
 		3435B750281D19B60038E332 /* DocumentList.json in Resources */ = {isa = PBXBuildFile; fileRef = 3435B74F281D19B60038E332 /* DocumentList.json */; };
+		34443FA328210736009F0855 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34443FA228210736009F0855 /* Persistence.swift */; };
+		34443FA628210798009F0855 /* memo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34443FA428210798009F0855 /* memo.xcdatamodeld */; };
+		34443FA8282107C4009F0855 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34443FA7282107C4009F0855 /* Memo.swift */; };
 		34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4C8A281A67BD0083F0D9 /* SwiftDocumentApp.swift */; };
 		34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4C8C281A67BD0083F0D9 /* ContentView.swift */; };
 		34BB4C8F281A67BE0083F0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BB4C8E281A67BE0083F0D9 /* Assets.xcassets */; };
@@ -49,6 +52,9 @@
 		3435B74D281D189D0038E332 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		3435B74F281D19B60038E332 /* DocumentList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DocumentList.json; sourceTree = "<group>"; };
 		3435B751281D54EE0038E332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		34443FA228210736009F0855 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		34443FA528210798009F0855 /* memo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = memo.xcdatamodel; sourceTree = "<group>"; };
+		34443FA7282107C4009F0855 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		34BB4C87281A67BD0083F0D9 /* SwiftDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BB4C8A281A67BD0083F0D9 /* SwiftDocumentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocumentApp.swift; sourceTree = "<group>"; };
 		34BB4C8C281A67BD0083F0D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +100,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34443F7E28210574009F0855 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				34443FA228210736009F0855 /* Persistence.swift */,
+				34443FA428210798009F0855 /* memo.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		34443F7F282105A4009F0855 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				34443FA7282107C4009F0855 /* Memo.swift */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
 		34BB4C7E281A67BD0083F0D9 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +142,8 @@
 			children = (
 				3435B751281D54EE0038E332 /* Info.plist */,
 				34BB4C8A281A67BD0083F0D9 /* SwiftDocumentApp.swift */,
+				34443F7F282105A4009F0855 /* Memory */,
+				34443F7E28210574009F0855 /* CoreData */,
 				34BB4C8C281A67BD0083F0D9 /* ContentView.swift */,
 				34BB4CB6281A68550083F0D9 /* Views */,
 				34BB4C8E281A67BE0083F0D9 /* Assets.xcassets */,
@@ -306,9 +331,12 @@
 				34C2120C281E898C0064C854 /* DocCategoryView.swift in Sources */,
 				34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */,
 				34C2120A281E88E40064C854 /* Category.swift in Sources */,
+				34443FA628210798009F0855 /* memo.xcdatamodeld in Sources */,
 				34BB4CC0281C21E50083F0D9 /* DocWebView.swift in Sources */,
 				34C2120E281E9AB00064C854 /* TodayHIG.swift in Sources */,
+				34443FA8282107C4009F0855 /* Memo.swift in Sources */,
 				3435B74E281D189D0038E332 /* Document.swift in Sources */,
+				34443FA328210736009F0855 /* Persistence.swift in Sources */,
 				34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */,
 				34BB4CBE281BAC2A0083F0D9 /* DocListRow.swift in Sources */,
 				34BB4CBA281AF5670083F0D9 /* DocListView.swift in Sources */,
@@ -639,6 +667,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34443FA428210798009F0855 /* memo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34443FA528210798009F0855 /* memo.xcdatamodel */,
+			);
+			currentVersion = 34443FA528210798009F0855 /* memo.xcdatamodel */;
+			name = memo.xcdatamodeld;
+			path = ../../../../SwiftTest/memo/memo/memo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 34BB4C7F281A67BD0083F0D9 /* Project object */;
 }
