@@ -17,22 +17,44 @@ struct ComposeView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(alignment: .leading) {
+                Text("Title")
+                    .bold()
+                    .padding([.top, .leading, .trailing])
+                
                 TextField("Enter your title", text: $memoTitle)
-                    .padding()
+                    .padding(.horizontal)
                     .onAppear {
                         if let memo = memo {
                             memoTitle = memo.memoTitle
                         }
                     }
                 
-                TextEditor(text: $content)
-                    .padding()
-                    .onAppear {
-                        if let memo = memo {
-                            content = memo.content
+                Text("Contents")
+                    .bold()
+                    .padding([.top, .leading, .trailing])
+                
+                ZStack {
+                    if self.content.isEmpty {
+                        VStack {
+                            TextField("Enter your contents", text: $content)
+                                .foregroundColor(.gray)
+                                .disabled(true)
+                                .padding(.horizontal)
+                            
+                            Spacer()
                         }
                     }
+                    
+                    TextEditor(text: $content)
+                        .opacity(self.content.isEmpty ? 0.25 : 1)
+                        .padding(.horizontal)
+                        .onAppear {
+                            if let memo = memo {
+                                content = memo.content
+                            }
+                        }
+                }
             }
             .navigationTitle(memo != nil ? "Edit Memo" : "New Memo")
             .navigationBarTitleDisplayMode(.inline)
