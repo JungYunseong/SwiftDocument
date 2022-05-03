@@ -16,7 +16,6 @@ struct MemoView: View {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
             
-            NavigationView {
                 List(store.list) {memo in
                     NavigationLink {
                         DetailView(memo: memo)
@@ -25,8 +24,6 @@ struct MemoView: View {
                     }
                 }
                 .listStyle(.plain)
-                .navigationBarHidden(true)
-            }
         }
     }
 }
