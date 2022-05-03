@@ -11,7 +11,7 @@ struct DocListView: View {
     
     var category: Category
     var document: Document
-    @Binding var filteredKeyword: [Document]
+    @Binding var filteredDocKeyword: [Document]
     
     var body: some View {
         ZStack {
@@ -28,7 +28,7 @@ struct DocListView: View {
                 .padding(.horizontal)
                 ScrollView {
                     VStack {
-                        ForEach(filteredKeyword, id: \.id) {doc in
+                        ForEach(filteredDocKeyword, id: \.id) {doc in
                             DocListRow(document: doc)
                                 .padding(.horizontal)
                         }
@@ -42,6 +42,6 @@ struct DocListView: View {
 
 struct DocListView_Previews: PreviewProvider {
     static var previews: some View {
-        DocListView(category: categories[0], document: documents[0], filteredKeyword: .constant(documents))
+        DocListView(category: categories[0], document: documents[0], filteredDocKeyword: .constant(documents))
     }
 }

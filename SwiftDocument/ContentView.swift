@@ -14,22 +14,32 @@ struct ContentView: View {
         case Memo = "Memo"
     }
     
+    @EnvironmentObject var store: MemoStore
+    
     @State var tabSelection: Tabs = .Doc
     @State private var isCustomViewPresented = false
     @State private var showComposer: Bool = false
-    @State var searchKeyword: String = ""
+    @State var searchDocKeyword: String = ""
+//    @State var searchMemoKeyword: String = ""
     
-    var filteredKeyword: [Document] {
-        if searchKeyword == "" { return documents.shuffled() }
+    var filteredDocKeyword: [Document] {
+        if searchDocKeyword == "" { return documents.shuffled() }
         return documents.filter {
-            $0.title.lowercased().contains(searchKeyword.lowercased())
+            $0.title.lowercased().contains(searchDocKeyword.lowercased())
         }
     }
+    
+//    var filteredMemoKeyword: [Memo] {
+//        if searchMemoKeyword == "" { return store.list }
+//        return store.list.filter {
+//            $0.memoTitle.lowercased().contains(searchMemoKeyword.lowercased())
+//        }
+//    }
     
     var body: some View {
         NavigationView {
             TabView(selection: $tabSelection) {
-                DocListView(category: categories[0], document: documents[0], filteredKeyword: .constant(filteredKeyword))
+                DocListView(category: categories[0], document: documents[0], filteredDocKeyword: .constant(filteredDocKeyword))
                     .tabItem {
                         Image(systemName: "note.text")
                         Text("Doc")
@@ -80,9 +90,7 @@ struct ContentView: View {
                 }
             }
         }
-        .searchable(text: $searchKeyword) {
-            
-        }
+        .searchable(text: $searchDocKeyword)
         .accentColor(Color("mOrange"))
     }
 }

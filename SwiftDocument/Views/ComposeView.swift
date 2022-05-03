@@ -14,6 +14,7 @@ struct ComposeView: View {
     @Environment(\.dismiss) var dismiss
     @State private var content: String = ""
     @State private var memoTitle: String = ""
+    @State private var placeholderText: String = "Enter you contents"
     
     var body: some View {
         NavigationView {
@@ -37,9 +38,9 @@ struct ComposeView: View {
                 ZStack {
                     if self.content.isEmpty {
                         VStack {
-                            TextField("Enter your contents", text: $content)
-                                .foregroundColor(.gray)
-                                .disabled(true)
+                            TextEditor(text: $placeholderText)
+                                            .foregroundColor(.gray)
+                                            .disabled(true)
                                 .padding(.horizontal)
                             
                             Spacer()
@@ -47,7 +48,7 @@ struct ComposeView: View {
                     }
                     
                     TextEditor(text: $content)
-                        .opacity(self.content.isEmpty ? 0.25 : 1)
+                        .opacity(self.content.isEmpty ? 0.55 : 1)
                         .padding(.horizontal)
                         .onAppear {
                             if let memo = memo {
