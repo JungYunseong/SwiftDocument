@@ -13,10 +13,19 @@ struct ComposeView: View {
     var memo: Memo? = nil
     @Environment(\.dismiss) var dismiss
     @State private var content: String = ""
+    @State private var memoTitle: String = ""
     
     var body: some View {
         NavigationView {
             VStack {
+                TextField("Enter your title", text: $memoTitle)
+                    .padding()
+                    .onAppear {
+                        if let memo = memo {
+                            memoTitle = memo.memoTitle
+                        }
+                    }
+                
                 TextEditor(text: $content)
                     .padding()
                     .onAppear {
@@ -39,9 +48,10 @@ struct ComposeView: View {
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
                     Button {
                         if let memo = memo {
-                            store.update(memo: memo, content: content)
+                            store.update(memo: memo, memoTitle: memoTitle, content: content)
                         } else {
                             store.insert(memo: content)
+                            store.insert(memo: memoTitle)
                         }
                         dismiss()
                     } label: {

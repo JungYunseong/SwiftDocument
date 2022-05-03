@@ -12,22 +12,23 @@ class MemoStore: ObservableObject {
     
     init() {
         list = [
-            Memo(content: "Hello", insertDate: Date.now),
-            Memo(content: "Awesome", insertDate: Date.now.addingTimeInterval(3600 * -24)),
-            Memo(content: "Hello", insertDate: Date.now.addingTimeInterval(3600 * -48))
+            Memo(memoTitle: "Text()", content: "Hello", insertDate: Date.now),
+            Memo(memoTitle: "tabView()", content: "Awesome", insertDate: Date.now.addingTimeInterval(3600 * -24)),
+            Memo(memoTitle: "Tab Bars()", content: "Hello", insertDate: Date.now.addingTimeInterval(3600 * -48))
         ]
     }
     
     func insert(memo: String) {
-        list.insert(Memo(content: memo), at: 0)
+        list.insert(Memo(memoTitle: memo, content: memo), at: 0)
     }
     
-    func update(memo: Memo?, content: String) {
+    func update(memo: Memo?, memoTitle: String, content: String) {
         guard let memo = memo else {
             return
         }
         
         memo.content = content
+        memo.memoTitle = memoTitle
     }
     
     func delete(memo: Memo) {

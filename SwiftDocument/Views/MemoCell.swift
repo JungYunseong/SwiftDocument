@@ -13,7 +13,7 @@ struct MemoCell: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text(memo.content)
+            Text(memo.memoTitle)
                 .font(.body)
                 .lineLimit(1)
             
@@ -27,6 +27,6 @@ struct MemoCell: View {
 
 struct MemoCell_Previews: PreviewProvider {
     static var previews: some View {
-        MemoCell(memo: Memo(content: "Test"))
+        MemoCell(memo: Memo(memoTitle: "Text()", content: "Test"))
     }
 }

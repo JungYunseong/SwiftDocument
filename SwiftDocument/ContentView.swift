@@ -14,10 +14,6 @@ struct ContentView: View {
         case Memo = "Memo"
     }
     
-    init() {
-        UINavigationBar.appearance().titleTextAttributes = [.font : UIFont.systemFont(ofSize: 21)]
-    }
-    
     @State var tabSelection: Tabs = .Doc
     @State private var isCustomViewPresented = false
     @State private var showComposer: Bool = false
@@ -54,14 +50,20 @@ struct ContentView: View {
                         }
                         .fullScreenCover(isPresented: $isCustomViewPresented,
                                          content: {
-                            HStack {
-                                Spacer()
-                                Button(action: { isCustomViewPresented.toggle() },
-                                       label: {
-                                    Text("Done")
-                                        .foregroundColor(Color("mOrange"))
-                                        .padding(.horizontal)
-                                })
+                            ZStack {
+                                Text("Random HIG")
+                                    .font(.body)
+                                    .bold()
+                                HStack {
+                                    Spacer()
+                                    
+                                    Button(action: { isCustomViewPresented.toggle() },
+                                           label: {
+                                        Text("Done")
+                                            .foregroundColor(Color("mOrange"))
+                                            .padding(.horizontal)
+                                    })
+                                }
                             }
                             DocWebView(document: documents[Int.random(in: 1..<85)])
                                 .edgesIgnoringSafeArea(.bottom)
