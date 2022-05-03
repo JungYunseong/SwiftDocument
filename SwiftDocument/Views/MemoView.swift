@@ -18,7 +18,11 @@ struct MemoView: View {
             
             NavigationView {
                 List(store.list) {memo in
-                    MemoCell(memo: memo)
+                    NavigationLink {
+                        DetailView(memo: memo)
+                    } label: {
+                        MemoCell(memo: memo)
+                    }
                 }
                 .listStyle(.plain)
                 .navigationBarHidden(true)

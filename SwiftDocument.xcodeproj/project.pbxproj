@@ -16,6 +16,7 @@
 		34443FAA28210E70009F0855 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34443FA928210E70009F0855 /* MemoStore.swift */; };
 		34443FAD28211AC1009F0855 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34443FAC28211AC1009F0855 /* MemoCell.swift */; };
 		34443FAF28211B1E009F0855 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34443FAE28211B1E009F0855 /* ComposeView.swift */; };
+		34443FB128211FB1009F0855 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34443FB028211FB1009F0855 /* DetailView.swift */; };
 		34BB4C8B281A67BD0083F0D9 /* SwiftDocumentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4C8A281A67BD0083F0D9 /* SwiftDocumentApp.swift */; };
 		34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BB4C8C281A67BD0083F0D9 /* ContentView.swift */; };
 		34BB4C8F281A67BE0083F0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BB4C8E281A67BE0083F0D9 /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		34443FA928210E70009F0855 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		34443FAC28211AC1009F0855 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		34443FAE28211B1E009F0855 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		34443FB028211FB1009F0855 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		34BB4C87281A67BD0083F0D9 /* SwiftDocument.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDocument.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BB4C8A281A67BD0083F0D9 /* SwiftDocumentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDocumentApp.swift; sourceTree = "<group>"; };
 		34BB4C8C281A67BD0083F0D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				34BB4CBF281C21E50083F0D9 /* DocWebView.swift */,
 				34443FAC28211AC1009F0855 /* MemoCell.swift */,
 				34443FAE28211B1E009F0855 /* ComposeView.swift */,
+				34443FB028211FB1009F0855 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			files = (
 				3435B74C281D181A0038E332 /* ModelData.swift in Sources */,
 				34C2120C281E898C0064C854 /* DocCategoryView.swift in Sources */,
+				34443FB128211FB1009F0855 /* DetailView.swift in Sources */,
 				34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */,
 				34C2120A281E88E40064C854 /* Category.swift in Sources */,
 				34443FA628210798009F0855 /* memo.xcdatamodeld in Sources */,
