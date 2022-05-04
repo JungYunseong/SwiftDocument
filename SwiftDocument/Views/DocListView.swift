@@ -18,21 +18,31 @@ struct DocListView: View {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
             VStack {
-//                ScrollView(.horizontal) {
-//                    HStack {
-//                        ForEach(categories, id: \.id) {cat in
-//                            DocCategoryView(category: cat)
-//                        }
-//                    }
-//                }
-//                .padding(.horizontal)
-                ScrollView {
-                    VStack {
-                        ForEach(filteredDocKeyword, id: \.id) {doc in
-                            DocListRow(document: doc)
-                                .padding(.horizontal)
+                ScrollView(.horizontal) {
+                    HStack {
+                        ForEach(categories, id: \.id) {cat in
+                            DocCategoryView(category: cat)
                         }
                     }
+                }
+                .padding(.horizontal)
+                
+                Spacer(minLength: 0)
+                
+                if filteredDocKeyword.isEmpty {
+                    Text("No results were found for your search")
+                        .foregroundColor(.gray)
+                    Spacer()
+                } else {
+                    ScrollView {
+                        VStack {
+                            ForEach(filteredDocKeyword, id: \.id) {doc in
+                                DocListRow(document: doc)
+                                    .padding(.horizontal)
+                            }
+                        }
+                    }
+                    .padding(.vertical, 0)
                 }
             }
         }

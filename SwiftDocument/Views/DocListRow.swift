@@ -10,6 +10,7 @@ import SwiftUI
 struct DocListRow: View {
     
     var document: Document
+    var memo: Memo? = nil
     @State private var showComposer = false
     
     var body: some View {
@@ -24,7 +25,9 @@ struct DocListRow: View {
                     }
                 }
                 .sheet(isPresented: $showComposer) {
+                    
                     DocMemoView(memo: Memo(memoTitle: "✍🏻 \(document.title)", content: ""))
+                    
                 }
         ) {
             ZStack {

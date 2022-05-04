@@ -18,7 +18,7 @@ struct MemoView: View {
                 .edgesIgnoringSafeArea(.top)
             
             List {
-                ForEach(filteredMemoKeyword) {memo in
+                ForEach(store.list) {memo in
                     NavigationLink {
                         DetailView(memo: memo)
                     } label: {
@@ -28,13 +28,14 @@ struct MemoView: View {
                 .onDelete(perform: store.delete)
             }
             .listStyle(.plain)
+            .padding(.top, 0)
         }
     }
 }
 
 //struct MemoView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        MemoView(filteredMemoKeyword: .constant(store.list))
+//        MemoView(filteredMemoKeyword: store.list)
 //            .environmentObject(MemoStore())
 //    }
 //}

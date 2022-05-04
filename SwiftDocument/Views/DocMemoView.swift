@@ -58,7 +58,7 @@ struct DocMemoView: View {
                         }
                 }
             }
-            .navigationTitle(memo != nil ? "Edit Memo" : "New Memo")
+            .navigationTitle("New Memo")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItemGroup(placement: .navigationBarLeading) {
