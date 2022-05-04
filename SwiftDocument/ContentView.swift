@@ -44,7 +44,7 @@ struct ContentView: View {
                         Image(systemName: "note.text")
                         Text("Doc")
                     }.tag(Tabs.Doc)
-                MemoView(filteredMemoKeyword: .constant(filteredMemoKeyword))
+                MemoView(memo: store.list[0], filteredMemoKeyword: .constant(filteredMemoKeyword))
                     .tabItem {
                         Image(systemName: "square.and.pencil")
                         Text("Memo")

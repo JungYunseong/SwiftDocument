@@ -19,16 +19,7 @@ struct MemoCell: View {
                 .shadow(color: Color("listShadow"), radius: 2, x: 0, y: 2)
             
             VStack(alignment: .leading, spacing: 3.0) {
-                
-                //                Text(document.category)
-                //                    .font(.system(size: 12))
-                //                    .foregroundColor(Color.white)
-                //                    .padding(.horizontal, 8)
-                //                    .padding(.vertical, 1)
-                //                    .background(Color(document.category))
-                //                    .clipShape(Capsule())
-                //                    .padding([.leading, .top], 10)
-                
+                                
                 Text(memo.memoTitle)
                     .font(.system(size: 15))
                     .fontWeight(.medium)
