@@ -23,7 +23,7 @@ struct ContentView: View {
     @State var searchMemoKeyword: String = ""
     
     var filteredDocKeyword: [Document] {
-        if searchDocKeyword == "" { return documents.shuffled() }
+        if searchDocKeyword == "" { return documents }
         return documents.filter {
             $0.title.lowercased().contains(searchDocKeyword.lowercased())
         }

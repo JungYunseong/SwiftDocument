@@ -47,7 +47,7 @@ struct DetailView: View {
                         Image(systemName: "trash")
                     }
                     .foregroundColor(.red)
-                    .alert("Delete \"\(memo.content)\"?", isPresented: $showDeleteAlert) {
+                    .alert("Delete \"\(memo.memoTitle)\"?", isPresented: $showDeleteAlert) {
                         Button(role: .destructive) {
                             store.delete(memo: memo)
                             dismiss()

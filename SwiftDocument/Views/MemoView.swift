@@ -17,8 +17,9 @@ struct MemoView: View {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
             
-            List {
-                ForEach(store.list) {memo in
+            ScrollView {
+                LazyVGrid(columns: Array(repeating: .init(.flexible(), spacing:-20), count: 2)) {
+                ForEach(filteredMemoKeyword) {memo in
                     NavigationLink {
                         DetailView(memo: memo)
                     } label: {
@@ -26,6 +27,7 @@ struct MemoView: View {
                     }
                 }
                 .onDelete(perform: store.delete)
+                }
             }
             .listStyle(.plain)
             .padding(.top, 0)

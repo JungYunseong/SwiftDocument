@@ -11,6 +11,7 @@ struct DocListRow: View {
     
     var document: Document
     var memo: Memo? = nil
+    @EnvironmentObject var store: MemoStore
     @State private var showComposer = false
     
     var body: some View {
@@ -25,9 +26,7 @@ struct DocListRow: View {
                     }
                 }
                 .sheet(isPresented: $showComposer) {
-                    
                     DocMemoView(memo: Memo(memoTitle: "✍🏻 \(document.title)", content: ""))
-                    
                 }
         ) {
             ZStack {
@@ -77,8 +76,10 @@ struct DocListRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             DocListRow(document: documents[0])
+                .environmentObject(MemoStore())
                 .previewLayout(.sizeThatFits)
             DocListRow(document: documents[1])
+                .environmentObject(MemoStore())
                 .previewLayout(.sizeThatFits)
         }
     }
