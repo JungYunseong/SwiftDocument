@@ -14,9 +14,9 @@ struct MemoCell: View {
     var body: some View {
         ZStack {
             
-            RoundedRectangle(cornerRadius: 8)
-                .foregroundColor(Color.white)
-                .shadow(color: Color("listShadow"), radius: 2, x: 0, y: 2)
+            Image("PostIt")
+                .resizable()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
             
             VStack(alignment: .leading, spacing: 3.0) {
                                 
@@ -33,7 +33,7 @@ struct MemoCell: View {
                     .font(.system(size: 12))
                     .lineLimit(5)
                     .multilineTextAlignment(.leading)
-                    .foregroundColor(Color("listSubHeadline"))
+                    .foregroundColor(Color("memoSub"))
                     .padding(.horizontal, 10)
                     .offset(x: 1)
                 Spacer(minLength: 0)
