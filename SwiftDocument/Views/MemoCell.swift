@@ -52,7 +52,6 @@ struct MemoCell: View {
             
         } // ZStack
         .frame(height: 200)
-        .padding(.horizontal)
     }
 }
 

@@ -17,27 +17,37 @@ struct DetailView: View {
     
     var body: some View {
         ZStack {
-            Color("background")
-                .edgesIgnoringSafeArea(.all)
+            Image("PostIt")
+                .resizable()
             
-            VStack {
+            VStack(alignment: .leading) {
+                Text(memo.memoTitle)
+                    .font(.title2)
+                    .fontWeight(.medium)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
+                    .padding(.horizontal)
+                    .padding(.top, 30)
+                
                 ScrollView {
-                    VStack {
-                        HStack {
-                            Text(memo.content)
-                                .padding()
-                            
-                            Spacer(minLength: 0)
-                        }
-                        
-                        Text(memo.insertDate, style: .date)
+                    HStack() {
+                        Text(memo.content)
                             .padding()
-                            .font(.footnote)
-                            .foregroundColor(.secondary)
+                        
+                        Spacer(minLength: 0)
                     }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                }
+                HStack {
+                    Spacer()
+                    Text(memo.insertDate, style: .date)
+                        .font(.footnote)
+                        .foregroundColor(.secondary)
+                        .padding(30)
+                    Spacer()
                 }
             }
-            .navigationTitle(memo.memoTitle)
+            .navigationTitle("")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
@@ -68,7 +78,7 @@ struct DetailView: View {
             }
             .sheet(isPresented: $showComposer) {
                 ComposeView(memo: memo)
-        }
+            }
         }
     }
 }

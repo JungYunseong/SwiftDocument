@@ -13,6 +13,12 @@ struct MemoView: View {
     @ObservedObject var memo: Memo
     @Binding var filteredMemoKeyword: [Memo]
     @State private var showComposer = false
+    @State var onEnded = false
+    
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible())
+    ]
     
     var body: some View {
         ZStack {
@@ -20,45 +26,43 @@ struct MemoView: View {
                 .edgesIgnoringSafeArea(.top)
             
             ScrollView {
-                LazyVGrid(columns: Array(repeating: .init(.flexible(), spacing:-20), count: 2)) {
+                LazyVGrid(columns: columns, spacing: 10) {
                     ForEach(filteredMemoKeyword) {memo in
-                        NavigationLink {
+                        
+                        CustomContextMenu {
+                            Label {
+                                NavigationLink {
+                                    DetailView(memo: memo)
+                                } label: {
+                                    MemoCell(memo: memo)
+                                }
+                            } icon: { }
+                            
+                        } preview: {
                             DetailView(memo: memo)
-                        } label: {
-                            MemoCell(memo: memo)
-                        }
-                    }
-                    //                .onDelete(perform: store.delete)
-                    .contextMenu {
-                        VStack {
-                            Button(action: {
-                                showComposer = true
-                            }) {
-                                Text("Edit")
+                        } actions: {
+                            
+                            let edit = UIAction(title: "Edit", image: UIImage(systemName: "square.and.pencil")) {_ in
+                                print("edit")
                             }
                             
-                            Button(role: .destructive) {
+                            let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash")?.withTintColor(.red, renderingMode: .alwaysOriginal)) {_ in
                                 store.delete(memo: memo)
-                            } label: {
-                                Text("Delete")
-                                    .foregroundColor(.red)
                             }
+                            
+                            return UIMenu(title: "", children: [edit, delete])
+                            
+                        } onEnd: {
+                                onEnded = true
                         }
-                    }
-                    .sheet(isPresented: $showComposer) {
-                        ComposeView(memo: memo)
                     }
                 }
             }
-            .listStyle(.plain)
-            .padding(.top, 0)
+            .padding()
+            
+            if onEnded {
+                NavigationLink(destination: DetailView(memo: memo), isActive: $onEnded) {}
+            }
         }
     }
 }
-
-//struct MemoView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MemoView(filteredMemoKeyword: store.list)
-//            .environmentObject(MemoStore())
-//    }
-//}

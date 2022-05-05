@@ -51,7 +51,7 @@ struct DocListRow: View {
                         .fontWeight(.medium)
                         .lineLimit(1)
                         .minimumScaleFactor(0.8)
-                        .foregroundColor(Color.black)
+                        .foregroundColor(.black)
                         .padding(.horizontal, 10)
                         .offset(x: 1, y:2)
                     

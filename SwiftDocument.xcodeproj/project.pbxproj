@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3411C5B72822A9230016FD34 /* CustomContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3411C5B62822A9230016FD34 /* CustomContextMenu.swift */; };
 		3435B74C281D181A0038E332 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3435B74B281D181A0038E332 /* ModelData.swift */; };
 		3435B74E281D189D0038E332 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3435B74D281D189D0038E332 /* Document.swift */; };
 		3435B750281D19B60038E332 /* DocumentList.json in Resources */ = {isa = PBXBuildFile; fileRef = 3435B74F281D19B60038E332 /* DocumentList.json */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3411C5B62822A9230016FD34 /* CustomContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContextMenu.swift; sourceTree = "<group>"; };
 		3435B74B281D181A0038E332 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		3435B74D281D189D0038E332 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		3435B74F281D19B60038E332 /* DocumentList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DocumentList.json; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 				34BB4CBF281C21E50083F0D9 /* DocWebView.swift */,
 				34CE1BAB2821978900AB6BEA /* DocMemoView.swift */,
 				34C2120F281EA5370064C854 /* MemoView.swift */,
+				3411C5B62822A9230016FD34 /* CustomContextMenu.swift */,
 				34443FAC28211AC1009F0855 /* MemoCell.swift */,
 				34443FAE28211B1E009F0855 /* ComposeView.swift */,
 				34443FB028211FB1009F0855 /* DetailView.swift */,
@@ -340,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3435B74C281D181A0038E332 /* ModelData.swift in Sources */,
+				3411C5B72822A9230016FD34 /* CustomContextMenu.swift in Sources */,
 				34C2120C281E898C0064C854 /* DocCategoryView.swift in Sources */,
 				34443FB128211FB1009F0855 /* DetailView.swift in Sources */,
 				34BB4C8D281A67BD0083F0D9 /* ContentView.swift in Sources */,
