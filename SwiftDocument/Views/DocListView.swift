@@ -27,6 +27,7 @@ struct DocListView: View {
                     }
                 }
                 .padding(.horizontal)
+                .padding(.bottom, 5)
                 
                 Spacer(minLength: 0)
                 
