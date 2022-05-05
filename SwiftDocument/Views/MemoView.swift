@@ -14,6 +14,7 @@ struct MemoView: View {
     @Binding var filteredMemoKeyword: [Memo]
     @State private var showComposer = false
     @State var onEnded = false
+    @State var pinned = false
     
     let columns = [
         GridItem(.flexible()),
@@ -42,14 +43,17 @@ struct MemoView: View {
                             
                         } actions: {
                             
-                            let pin = UIAction(title: "Pin Note", image: UIImage(systemName: "pin")) {_ in
-                                print("pin Note")
+                            let pin = UIAction(title: "Pin Memo", image: UIImage(systemName: "pin")) {_ in
+                                print("pin memo")
+                            }
+                            let share = UIAction(title: "Share", image: UIImage(systemName: "person.crop.circle.badge.plus")) {_ in
+                                print("share")
                             }
                             let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash")?.withTintColor(.red, renderingMode: .alwaysOriginal)) {_ in
                                 store.delete(memo: memo)
                             }
                             
-                            return UIMenu(title: "", children: [pin, delete])
+                            return UIMenu(title: "", children: [pin, share, delete])
                             
                         } onEnd: {
                             onEnded = true

@@ -54,32 +54,12 @@ struct ContentView: View {
             .navigationBarTitle(self.tabSelection.rawValue, displayMode: .inline)
             .toolbar {
                 if tabSelection == Tabs.Doc {
-                    Button {
-                        isCustomViewPresented.toggle()
+                    NavigationLink {
+                        DocWebView(document: documents[Int.random(in: 1..<85)])
+                            .navigationTitle("Random HIG")
                     } label: {
                         Image(systemName: "doc.text.image")
                     }
-                    .fullScreenCover(isPresented: $isCustomViewPresented,
-                                     content: {
-                        ZStack {
-                            Text("Random HIG")
-                                .font(.body)
-                                .bold()
-                            
-                            HStack {
-                                Spacer()
-                                
-                                Button(action: { isCustomViewPresented.toggle() },
-                                       label: {
-                                    Text("Done")
-                                        .foregroundColor(Color("mOrange"))
-                                        .padding(.horizontal)
-                                })
-                            }
-                        }
-                        DocWebView(document: documents[Int.random(in: 1..<85)])
-                            .edgesIgnoringSafeArea(.bottom)
-                    })
                 } else if tabSelection == Tabs.Memo {
                     Button {
                         showComposer = true

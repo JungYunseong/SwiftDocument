@@ -25,7 +25,7 @@ struct DocListRow: View {
                         Image(systemName: "square.and.pencil")
                     }
                 }
-                .sheet(isPresented: $showComposer) {
+                .fullScreenCover(isPresented: $showComposer) {
                     DocMemoView(memo: Memo(memoTitle: "✍🏻 \(document.title)", content: ""))
                 }
         ) {
@@ -69,6 +69,14 @@ struct DocListRow: View {
             } // ZStack
             .frame(height: 100)
         }
+    }
+}
+
+extension View {
+    
+    func halfSheet<SheetView: View>(showSheet: Binding<Bool>, @ViewBuilder sheetView: @escaping () -> SheetView) -> some View {
+        
+        return self
     }
 }
 

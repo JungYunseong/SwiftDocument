@@ -73,6 +73,7 @@ struct DocMemoView: View {
                     Button {
                         store.insert(memoTitle: memoTitle, content: content)
                         dismiss()
+                        
                     } label: {
                         Text("Save")
                     }

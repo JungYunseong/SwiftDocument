@@ -17,8 +17,12 @@ struct DetailView: View {
     
     var body: some View {
         ZStack {
+            Color("background")
+                .edgesIgnoringSafeArea(.all)
+            
             Image("PostIt")
                 .resizable()
+                .padding(.horizontal)
             
             VStack(alignment: .leading) {
                 Text(memo.memoTitle)
@@ -26,13 +30,13 @@ struct DetailView: View {
                     .fontWeight(.medium)
                     .lineLimit(1)
                     .minimumScaleFactor(0.8)
-                    .padding(.horizontal)
+                    .padding(.horizontal, 40)
                     .padding(.top, 30)
                 
                 ScrollView {
                     HStack() {
                         Text(memo.content)
-                            .padding()
+                            .padding(.horizontal, 40)
                         
                         Spacer(minLength: 0)
                     }
