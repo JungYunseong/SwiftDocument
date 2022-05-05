@@ -56,12 +56,13 @@ struct MemoView: View {
                             return UIMenu(title: "", children: [pin, share, delete])
                             
                         } onEnd: {
+                            
                             onEnded = true
                         }
                     }
                 }
+                .padding()
             }
-            .padding()
             
             if onEnded {
                 NavigationLink(destination: DetailView(memo: memo), isActive: $onEnded) {}
