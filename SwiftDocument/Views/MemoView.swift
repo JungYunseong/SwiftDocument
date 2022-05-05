@@ -42,14 +42,14 @@ struct MemoView: View {
                             
                         } actions: {
                             
-                            let edit = UIAction(title: "Edit", image: UIImage(systemName: "square.and.pencil")) {_ in
-                                print("edit")
+                            let pin = UIAction(title: "Pin Note", image: UIImage(systemName: "pin")) {_ in
+                                print("pin Note")
                             }
                             let delete = UIAction(title: "Delete", image: UIImage(systemName: "trash")?.withTintColor(.red, renderingMode: .alwaysOriginal)) {_ in
                                 store.delete(memo: memo)
                             }
                             
-                            return UIMenu(title: "", children: [edit, delete])
+                            return UIMenu(title: "", children: [pin, delete])
                             
                         } onEnd: {
                             onEnded = true
