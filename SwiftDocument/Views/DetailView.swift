@@ -80,7 +80,7 @@ struct DetailView: View {
                     .foregroundColor(Color("mOrange"))
                 }
             }
-            .sheet(isPresented: $showComposer) {
+            .fullScreenCover(isPresented: $showComposer) {
                 ComposeView(memo: memo)
             }
         }

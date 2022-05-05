@@ -19,6 +19,7 @@ struct ContentView: View {
     @State var tabSelection: Tabs = .Doc
     @State private var isCustomViewPresented = false
     @State private var showComposer: Bool = false
+    @State private var showRandom: Bool = false
     @State var searchDocKeyword: String = ""
     @State var searchMemoKeyword: String = ""
     
@@ -54,11 +55,24 @@ struct ContentView: View {
             .navigationBarTitle(self.tabSelection.rawValue, displayMode: .inline)
             .toolbar {
                 if tabSelection == Tabs.Doc {
-                    NavigationLink {
-                        DocWebView(document: documents[Int.random(in: 1..<85)])
-                            .navigationTitle("Random HIG")
+                    Button {
+                        showRandom = true
                     } label: {
                         Image(systemName: "doc.text.image")
+                    }
+                    .fullScreenCover(isPresented: $showRandom) {
+                        HStack {
+                            Spacer()
+                            
+                            Button {
+                                showRandom = false
+                            } label: {
+                                Text("Done")
+                                    .foregroundColor(Color("mOrange"))
+                                    .padding(.horizontal)
+                            }
+                        }
+                        DocWebView(document: documents[Int.random(in: 0..<86)])
                     }
                 } else if tabSelection == Tabs.Memo {
                     Button {
@@ -66,7 +80,7 @@ struct ContentView: View {
                     } label: {
                         Image(systemName: "plus")
                     }
-                    .sheet(isPresented: $showComposer) {
+                    .fullScreenCover(isPresented: $showComposer) {
                         ComposeView()
                     }
                 }
