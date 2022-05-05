@@ -9,7 +9,7 @@ import SwiftUI
 import WebKit
 
 struct DocWebView: UIViewRepresentable {
-
+    
     var document: Document
     
     func makeUIView(context: Context) -> WKWebView {

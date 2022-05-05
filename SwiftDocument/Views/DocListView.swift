@@ -17,6 +17,7 @@ struct DocListView: View {
         ZStack {
             Color("background")
                 .edgesIgnoringSafeArea(.top)
+            
             VStack {
                 ScrollView(.horizontal) {
                     HStack {
@@ -32,6 +33,7 @@ struct DocListView: View {
                 if filteredDocKeyword.isEmpty {
                     Text("No results were found for your search")
                         .foregroundColor(.gray)
+                    
                     Spacer()
                 } else {
                     ScrollView {

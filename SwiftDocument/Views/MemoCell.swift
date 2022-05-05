@@ -13,13 +13,12 @@ struct MemoCell: View {
     
     var body: some View {
         ZStack {
-            
             Image("PostIt")
                 .resizable()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             
             VStack(alignment: .leading, spacing: 3.0) {
-                                
+                
                 Text(memo.memoTitle)
                     .font(.system(size: 15))
                     .fontWeight(.medium)
@@ -45,12 +44,10 @@ struct MemoCell: View {
                         .font(.system(size: 10))
                         .foregroundColor(.secondary)
                         .padding(5)
-                    
                 }
-            } // VStack
+            }
             .frame(maxWidth: .infinity, maxHeight: 200, alignment: .leading)
-            
-        } // ZStack
+        }
         .frame(height: 200)
     }
 }

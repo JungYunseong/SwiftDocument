@@ -40,8 +40,8 @@ struct ComposeView: View {
                     if self.content.isEmpty {
                         VStack {
                             TextEditor(text: $placeholderText)
-                                            .foregroundColor(.gray)
-                                            .disabled(true)
+                                .foregroundColor(.gray)
+                                .disabled(true)
                                 .padding(.horizontal)
                             
                             Spacer()

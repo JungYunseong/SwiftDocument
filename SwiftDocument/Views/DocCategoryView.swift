@@ -10,7 +10,6 @@ import SwiftUI
 struct DocCategoryView: View {
     
     var category: Category
-    
     @State private var isActivated: Bool = true
     
     var body: some View {
@@ -24,11 +23,11 @@ struct DocCategoryView: View {
                     .stroke(.gray, lineWidth: isActivated ? 0 : 2)
             )
             .background(isActivated ? Color(category.category) : Color("searchBarBackground"))
-                    .clipShape(Capsule())
+            .clipShape(Capsule())
             .onTapGesture {
                 print(category.category)
                 withAnimation {
-                self.isActivated.toggle()
+                    self.isActivated.toggle()
                 }
             }
     }

@@ -44,6 +44,7 @@ struct ContentView: View {
                         Image(systemName: "note.text")
                         Text("Doc")
                     }.tag(Tabs.Doc)
+                
                 MemoView(memo: store.list[0], filteredMemoKeyword: .constant(filteredMemoKeyword))
                     .tabItem {
                         Image(systemName: "square.and.pencil")
@@ -54,29 +55,30 @@ struct ContentView: View {
             .toolbar {
                 if tabSelection == Tabs.Doc {
                     Button {
-                            isCustomViewPresented.toggle()
-                        } label: {
-                            Image(systemName: "doc.text.image")
-                        }
-                        .fullScreenCover(isPresented: $isCustomViewPresented,
-                                         content: {
-                            ZStack {
-                                Text("Random HIG")
-                                    .font(.body)
-                                    .bold()
-                                HStack {
-                                    Spacer()
-                                    
-                                    Button(action: { isCustomViewPresented.toggle() },
-                                           label: {
-                                        Text("Done")
-                                            .foregroundColor(Color("mOrange"))
-                                            .padding(.horizontal)
-                                    })
-                                }
+                        isCustomViewPresented.toggle()
+                    } label: {
+                        Image(systemName: "doc.text.image")
+                    }
+                    .fullScreenCover(isPresented: $isCustomViewPresented,
+                                     content: {
+                        ZStack {
+                            Text("Random HIG")
+                                .font(.body)
+                                .bold()
+                            
+                            HStack {
+                                Spacer()
+                                
+                                Button(action: { isCustomViewPresented.toggle() },
+                                       label: {
+                                    Text("Done")
+                                        .foregroundColor(Color("mOrange"))
+                                        .padding(.horizontal)
+                                })
                             }
-                            DocWebView(document: documents[Int.random(in: 1..<85)])
-                                .edgesIgnoringSafeArea(.bottom)
+                        }
+                        DocWebView(document: documents[Int.random(in: 1..<85)])
+                            .edgesIgnoringSafeArea(.bottom)
                     })
                 } else if tabSelection == Tabs.Memo {
                     Button {
